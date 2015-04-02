@@ -1,0 +1,72 @@
+
+************************       ABOUT THE FILES          ************************
+
+    The main.py does the job. Use "main.py -c command_file_name" to run it.
+
+    Sample input commands are in file "cmd". Please feel free to modify it or
+    you can create your own one.
+
+    Frames are defined in files "contact_frame.yaml" "phone_frame.yaml"
+    "text_frame.yaml" "email_frame.yaml" "ambiguous_frame.yaml"
+
+    Lexicon is defined in the file "lexicon.yaml"
+
+    Responses is saved in the file "response"
+
+
+
+
+************************    HOW THE PROGRAM WORKS      ************************
+
+    A sentence is tried to match a set of frames. If there is a match, the 
+    reponse should be the one assigned to the matched frame. 
+
+
+
+
+************************       ABOUT THE FRAMES         ************************
+
+    Frames are grouped into different responses which are grouped into different
+    tasks in different files. A frame is simply an ordered list of ontologies 
+    representing sentences that share semantic structures. For example, 
+    sentences requesting for someone's phone number can have a frame 
+    "what/request/send person-name phone-number" under "SUCCEED CONTACT READY" 
+    in the file "contact_frame.yaml".
+
+
+
+
+************************       ABOUT THE LEXICON        ************************
+
+    I made my little new lexicon because the original lexicon turns out hard to 
+    use for the specific purpose of this program. 
+
+    For example, "email" is defined only as "electronic mail" in its noun form, 
+    while it could as well been used as short for "email address" in sentence 
+    like "What's Bob's email?". 
+
+    Another example would be that "contact", when used as a verb, is synonymous 
+    to "call" "phone" in the original lexicon. This will cause unnecessary 
+    trouble when someone try to distinguish a phone-related communication 
+    establishing from a more general communication establishing. Besides, 
+    "email" and "text", when used as verbs, can also mean establishing 
+    communication, but they are not in the same synonym set as with "contact" 
+    and "call".
+
+    I think it's better, for each word in the lexicon, to clarify the range of 
+    senses in a branch of ontology hierarchy that the word is able to express, 
+    rather than assigning only one sense in an ontology branch to the word. This
+    is because for some words, a word expresses a general sense in some cases 
+    while it expresses a specific sense in other cases. In this way, it's easier
+    to handle phrases such as "telephone call" "send email" interchangeably with
+    single word of the same meaning "call" "email" respectively. You can see 
+    some words defined with a range of hierarchical senses in the new lexicon.
+
+    The new lexicon is far from fully covering the words and senses for contact 
+    actions. It's rather an example to implement the ideas described above.
+
+
+
+Ran Pang
+
+    

@@ -1,0 +1,26 @@
+SUCCEED PHONE READY:
+    - start-phone-conversation person-name # Call Bob.
+    - start-phone-conversation valid-phone-number # Call 123
+    - start-conversation person-name phone
+    
+    - send/start person-name phone-conversation # Give Bob call
+    - send/start person-name phone conversation # Give Bob a phone call
+    - send/start phone-conversation person-name 
+    - send/start phone conversation person-name
+    
+    - establish-conmmunication person-name phone # Contact Bob mobilephone
+    
+    - phone-conversation from person-name # Any call from Bob?
+    - phone conversation from person-name # Any phone call from Bob?
+    
+    - whether-happened person-name start-phone-conversation # Has Bob call?
+    - whether-happened person-name send/start phone-conversation # Did Bob give a call to me?
+    - whether-happened person-name send/start phone conversation # Did Bob give a phone call to me?
+
+
+
+SUCCEED PHONE CLARIFY:
+    - phone-conversation # Any call? # Call
+    - phone conversation # Any telephone call? # Make a phone call
+    - start/send phone conversation
+    - start/send phone-conversation

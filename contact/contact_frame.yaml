@@ -1,0 +1,18 @@
+SUCCEED CONTACTS READY:
+
+    - what/request/send person-name phone-number/email-address # What's Bob number?
+    - what/request/send person-name phone number # What's Bob phone number?
+    - what/request/send person-name email address # What's Bob email address?
+
+   
+    - person-name phone-number valid-phone-number # Bob number is 123
+    - person-name phone number valid-phone-number # Bob mobile number is 123
+
+
+    - person-name email-address valid-email-address # Bob email is bob@mail
+    - person-name email address valid-email-address # Bob email address is bob@mail
+
+SUCCEED CONTACT CLARIFY:
+    - what/request/send phone-number/email-address
+    - what/request/send phone number
+    - what/request/send email address

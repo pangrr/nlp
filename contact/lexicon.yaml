@@ -1,0 +1,110 @@
+### phone call/number
+phone:
+    - phone
+    - start-phone-conversation
+    - phone-number
+mobilephone:
+    - phone
+    - phone-number
+telephone:
+    - phone
+    - phone-number
+number:
+    - number
+    - phone-number
+call:
+    - start-phone-conversation
+    - start-conversation
+    - phone-conversation
+    - conversation
+
+
+### email
+email:
+    - email
+    - email-address
+    - send-email
+mail:
+    - email
+    - email-address
+    - send-email
+address:
+    - address
+    - email-address
+
+
+
+### text
+text:
+    - text
+    - text-message
+    - send-text-message
+
+
+
+### general message
+message:
+    - message
+note:
+    - message
+notify:
+    - send-message
+brief:
+    - send-message
+inform:
+    - send-message
+
+
+### general action
+want:
+    - request
+request:
+    - request
+desire:
+    - request
+
+contact:
+    - establish-communication
+
+send:
+    - send
+transmit:
+    - send
+give:
+    - send
+
+start:
+    - start
+initialize:
+    - start
+make:
+    - start
+
+write:
+    - write
+
+
+### other key word
+from:
+    - from
+what:
+    - what
+has:
+    - whether-happened
+did:
+    - whether-happened
+
+
+
+### person name
+bob:
+    - person-name
+mary:
+    - person-name
+lisa:
+    - person-name
+matt:
+    - person-name
+john:
+    - perons-name
+    

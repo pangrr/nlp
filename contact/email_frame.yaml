@@ -1,0 +1,17 @@
+SUCCEED EMAIL READY:
+    - send-email person-name # Email Bob.
+    - send-email valid-email-address # Email bob@mail.
+
+    - send/start/write email person-name # Send an email to Bob.
+    - send/start/write person-name email # Send Bob an email.
+    - send/start/write email valid-email-address # Send an email to bob@mail.
+
+    - email from person-name # Any mail from Bob?
+    - whether-happened person-name send/write/start email # Has Bob send email to me?
+    - whether-happened person-name send-email # Did Bob email me?
+
+
+SUCCEED EMAIL CLARIFY:
+    - send-email # Email.
+    - send/start/write email # Send an email.
+    - email # Any email?

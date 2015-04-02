@@ -1,0 +1,52 @@
+? give me Bob phone number # SUCCEED CONTACT READY
+? give me Bob phone
+? give me Bob number
+? I want Bob phone number
+? what is Bob number
+? what is Bob email
+? what is Bob email address
+? Bob number is 123
+? Bob mobilephone number is 123
+? Bob phone is 123
+? Bob email address is bob@gmail.com
+? Bob email is bob@gmail.com
+? I want phone number # SUCCEED CONTACT CLARIFY
+? give me email address
+? what is email address
+? phone Bob # SUCCEED PHONE READY
+? call 123
+? give Bob phone call
+? give Bob a call
+? any phone call from Bob
+? phone call from Bob
+? has Bob call me
+? has Bob give me a phone call
+? call # SUCCEED PHONE CLARIFY
+? make a phone call
+? send an email to Bob # SUCCEED EMAIL READY
+? email Bob
+? start an email to Bob
+? check email from Bob
+? has Bob email me
+? has Bob send me email
+? write an email # SUCCEED EMAIL CLARIFY
+? text Bob # SUCCEED TEXT READY
+? text to Bob
+? send Bob text
+? any text from Bob
+? has Bob text me
+? has Bob send me a text message
+? send a text message # SUCCEED TEXT CLARIFY
+? contact Bob # AMBIGUOUS PHONE EMAIL TEXT
+? contact
+? any contact from Bob
+? send Bob
+? send Bob a message # AMBIGUOUS EMAIL TEXT
+? send message to Bob
+? message from Bob
+? send a note to Bob
+? transmit a message to Bob
+? Hello there # FAIL
+
+
+

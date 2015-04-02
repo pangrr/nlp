@@ -1,0 +1,21 @@
+SUCCEED TEXT READY:
+    - send-text-message person-name # Text Bob
+    - send/start/write text-message person-name # Send a text to Bob
+    - send/start/write text message person-name # Send a text message to Bob
+    - send/start/write person-name text-message # Send Bob a text
+    - send/start/write person-name text message # Send Bob a text message
+    
+    - text-message from person-name # Any text from Bob?
+    - text message from person-name # Any text note from Bob?
+    
+    - whether-happened person-name send-text-message # Has Bob text?
+    - whether-happened person-name send/start/write text-message # Has Bob send text to me?
+    - whether-happened person-name send/start/write text message # Has Bob send text message?
+
+
+SUCCEED TEXT CLARIFY:
+    - send-text-message # Text
+    - send/start/write text-message # Send a text
+    - send/start/write text message # Send a text message
+    - text-message # Any text?
+    - text message # Any text message?

@@ -1,0 +1,25 @@
+AMBIGUOUS PHONE EMAIL TEXT:
+    - send
+    - send person-name
+    - whether-happened person-name send # Has Bob send anything?
+    - establish-communication # Contact
+    - establish-communication person-name # Contact Bob
+    - establish-communication from person-name # Any Contact from Bob
+    - whether-happened person-name establish-communication # Has Bob contact me?
+
+AMBIGUOUS EMAIL TEXT:
+    - send # Send
+    - send person-name # Send Bob something
+    - send message # Send message to Bob
+    - send-message
+    - send message person-name # Send a message to Bob
+    - send-message person-name
+    - send person-name message # Send Bob a note
+    - message from person-name # Any message from Bob?
+    - whether-happened person-name send message
+    - whether-happened person-name send-message
+    
+
+
+AMBIGUOUS PHONE TEXT:
+    - establish-communication valid-phone-number # contact 123
