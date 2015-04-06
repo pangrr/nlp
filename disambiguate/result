@@ -1,0 +1,27 @@
+
+he pushed the box
+ONT::push agent he-0 affected box-3
+
+he pushed it from the truck
+ONT::push agent he-0 affected it-2 source truck-5
+
+He pushed him to do it
+ONT::provoke agent he-0 formal do-4
+
+my dog likes eating sausage
+ONT::appreciate neutral dog-1 action eat-3
+
+I like running
+ONT::appreciate neutral I-0 action run-2
+
+I like peaches
+ONT::appreciate neutral I-0 neutral1 peach-2
+
+I want to go
+ONT::want neutral I-0 formal go-3
+
+I want you to go
+ONT::want neutral I-0 formal go-4
+
+He pushed the box into the corner
+ONT::push agent he-0 affected box-3 result corner-6
