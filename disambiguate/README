@@ -1,7 +1,11 @@
     To use the program simply type and enter "python main.py".
-    This program takes file named "input-parsed.yaml" and "lexicon.yaml" as input, and build the semantic roles for each sentence in "input-parsed.yaml" and write the result in file "result".  This program is tested under python 2.7.
+    
+    This program takes file named "input-parsed.yaml" (the old one) and "lexicon.yaml" as input, and build the semantic roles for each sentence in "input-parsed.yaml" and write the result in file "result".  This program is tested under python 2.7.
+    
     For each parsed sentence, this program use the lemma to connect each word with its index. The label of each word as shown in the incoming edges is used to match the syntax of certain argument in a frame. The proportion of total matches as to the number of edges is used to rank all frames of the same root word for a sentence. The frame with the highest rank is the most likely frame for the sentence thus it's used to build the semantic roles for the sentence.
+    
     This program handles the following three relational roles: "result", "source" and "action". For relational roles connected by prepositions, a word has label "prep_from", it is assigned a semantic role "source"; word labeled "prep_into" or "prep_to" is assigned a semantic role "result".
+    
     This program generates all correct results for the sample test sentences. But since since the number and range of the test sentences is limited, the generalizability of the program is hard to estimate. But the structrue of the program is easy expandible so that more semantic assignment rules can be added into the program to handle relational roles.
 
     Ran Pang
