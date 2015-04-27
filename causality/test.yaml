@@ -1,0 +1,4737 @@
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: mania
+  e2Index: 12
+  e2Nominal: influx
+  from: TBD
+  incomingEdges:
+  - {label: nn, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '8'}
+  - {label: det, node: '4', target: '5'}
+  - {label: prep_in, node: '5', target: '1'}
+  - {label: auxpass, node: '7', target: '8'}
+  - {label: det, node: '10', target: '12'}
+  - {label: amod, node: '11', target: '12'}
+  - {label: agent, node: '12', target: '8'}
+  - {label: advmod, node: '14', target: '15'}
+  - {label: amod, node: '15', target: '16'}
+  - {label: prep_of, node: '16', target: '12'}
+  - {label: prep_into, node: '18', target: '8'}
+  - {label: det, node: '20', target: '22'}
+  - {label: amod, node: '21', target: '22'}
+  - {label: prep_from, node: '22', target: '8'}
+  - {label: amod, node: '25', target: '27'}
+  - {label: det, node: '26', target: '27'}
+  - {label: prep_in, node: '27', target: '8'}
+  - {label: det, node: '29', target: '32'}
+  - {label: nn, node: '30', target: '32'}
+  - {label: nn, node: '31', target: '32'}
+  - {label: prep_of, node: '32', target: '27'}
+  lemma:
+  - {index: 0, value: Tulip}
+  - {index: 1, value: mania}
+  - {index: 2, value: ','}
+  - {index: 3, value: in}
+  - {index: 4, value: the}
+  - {index: 5, value: '1600'}
+  - {index: 6, value: ','}
+  - {index: 7, value: be}
+  - {index: 8, value: cause}
+  - {index: 9, value: by}
+  - {index: 10, value: the}
+  - {index: 11, value: massive}
+  - {index: 12, value: influx}
+  - {index: 13, value: of}
+  - {index: 14, value: newly}
+  - {index: 15, value: discover}
+  - {index: 16, value: gold}
+  - {index: 17, value: into}
+  - {index: 18, value: Amsterdam}
+  - {index: 19, value: from}
+  - {index: 20, value: the}
+  - {index: 21, value: new}
+  - {index: 22, value: world}
+  - {index: 23, value: ':'}
+  - {index: 24, value: in}
+  - {index: 25, value: particular}
+  - {index: 26, value: the}
+  - {index: 27, value: capture}
+  - {index: 28, value: of}
+  - {index: 29, value: the}
+  - {index: 30, value: Spanish}
+  - {index: 31, value: Treasury}
+  - {index: 32, value: fleet}
+  - {index: 33, value: .}
+  outgoingEdges:
+  - {label: nn, node: '1', target: '0'}
+  - {label: prep_in, node: '1', target: '5'}
+  - {label: det, node: '5', target: '4'}
+  - {label: nsubjpass, node: '8', target: '1'}
+  - {label: auxpass, node: '8', target: '7'}
+  - {label: agent, node: '8', target: '12'}
+  - {label: prep_into, node: '8', target: '18'}
+  - {label: prep_from, node: '8', target: '22'}
+  - {label: prep_in, node: '8', target: '27'}
+  - {label: det, node: '12', target: '10'}
+  - {label: amod, node: '12', target: '11'}
+  - {label: prep_of, node: '12', target: '16'}
+  - {label: advmod, node: '15', target: '14'}
+  - {label: amod, node: '16', target: '15'}
+  - {label: det, node: '22', target: '20'}
+  - {label: amod, node: '22', target: '21'}
+  - {label: amod, node: '27', target: '25'}
+  - {label: det, node: '27', target: '26'}
+  - {label: prep_of, node: '27', target: '32'}
+  - {label: det, node: '32', target: '29'}
+  - {label: nn, node: '32', target: '30'}
+  - {label: nn, node: '32', target: '31'}
+  roots: ['8']
+  sentence: 'Tulip mania, in the 1600s, was caused by the massive influx of newly
+    discovered Gold into Amsterdam from the new world: in particular the capture of
+    the Spanish Treasury fleet.'
+  to: TBD
+  words:
+  - {index: 0, value: Tulip}
+  - {index: 1, value: mania}
+  - {index: 2, value: ','}
+  - {index: 3, value: in}
+  - {index: 4, value: the}
+  - {index: 5, value: 1600s}
+  - {index: 6, value: ','}
+  - {index: 7, value: was}
+  - {index: 8, value: caused}
+  - {index: 9, value: by}
+  - {index: 10, value: the}
+  - {index: 11, value: massive}
+  - {index: 12, value: influx}
+  - {index: 13, value: of}
+  - {index: 14, value: newly}
+  - {index: 15, value: discovered}
+  - {index: 16, value: Gold}
+  - {index: 17, value: into}
+  - {index: 18, value: Amsterdam}
+  - {index: 19, value: from}
+  - {index: 20, value: the}
+  - {index: 21, value: new}
+  - {index: 22, value: world}
+  - {index: 23, value: ':'}
+  - {index: 24, value: in}
+  - {index: 25, value: particular}
+  - {index: 26, value: the}
+  - {index: 27, value: capture}
+  - {index: 28, value: of}
+  - {index: 29, value: the}
+  - {index: 30, value: Spanish}
+  - {index: 31, value: Treasury}
+  - {index: 32, value: fleet}
+  - {index: 33, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 25
+  e1Nominal: pain
+  e2Index: 31
+  e2Nominal: disease
+  from: TBD
+  incomingEdges:
+  - {label: advmod, node: '0', target: '3'}
+  - {label: expl, node: '2', target: '3'}
+  - {label: det, node: '4', target: '6'}
+  - {label: amod, node: '5', target: '6'}
+  - {label: nsubj, node: '6', target: '3'}
+  - {label: nn, node: '8', target: '9'}
+  - {label: prep_for, node: '9', target: '6'}
+  - {label: amod, node: '11', target: '14'}
+  - {label: nn, node: '12', target: '14'}
+  - {label: nn, node: '13', target: '14'}
+  - {label: nsubj, node: '14', target: '16'}
+  - {label: aux, node: '15', target: '16'}
+  - {label: conj_but, node: '16', target: '3'}
+  - {label: aux, node: '17', target: '19'}
+  - {label: cop, node: '18', target: '19'}
+  - {label: xcomp, node: '19', target: '16'}
+  - {label: prepc_in, node: '21', target: '19'}
+  - {label: det, node: '22', target: '23'}
+  - {label: nsubj, node: '23', target: '24'}
+  - {label: ccomp, node: '24', target: '21'}
+  - {label: dobj, node: '25', target: '24'}
+  - {label: dobj, node: '27', target: '24'}
+  - {label: conj_and, node: '27', target: '25'}
+  - {label: vmod, node: '28', target: '25'}
+  - {label: det, node: '30', target: '31'}
+  - {label: agent, node: '31', target: '28'}
+  lemma:
+  - {index: 0, value: currently}
+  - {index: 1, value: ','}
+  - {index: 2, value: there}
+  - {index: 3, value: be}
+  - {index: 4, value: 'no'}
+  - {index: 5, value: known}
+  - {index: 6, value: cure}
+  - {index: 7, value: for}
+  - {index: 8, value: asbestos}
+  - {index: 9, value: cancer}
+  - {index: 10, value: but}
+  - {index: 11, value: several}
+  - {index: 12, value: mesothelioma}
+  - {index: 13, value: treatment}
+  - {index: 14, value: regimen}
+  - {index: 15, value: have}
+  - {index: 16, value: prove}
+  - {index: 17, value: to}
+  - {index: 18, value: be}
+  - {index: 19, value: successful}
+  - {index: 20, value: in}
+  - {index: 21, value: help}
+  - {index: 22, value: the}
+  - {index: 23, value: patient}
+  - {index: 24, value: avoid}
+  - {index: 25, value: pain}
+  - {index: 26, value: and}
+  - {index: 27, value: discomfort}
+  - {index: 28, value: cause}
+  - {index: 29, value: by}
+  - {index: 30, value: the}
+  - {index: 31, value: disease}
+  - {index: 32, value: .}
+  outgoingEdges:
+  - {label: advmod, node: '3', target: '0'}
+  - {label: expl, node: '3', target: '2'}
+  - {label: nsubj, node: '3', target: '6'}
+  - {label: conj_but, node: '3', target: '16'}
+  - {label: det, node: '6', target: '4'}
+  - {label: amod, node: '6', target: '5'}
+  - {label: prep_for, node: '6', target: '9'}
+  - {label: nn, node: '9', target: '8'}
+  - {label: amod, node: '14', target: '11'}
+  - {label: nn, node: '14', target: '12'}
+  - {label: nn, node: '14', target: '13'}
+  - {label: nsubj, node: '16', target: '14'}
+  - {label: aux, node: '16', target: '15'}
+  - {label: xcomp, node: '16', target: '19'}
+  - {label: aux, node: '19', target: '17'}
+  - {label: cop, node: '19', target: '18'}
+  - {label: prepc_in, node: '19', target: '21'}
+  - {label: ccomp, node: '21', target: '24'}
+  - {label: det, node: '23', target: '22'}
+  - {label: nsubj, node: '24', target: '23'}
+  - {label: dobj, node: '24', target: '25'}
+  - {label: dobj, node: '24', target: '27'}
+  - {label: conj_and, node: '25', target: '27'}
+  - {label: vmod, node: '25', target: '28'}
+  - {label: agent, node: '28', target: '31'}
+  - {label: det, node: '31', target: '30'}
+  roots: ['3']
+  sentence: Currently, there is no known cure for asbestos cancer but several mesothelioma treatment regimens have proven to be successful in helping the patient avoid pain and discomfort caused by the disease.
+  to: TBD
+  words:
+  - {index: 0, value: Currently}
+  - {index: 1, value: ','}
+  - {index: 2, value: there}
+  - {index: 3, value: is}
+  - {index: 4, value: 'no'}
+  - {index: 5, value: known}
+  - {index: 6, value: cure}
+  - {index: 7, value: for}
+  - {index: 8, value: asbestos}
+  - {index: 9, value: cancer}
+  - {index: 10, value: but}
+  - {index: 11, value: several}
+  - {index: 12, value: mesothelioma}
+  - {index: 13, value: treatment}
+  - {index: 14, value: regimens}
+  - {index: 15, value: have}
+  - {index: 16, value: proven}
+  - {index: 17, value: to}
+  - {index: 18, value: be}
+  - {index: 19, value: successful}
+  - {index: 20, value: in}
+  - {index: 21, value: helping}
+  - {index: 22, value: the}
+  - {index: 23, value: patient}
+  - {index: 24, value: avoid}
+  - {index: 25, value: pain}
+  - {index: 26, value: and}
+  - {index: 27, value: discomfort}
+  - {index: 28, value: caused}
+  - {index: 29, value: by}
+  - {index: 30, value: the}
+  - {index: 31, value: disease}
+  - {index: 32, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: fever
+  e2Index: 9
+  e2Nominal: virus
+  from: TBD
+  incomingEdges:
+  - {label: amod, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '3'}
+  - {label: auxpass, node: '2', target: '3'}
+  - {label: agent, node: '5', target: '3'}
+  - {label: amod, node: '7', target: '9'}
+  - {label: nn, node: '8', target: '9'}
+  - {label: prep_with, node: '9', target: '3'}
+  - {label: nsubjpass, node: '11', target: '13'}
+  - {label: auxpass, node: '12', target: '13'}
+  - {label: rcmod, node: '13', target: '9'}
+  - {label: det, node: '15', target: '16'}
+  - {label: agent, node: '16', target: '13'}
+  - {label: amod, node: '18', target: '19'}
+  - {label: prep_of, node: '19', target: '16'}
+  lemma:
+  - {index: 0, value: yellow}
+  - {index: 1, value: fever}
+  - {index: 2, value: be}
+  - {index: 3, value: cause}
+  - {index: 4, value: by}
+  - {index: 5, value: infection}
+  - {index: 6, value: with}
+  - {index: 7, value: yellow}
+  - {index: 8, value: fever}
+  - {index: 9, value: virus}
+  - {index: 10, value: ','}
+  - {index: 11, value: which}
+  - {index: 12, value: be}
+  - {index: 13, value: transmit}
+  - {index: 14, value: by}
+  - {index: 15, value: the}
+  - {index: 16, value: bite}
+  - {index: 17, value: of}
+  - {index: 18, value: infected}
+  - {index: 19, value: mosquito}
+  - {index: 20, value: .}
+  outgoingEdges:
+  - {label: amod, node: '1', target: '0'}
+  - {label: nsubjpass, node: '3', target: '1'}
+  - {label: auxpass, node: '3', target: '2'}
+  - {label: agent, node: '3', target: '5'}
+  - {label: prep_with, node: '3', target: '9'}
+  - {label: amod, node: '9', target: '7'}
+  - {label: nn, node: '9', target: '8'}
+  - {label: rcmod, node: '9', target: '13'}
+  - {label: nsubjpass, node: '13', target: '11'}
+  - {label: auxpass, node: '13', target: '12'}
+  - {label: agent, node: '13', target: '16'}
+  - {label: det, node: '16', target: '15'}
+  - {label: prep_of, node: '16', target: '19'}
+  - {label: amod, node: '19', target: '18'}
+  roots: ['3']
+  sentence: Yellow fever is caused by infection with yellow fever virus, which is transmitted by the bite of infected mosquitoes.
+  to: TBD
+  words:
+  - {index: 0, value: Yellow}
+  - {index: 1, value: fever}
+  - {index: 2, value: is}
+  - {index: 3, value: caused}
+  - {index: 4, value: by}
+  - {index: 5, value: infection}
+  - {index: 6, value: with}
+  - {index: 7, value: yellow}
+  - {index: 8, value: fever}
+  - {index: 9, value: virus}
+  - {index: 10, value: ','}
+  - {index: 11, value: which}
+  - {index: 12, value: is}
+  - {index: 13, value: transmitted}
+  - {index: 14, value: by}
+  - {index: 15, value: the}
+  - {index: 16, value: bite}
+  - {index: 17, value: of}
+  - {index: 18, value: infected}
+  - {index: 19, value: mosquitoes}
+  - {index: 20, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: infection
+  e2Index: 14
+  e2Nominal: irritation
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '3'}
+  - {label: amod, node: '1', target: '3'}
+  - {label: nn, node: '2', target: '3'}
+  - {label: nsubj, node: '3', target: '11'}
+  - {label: appos, node: '5', target: '3'}
+  - {label: cop, node: '7', target: '11'}
+  - {label: det, node: '8', target: '11'}
+  - {label: advmod, node: '9', target: '10'}
+  - {label: amod, node: '10', target: '11'}
+  - {label: nn, node: '13', target: '14'}
+  - {label: prep_of, node: '14', target: '11'}
+  lemma:
+  - {index: 0, value: a}
+  - {index: 1, value: urinary}
+  - {index: 2, value: tract}
+  - {index: 3, value: infection}
+  - {index: 4, value: -lrb-}
+  - {index: 5, value: utus}
+  - {index: 6, value: -rrb-}
+  - {index: 7, value: be}
+  - {index: 8, value: the}
+  - {index: 9, value: most}
+  - {index: 10, value: common}
+  - {index: 11, value: cause}
+  - {index: 12, value: of}
+  - {index: 13, value: bladder}
+  - {index: 14, value: irritation}
+  - {index: 15, value: .}
+  outgoingEdges:
+  - {label: det, node: '3', target: '0'}
+  - {label: amod, node: '3', target: '1'}
+  - {label: nn, node: '3', target: '2'}
+  - {label: appos, node: '3', target: '5'}
+  - {label: advmod, node: '10', target: '9'}
+  - {label: nsubj, node: '11', target: '3'}
+  - {label: cop, node: '11', target: '7'}
+  - {label: det, node: '11', target: '8'}
+  - {label: amod, node: '11', target: '10'}
+  - {label: prep_of, node: '11', target: '14'}
+  - {label: nn, node: '14', target: '13'}
+  roots: ['11']
+  sentence: A urinary tract infection (UTI) is the most common cause of bladder irritation.
+  to: TBD
+  words:
+  - {index: 0, value: A}
+  - {index: 1, value: urinary}
+  - {index: 2, value: tract}
+  - {index: 3, value: infection}
+  - {index: 4, value: -LRB-}
+  - {index: 5, value: UTI}
+  - {index: 6, value: -RRB-}
+  - {index: 7, value: is}
+  - {index: 8, value: the}
+  - {index: 9, value: most}
+  - {index: 10, value: common}
+  - {index: 11, value: cause}
+  - {index: 12, value: of}
+  - {index: 13, value: bladder}
+  - {index: 14, value: irritation}
+  - {index: 15, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 9
+  e1Nominal: trauma
+  e2Index: 14
+  e2Nominal: arrival
+  from: TBD
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '3'}
+  - {label: prep_with, node: '2', target: '0'}
+  - {label: det, node: '4', target: '6'}
+  - {label: amod, node: '5', target: '6'}
+  - {label: dobj, node: '6', target: '3'}
+  - {label: vmod, node: '7', target: '6'}
+  - {label: det, node: '8', target: '9'}
+  - {label: dobj, node: '9', target: '7'}
+  - {label: vmod, node: '10', target: '9'}
+  - {label: det, node: '12', target: '14'}
+  - {label: amod, node: '13', target: '14'}
+  - {label: agent, node: '14', target: '10'}
+  - {label: amod, node: '16', target: '17'}
+  - {label: prep_of, node: '17', target: '14'}
+  - {label: nsubj, node: '18', target: '19'}
+  - {label: nsubj, node: '18', target: '28'}
+  - {label: rcmod, node: '19', target: '9'}
+  - {label: dobj, node: '20', target: '19'}
+  - {label: poss, node: '23', target: '24'}
+  - {label: prep_out_of, node: '24', target: '19'}
+  - {label: advmod, node: '26', target: '28'}
+  - {label: advmod, node: '27', target: '28'}
+  - {label: rcmod, node: '28', target: '9'}
+  - {label: conj_and, node: '28', target: '19'}
+  - {label: dobj, node: '29', target: '28'}
+  lemma:
+  - {index: 0, value: evacuee}
+  - {index: 1, value: with}
+  - {index: 2, value: disability}
+  - {index: 3, value: have}
+  - {index: 4, value: a}
+  - {index: 5, value: difficult}
+  - {index: 6, value: time}
+  - {index: 7, value: convey}
+  - {index: 8, value: the}
+  - {index: 9, value: trauma}
+  - {index: 10, value: cause}
+  - {index: 11, value: by}
+  - {index: 12, value: the}
+  - {index: 13, value: unexpected}
+  - {index: 14, value: arrival}
+  - {index: 15, value: of}
+  - {index: 16, value: uniformed}
+  - {index: 17, value: officer}
+  - {index: 18, value: who}
+  - {index: 19, value: order}
+  - {index: 20, value: they}
+  - {index: 21, value: out}
+  - {index: 22, value: of}
+  - {index: 23, value: they}
+  - {index: 24, value: home}
+  - {index: 25, value: and}
+  - {index: 26, value: sometimes}
+  - {index: 27, value: forcibly}
+  - {index: 28, value: remove}
+  - {index: 29, value: they}
+  - {index: 30, value: .}
+  outgoingEdges:
+  - {label: prep_with, node: '0', target: '2'}
+  - {label: nsubj, node: '3', target: '0'}
+  - {label: dobj, node: '3', target: '6'}
+  - {label: det, node: '6', target: '4'}
+  - {label: amod, node: '6', target: '5'}
+  - {label: vmod, node: '6', target: '7'}
+  - {label: dobj, node: '7', target: '9'}
+  - {label: det, node: '9', target: '8'}
+  - {label: vmod, node: '9', target: '10'}
+  - {label: rcmod, node: '9', target: '19'}
+  - {label: rcmod, node: '9', target: '28'}
+  - {label: agent, node: '10', target: '14'}
+  - {label: det, node: '14', target: '12'}
+  - {label: amod, node: '14', target: '13'}
+  - {label: prep_of, node: '14', target: '17'}
+  - {label: amod, node: '17', target: '16'}
+  - {label: nsubj, node: '19', target: '18'}
+  - {label: dobj, node: '19', target: '20'}
+  - {label: prep_out_of, node: '19', target: '24'}
+  - {label: conj_and, node: '19', target: '28'}
+  - {label: poss, node: '24', target: '23'}
+  - {label: nsubj, node: '28', target: '18'}
+  - {label: advmod, node: '28', target: '26'}
+  - {label: advmod, node: '28', target: '27'}
+  - {label: dobj, node: '28', target: '29'}
+  roots: ['3']
+  sentence: Evacuees with disabilities had a difficult time conveying the trauma caused by the unexpected arrival of uniformed officers who ordered them out of their homes and sometimes forcibly removed them.
+  to: TBD
+  words:
+  - {index: 0, value: Evacuees}
+  - {index: 1, value: with}
+  - {index: 2, value: disabilities}
+  - {index: 3, value: had}
+  - {index: 4, value: a}
+  - {index: 5, value: difficult}
+  - {index: 6, value: time}
+  - {index: 7, value: conveying}
+  - {index: 8, value: the}
+  - {index: 9, value: trauma}
+  - {index: 10, value: caused}
+  - {index: 11, value: by}
+  - {index: 12, value: the}
+  - {index: 13, value: unexpected}
+  - {index: 14, value: arrival}
+  - {index: 15, value: of}
+  - {index: 16, value: uniformed}
+  - {index: 17, value: officers}
+  - {index: 18, value: who}
+  - {index: 19, value: ordered}
+  - {index: 20, value: them}
+  - {index: 21, value: out}
+  - {index: 22, value: of}
+  - {index: 23, value: their}
+  - {index: 24, value: homes}
+  - {index: 25, value: and}
+  - {index: 26, value: sometimes}
+  - {index: 27, value: forcibly}
+  - {index: 28, value: removed}
+  - {index: 29, value: them}
+  - {index: 30, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: complaint
+  e2Index: 10
+  e2Nominal: lead
+  from: TBD
+  incomingEdges:
+  - {label: mark, node: '0', target: '6'}
+  - {label: det, node: '1', target: '3'}
+  - {label: nn, node: '2', target: '3'}
+  - {label: nsubj, node: '3', target: '6'}
+  - {label: cop, node: '4', target: '6'}
+  - {label: det, node: '5', target: '6'}
+  - {label: advcl, node: '6', target: '19'}
+  - {label: det, node: '8', target: '10'}
+  - {label: amod, node: '9', target: '10'}
+  - {label: prep_of, node: '10', target: '6'}
+  - {label: amod, node: '12', target: '13'}
+  - {label: nsubjpass, node: '13', target: '19'}
+  - {label: det, node: '15', target: '16'}
+  - {label: prep_with, node: '16', target: '13'}
+  - {label: aux, node: '17', target: '19'}
+  - {label: auxpass, node: '18', target: '19'}
+  - {label: det, node: '21', target: '22'}
+  - {label: agent, node: '22', target: '19'}
+  lemma:
+  - {index: 0, value: if}
+  - {index: 1, value: a}
+  - {index: 2, value: participant}
+  - {index: 3, value: complaint}
+  - {index: 4, value: be}
+  - {index: 5, value: the}
+  - {index: 6, value: source}
+  - {index: 7, value: of}
+  - {index: 8, value: a}
+  - {index: 9, value: investigative}
+  - {index: 10, value: lead}
+  - {index: 11, value: ','}
+  - {index: 12, value: interim}
+  - {index: 13, value: contact}
+  - {index: 14, value: with}
+  - {index: 15, value: the}
+  - {index: 16, value: participant}
+  - {index: 17, value: should}
+  - {index: 18, value: be}
+  - {index: 19, value: make}
+  - {index: 20, value: by}
+  - {index: 21, value: the}
+  - {index: 22, value: investigator}
+  - {index: 23, value: .}
+  outgoingEdges:
+  - {label: det, node: '3', target: '1'}
+  - {label: nn, node: '3', target: '2'}
+  - {label: mark, node: '6', target: '0'}
+  - {label: nsubj, node: '6', target: '3'}
+  - {label: cop, node: '6', target: '4'}
+  - {label: det, node: '6', target: '5'}
+  - {label: prep_of, node: '6', target: '10'}
+  - {label: det, node: '10', target: '8'}
+  - {label: amod, node: '10', target: '9'}
+  - {label: amod, node: '13', target: '12'}
+  - {label: prep_with, node: '13', target: '16'}
+  - {label: det, node: '16', target: '15'}
+  - {label: advcl, node: '19', target: '6'}
+  - {label: nsubjpass, node: '19', target: '13'}
+  - {label: aux, node: '19', target: '17'}
+  - {label: auxpass, node: '19', target: '18'}
+  - {label: agent, node: '19', target: '22'}
+  - {label: det, node: '22', target: '21'}
+  roots: ['19']
+  sentence: If a participant complaint is the source of an investigative lead, interim contact with the participant should be made by the investigator.
+  to: TBD
+  words:
+  - {index: 0, value: If}
+  - {index: 1, value: a}
+  - {index: 2, value: participant}
+  - {index: 3, value: complaint}
+  - {index: 4, value: is}
+  - {index: 5, value: the}
+  - {index: 6, value: source}
+  - {index: 7, value: of}
+  - {index: 8, value: an}
+  - {index: 9, value: investigative}
+  - {index: 10, value: lead}
+  - {index: 11, value: ','}
+  - {index: 12, value: interim}
+  - {index: 13, value: contact}
+  - {index: 14, value: with}
+  - {index: 15, value: the}
+  - {index: 16, value: participant}
+  - {index: 17, value: should}
+  - {index: 18, value: be}
+  - {index: 19, value: made}
+  - {index: 20, value: by}
+  - {index: 21, value: the}
+  - {index: 22, value: investigator}
+  - {index: 23, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: violence
+  e2Index: 8
+  e2Nominal: militia
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '4'}
+  - {label: aux, node: '2', target: '4'}
+  - {label: auxpass, node: '3', target: '4'}
+  - {label: det, node: '6', target: '8'}
+  - {label: nn, node: '7', target: '8'}
+  - {label: agent, node: '8', target: '4'}
+  - {label: nsubj, node: '9', target: '10'}
+  - {label: dep, node: '10', target: '4'}
+  - {label: dobj, node: '11', target: '10'}
+  - {label: det, node: '13', target: '14'}
+  - {label: prep_after, node: '14', target: '10'}
+  - {label: det, node: '16', target: '17'}
+  - {label: prep_in, node: '17', target: '10'}
+  - {label: nsubj, node: '19', target: '21'}
+  - {label: aux, node: '20', target: '21'}
+  - {label: dep, node: '21', target: '4'}
+  - {label: conj_and, node: '21', target: '10'}
+  - {label: prepc_in, node: '23', target: '21'}
+  - {label: det, node: '25', target: '26'}
+  - {label: prep_in, node: '26', target: '23'}
+  - {label: prep_in, node: '28', target: '26'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: violence}
+  - {index: 2, value: have}
+  - {index: 3, value: be}
+  - {index: 4, value: cause}
+  - {index: 5, value: by}
+  - {index: 6, value: the}
+  - {index: 7, value: Hutu}
+  - {index: 8, value: militia}
+  - {index: 9, value: who}
+  - {index: 10, value: flee}
+  - {index: 11, value: Rwanda}
+  - {index: 12, value: after}
+  - {index: 13, value: the}
+  - {index: 14, value: genocide}
+  - {index: 15, value: in}
+  - {index: 16, value: that}
+  - {index: 17, value: country}
+  - {index: 18, value: and}
+  - {index: 19, value: who}
+  - {index: 20, value: have}
+  - {index: 21, value: be}
+  - {index: 22, value: in}
+  - {index: 23, value: hide}
+  - {index: 24, value: in}
+  - {index: 25, value: the}
+  - {index: 26, value: forest}
+  - {index: 27, value: in}
+  - {index: 28, value: Congo}
+  - {index: 29, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubjpass, node: '4', target: '1'}
+  - {label: aux, node: '4', target: '2'}
+  - {label: auxpass, node: '4', target: '3'}
+  - {label: agent, node: '4', target: '8'}
+  - {label: dep, node: '4', target: '10'}
+  - {label: dep, node: '4', target: '21'}
+  - {label: det, node: '8', target: '6'}
+  - {label: nn, node: '8', target: '7'}
+  - {label: nsubj, node: '10', target: '9'}
+  - {label: dobj, node: '10', target: '11'}
+  - {label: prep_after, node: '10', target: '14'}
+  - {label: prep_in, node: '10', target: '17'}
+  - {label: conj_and, node: '10', target: '21'}
+  - {label: det, node: '14', target: '13'}
+  - {label: det, node: '17', target: '16'}
+  - {label: nsubj, node: '21', target: '19'}
+  - {label: aux, node: '21', target: '20'}
+  - {label: prepc_in, node: '21', target: '23'}
+  - {label: prep_in, node: '23', target: '26'}
+  - {label: det, node: '26', target: '25'}
+  - {label: prep_in, node: '26', target: '28'}
+  roots: ['4']
+  sentence: The violence has been caused by the Hutu militia who fled Rwanda after the genocide in that country and who have been in hiding in the forest in Congo.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: violence}
+  - {index: 2, value: has}
+  - {index: 3, value: been}
+  - {index: 4, value: caused}
+  - {index: 5, value: by}
+  - {index: 6, value: the}
+  - {index: 7, value: Hutu}
+  - {index: 8, value: militia}
+  - {index: 9, value: who}
+  - {index: 10, value: fled}
+  - {index: 11, value: Rwanda}
+  - {index: 12, value: after}
+  - {index: 13, value: the}
+  - {index: 14, value: genocide}
+  - {index: 15, value: in}
+  - {index: 16, value: that}
+  - {index: 17, value: country}
+  - {index: 18, value: and}
+  - {index: 19, value: who}
+  - {index: 20, value: have}
+  - {index: 21, value: been}
+  - {index: 22, value: in}
+  - {index: 23, value: hiding}
+  - {index: 24, value: in}
+  - {index: 25, value: the}
+  - {index: 26, value: forest}
+  - {index: 27, value: in}
+  - {index: 28, value: Congo}
+  - {index: 29, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 29
+  e1Nominal: hardship
+  e2Index: 36
+  e2Nominal: recession
+  from: TBD
+  incomingEdges:
+  - {label: cc, node: '0', target: '2'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: advmod, node: '3', target: '7'}
+  - {label: nsubj, node: '4', target: '7'}
+  - {label: cop, node: '5', target: '7'}
+  - {label: advmod, node: '6', target: '7'}
+  - {label: advcl, node: '7', target: '2'}
+  - {label: aux, node: '8', target: '9'}
+  - {label: xcomp, node: '9', target: '7'}
+  - {label: mark, node: '10', target: '23'}
+  - {label: det, node: '11', target: '12'}
+  - {label: nsubj, node: '12', target: '23'}
+  - {label: det, node: '16', target: '17'}
+  - {label: prep_thanks_to, node: '17', target: '12'}
+  - {label: poss, node: '19', target: '20'}
+  - {label: prep_of, node: '20', target: '17'}
+  - {label: aux, node: '22', target: '23'}
+  - {label: ccomp, node: '23', target: '9'}
+  - {label: num, node: '24', target: '25'}
+  - {label: dobj, node: '25', target: '23'}
+  - {label: det, node: '28', target: '29'}
+  - {label: prep_despite, node: '29', target: '23'}
+  - {label: nsubjpass, node: '30', target: '33'}
+  - {label: aux, node: '31', target: '33'}
+  - {label: auxpass, node: '32', target: '33'}
+  - {label: rcmod, node: '33', target: '29'}
+  - {label: det, node: '35', target: '36'}
+  - {label: agent, node: '36', target: '33'}
+  lemma:
+  - {index: 0, value: and}
+  - {index: 1, value: it}
+  - {index: 2, value: be}
+  - {index: 3, value: why}
+  - {index: 4, value: we}
+  - {index: 5, value: be}
+  - {index: 6, value: even}
+  - {index: 7, value: prouder}
+  - {index: 8, value: to}
+  - {index: 9, value: announce}
+  - {index: 10, value: that}
+  - {index: 11, value: the}
+  - {index: 12, value: appeal}
+  - {index: 13, value: '-'}
+  - {index: 14, value: thanks}
+  - {index: 15, value: to}
+  - {index: 16, value: the}
+  - {index: 17, value: generosity}
+  - {index: 18, value: of}
+  - {index: 19, value: we}
+  - {index: 20, value: reader}
+  - {index: 21, value: '-'}
+  - {index: 22, value: have}
+  - {index: 23, value: raise}
+  - {index: 24, value: '26,000'}
+  - {index: 25, value: pound}
+  - {index: 26, value: ','}
+  - {index: 27, value: despite}
+  - {index: 28, value: the}
+  - {index: 29, value: hardship}
+  - {index: 30, value: that}
+  - {index: 31, value: have}
+  - {index: 32, value: be}
+  - {index: 33, value: cause}
+  - {index: 34, value: by}
+  - {index: 35, value: the}
+  - {index: 36, value: recession}
+  - {index: 37, value: .}
+  outgoingEdges:
+  - {label: cc, node: '2', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: advcl, node: '2', target: '7'}
+  - {label: advmod, node: '7', target: '3'}
+  - {label: nsubj, node: '7', target: '4'}
+  - {label: cop, node: '7', target: '5'}
+  - {label: advmod, node: '7', target: '6'}
+  - {label: xcomp, node: '7', target: '9'}
+  - {label: aux, node: '9', target: '8'}
+  - {label: ccomp, node: '9', target: '23'}
+  - {label: det, node: '12', target: '11'}
+  - {label: prep_thanks_to, node: '12', target: '17'}
+  - {label: det, node: '17', target: '16'}
+  - {label: prep_of, node: '17', target: '20'}
+  - {label: poss, node: '20', target: '19'}
+  - {label: mark, node: '23', target: '10'}
+  - {label: nsubj, node: '23', target: '12'}
+  - {label: aux, node: '23', target: '22'}
+  - {label: dobj, node: '23', target: '25'}
+  - {label: prep_despite, node: '23', target: '29'}
+  - {label: num, node: '25', target: '24'}
+  - {label: det, node: '29', target: '28'}
+  - {label: rcmod, node: '29', target: '33'}
+  - {label: nsubjpass, node: '33', target: '30'}
+  - {label: aux, node: '33', target: '31'}
+  - {label: auxpass, node: '33', target: '32'}
+  - {label: agent, node: '33', target: '36'}
+  - {label: det, node: '36', target: '35'}
+  roots: ['2']
+  sentence: And it is why we are even prouder to announce that the appeal - thanks to the generosity of our readers - has raised 26,000 pounds, despite the hardship that has been caused by the recession.
+  to: TBD
+  words:
+  - {index: 0, value: And}
+  - {index: 1, value: it}
+  - {index: 2, value: is}
+  - {index: 3, value: why}
+  - {index: 4, value: we}
+  - {index: 5, value: are}
+  - {index: 6, value: even}
+  - {index: 7, value: prouder}
+  - {index: 8, value: to}
+  - {index: 9, value: announce}
+  - {index: 10, value: that}
+  - {index: 11, value: the}
+  - {index: 12, value: appeal}
+  - {index: 13, value: '-'}
+  - {index: 14, value: thanks}
+  - {index: 15, value: to}
+  - {index: 16, value: the}
+  - {index: 17, value: generosity}
+  - {index: 18, value: of}
+  - {index: 19, value: our}
+  - {index: 20, value: readers}
+  - {index: 21, value: '-'}
+  - {index: 22, value: has}
+  - {index: 23, value: raised}
+  - {index: 24, value: '26,000'}
+  - {index: 25, value: pounds}
+  - {index: 26, value: ','}
+  - {index: 27, value: despite}
+  - {index: 28, value: the}
+  - {index: 29, value: hardship}
+  - {index: 30, value: that}
+  - {index: 31, value: has}
+  - {index: 32, value: been}
+  - {index: 33, value: caused}
+  - {index: 34, value: by}
+  - {index: 35, value: the}
+  - {index: 36, value: recession}
+  - {index: 37, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 5
+  e1Nominal: disorder
+  e2Index: 11
+  e2Nominal: impairment
+  from: TBD
+  incomingEdges:
+  - {label: nn, node: '0', target: '1'}
+  - {label: det, node: '3', target: '5'}
+  - {label: amod, node: '4', target: '5'}
+  - {label: dep, node: '5', target: '1'}
+  - {label: nsubj, node: '6', target: '7'}
+  - {label: rcmod, node: '7', target: '5'}
+  - {label: amod, node: '9', target: '11'}
+  - {label: amod, node: '10', target: '11'}
+  - {label: prep_in, node: '11', target: '7'}
+  lemma:
+  - {index: 0, value: Williams}
+  - {index: 1, value: syndrome}
+  - {index: 2, value: ':'}
+  - {index: 3, value: a}
+  - {index: 4, value: genetic}
+  - {index: 5, value: disorder}
+  - {index: 6, value: that}
+  - {index: 7, value: result}
+  - {index: 8, value: in}
+  - {index: 9, value: selective}
+  - {index: 10, value: cognitive}
+  - {index: 11, value: impairment}
+  - {index: 12, value: .}
+  outgoingEdges:
+  - {label: nn, node: '1', target: '0'}
+  - {label: dep, node: '1', target: '5'}
+  - {label: det, node: '5', target: '3'}
+  - {label: amod, node: '5', target: '4'}
+  - {label: rcmod, node: '5', target: '7'}
+  - {label: nsubj, node: '7', target: '6'}
+  - {label: prep_in, node: '7', target: '11'}
+  - {label: amod, node: '11', target: '9'}
+  - {label: amod, node: '11', target: '10'}
+  roots: ['1']
+  sentence: 'Williams syndrome: a genetic disorder that results in selective cognitive
+    impairment.'
+  to: TBD
+  words:
+  - {index: 0, value: Williams}
+  - {index: 1, value: syndrome}
+  - {index: 2, value: ':'}
+  - {index: 3, value: a}
+  - {index: 4, value: genetic}
+  - {index: 5, value: disorder}
+  - {index: 6, value: that}
+  - {index: 7, value: results}
+  - {index: 8, value: in}
+  - {index: 9, value: selective}
+  - {index: 10, value: cognitive}
+  - {index: 11, value: impairment}
+  - {index: 12, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: crisis
+  e2Index: 11
+  e2Nominal: mess
+  from: TBD
+  incomingEdges:
+  - {label: cc, node: '0', target: '5'}
+  - {label: det, node: '1', target: '3'}
+  - {label: amod, node: '2', target: '3'}
+  - {label: nsubjpass, node: '3', target: '5'}
+  - {label: auxpass, node: '4', target: '5'}
+  - {label: acomp, node: '6', target: '5'}
+  - {label: det, node: '8', target: '11'}
+  - {label: amod, node: '9', target: '11'}
+  - {label: nn, node: '10', target: '11'}
+  - {label: prep_to, node: '11', target: '6'}
+  - {label: rcmod, node: '12', target: '11'}
+  - {label: advmod, node: '13', target: '12'}
+  - {label: nn, node: '15', target: '16'}
+  - {label: prep_through, node: '16', target: '12'}
+  - {label: det, node: '18', target: '19'}
+  - {label: prep_in, node: '19', target: '16'}
+  - {label: aux, node: '20', target: '21'}
+  - {label: xcomp, node: '21', target: '12'}
+  - {label: amod, node: '22', target: '23'}
+  - {label: dobj, node: '23', target: '21'}
+  - {label: dep, node: '25', target: '11'}
+  - {label: dep, node: '26', target: '25'}
+  - {label: dobj, node: '27', target: '26'}
+  - {label: amod, node: '29', target: '30'}
+  - {label: prep_to, node: '30', target: '26'}
+  lemma:
+  - {index: 0, value: and}
+  - {index: 1, value: the}
+  - {index: 2, value: economic}
+  - {index: 3, value: crisis}
+  - {index: 4, value: be}
+  - {index: 5, value: generate}
+  - {index: 6, value: due}
+  - {index: 7, value: to}
+  - {index: 8, value: the}
+  - {index: 9, value: sub-prime}
+  - {index: 10, value: mortgage}
+  - {index: 11, value: mess}
+  - {index: 12, value: bring}
+  - {index: 13, value: about}
+  - {index: 14, value: through}
+  - {index: 15, value: government}
+  - {index: 16, value: intervention}
+  - {index: 17, value: in}
+  - {index: 18, value: the}
+  - {index: 19, value: market}
+  - {index: 20, value: to}
+  - {index: 21, value: promote}
+  - {index: 22, value: progressive}
+  - {index: 23, value: ideal}
+  - {index: 24, value: -lrb-}
+  - {index: 25, value: ie}
+  - {index: 26, value: extend}
+  - {index: 27, value: loan}
+  - {index: 28, value: to}
+  - {index: 29, value: low-income}
+  - {index: 30, value: borrower}
+  - {index: 31, value: -rrb-}
+  - {index: 32, value: .}
+  outgoingEdges:
+  - {label: det, node: '3', target: '1'}
+  - {label: amod, node: '3', target: '2'}
+  - {label: cc, node: '5', target: '0'}
+  - {label: nsubjpass, node: '5', target: '3'}
+  - {label: auxpass, node: '5', target: '4'}
+  - {label: acomp, node: '5', target: '6'}
+  - {label: prep_to, node: '6', target: '11'}
+  - {label: det, node: '11', target: '8'}
+  - {label: amod, node: '11', target: '9'}
+  - {label: nn, node: '11', target: '10'}
+  - {label: rcmod, node: '11', target: '12'}
+  - {label: dep, node: '11', target: '25'}
+  - {label: advmod, node: '12', target: '13'}
+  - {label: prep_through, node: '12', target: '16'}
+  - {label: xcomp, node: '12', target: '21'}
+  - {label: nn, node: '16', target: '15'}
+  - {label: prep_in, node: '16', target: '19'}
+  - {label: det, node: '19', target: '18'}
+  - {label: aux, node: '21', target: '20'}
+  - {label: dobj, node: '21', target: '23'}
+  - {label: amod, node: '23', target: '22'}
+  - {label: dep, node: '25', target: '26'}
+  - {label: dobj, node: '26', target: '27'}
+  - {label: prep_to, node: '26', target: '30'}
+  - {label: amod, node: '30', target: '29'}
+  roots: ['5']
+  sentence: And the economic crisis was generated due to the sub-prime mortgage mess brought about through government intervention in the market to promote progressive ideals (ie extending loans to low-income borrowers).
+  to: TBD
+  words:
+  - {index: 0, value: And}
+  - {index: 1, value: the}
+  - {index: 2, value: economic}
+  - {index: 3, value: crisis}
+  - {index: 4, value: was}
+  - {index: 5, value: generated}
+  - {index: 6, value: due}
+  - {index: 7, value: to}
+  - {index: 8, value: the}
+  - {index: 9, value: sub-prime}
+  - {index: 10, value: mortgage}
+  - {index: 11, value: mess}
+  - {index: 12, value: brought}
+  - {index: 13, value: about}
+  - {index: 14, value: through}
+  - {index: 15, value: government}
+  - {index: 16, value: intervention}
+  - {index: 17, value: in}
+  - {index: 18, value: the}
+  - {index: 19, value: market}
+  - {index: 20, value: to}
+  - {index: 21, value: promote}
+  - {index: 22, value: progressive}
+  - {index: 23, value: ideals}
+  - {index: 24, value: -LRB-}
+  - {index: 25, value: ie}
+  - {index: 26, value: extending}
+  - {index: 27, value: loans}
+  - {index: 28, value: to}
+  - {index: 29, value: low-income}
+  - {index: 30, value: borrowers}
+  - {index: 31, value: -RRB-}
+  - {index: 32, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 15
+  e1Nominal: crisis
+  e2Index: 23
+  e2Nominal: recession
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '1', target: '3'}
+  - {label: amod, node: '2', target: '3'}
+  - {label: agent, node: '3', target: '10'}
+  - {label: advmod, node: '5', target: '10'}
+  - {label: det, node: '7', target: '8'}
+  - {label: nsubjpass, node: '8', target: '10'}
+  - {label: auxpass, node: '9', target: '10'}
+  - {label: prt, node: '11', target: '10'}
+  - {label: det, node: '13', target: '15'}
+  - {label: nn, node: '14', target: '15'}
+  - {label: prep_in, node: '15', target: '10'}
+  - {label: det, node: '17', target: '19'}
+  - {label: amod, node: '18', target: '19'}
+  - {label: prep_in, node: '19', target: '10'}
+  - {label: vmod, node: '20', target: '19'}
+  - {label: det, node: '22', target: '23'}
+  - {label: agent, node: '23', target: '20'}
+  - {label: det, node: '25', target: '27'}
+  - {label: amod, node: '26', target: '27'}
+  - {label: agent, node: '27', target: '20'}
+  - {label: conj_and, node: '27', target: '23'}
+  - {label: nn, node: '29', target: '30'}
+  - {label: prep_in, node: '30', target: '20'}
+  lemma:
+  - {index: 0, value: by}
+  - {index: 1, value: the}
+  - {index: 2, value: late}
+  - {index: 3, value: '1980'}
+  - {index: 4, value: ','}
+  - {index: 5, value: however}
+  - {index: 6, value: ','}
+  - {index: 7, value: the}
+  - {index: 8, value: Bank}
+  - {index: 9, value: be}
+  - {index: 10, value: catch}
+  - {index: 11, value: up}
+  - {index: 12, value: in}
+  - {index: 13, value: the}
+  - {index: 14, value: debt}
+  - {index: 15, value: crisis}
+  - {index: 16, value: in}
+  - {index: 17, value: the}
+  - {index: 18, value: develop}
+  - {index: 19, value: world}
+  - {index: 20, value: cause}
+  - {index: 21, value: by}
+  - {index: 22, value: the}
+  - {index: 23, value: recession}
+  - {index: 24, value: and}
+  - {index: 25, value: the}
+  - {index: 26, value: dramatic}
+  - {index: 27, value: rise}
+  - {index: 28, value: in}
+  - {index: 29, value: interest}
+  - {index: 30, value: rate}
+  - {index: 31, value: .}
+  outgoingEdges:
+  - {label: det, node: '3', target: '1'}
+  - {label: amod, node: '3', target: '2'}
+  - {label: det, node: '8', target: '7'}
+  - {label: agent, node: '10', target: '3'}
+  - {label: advmod, node: '10', target: '5'}
+  - {label: nsubjpass, node: '10', target: '8'}
+  - {label: auxpass, node: '10', target: '9'}
+  - {label: prt, node: '10', target: '11'}
+  - {label: prep_in, node: '10', target: '15'}
+  - {label: prep_in, node: '10', target: '19'}
+  - {label: det, node: '15', target: '13'}
+  - {label: nn, node: '15', target: '14'}
+  - {label: det, node: '19', target: '17'}
+  - {label: amod, node: '19', target: '18'}
+  - {label: vmod, node: '19', target: '20'}
+  - {label: agent, node: '20', target: '23'}
+  - {label: agent, node: '20', target: '27'}
+  - {label: prep_in, node: '20', target: '30'}
+  - {label: det, node: '23', target: '22'}
+  - {label: conj_and, node: '23', target: '27'}
+  - {label: det, node: '27', target: '25'}
+  - {label: amod, node: '27', target: '26'}
+  - {label: nn, node: '30', target: '29'}
+  roots: ['10']
+  sentence: By the late 1980s, however, the Bank was caught up in the debt crisis in the developing world caused by the recession and the dramatic rise in interest rates.
+  to: TBD
+  words:
+  - {index: 0, value: By}
+  - {index: 1, value: the}
+  - {index: 2, value: late}
+  - {index: 3, value: 1980s}
+  - {index: 4, value: ','}
+  - {index: 5, value: however}
+  - {index: 6, value: ','}
+  - {index: 7, value: the}
+  - {index: 8, value: Bank}
+  - {index: 9, value: was}
+  - {index: 10, value: caught}
+  - {index: 11, value: up}
+  - {index: 12, value: in}
+  - {index: 13, value: the}
+  - {index: 14, value: debt}
+  - {index: 15, value: crisis}
+  - {index: 16, value: in}
+  - {index: 17, value: the}
+  - {index: 18, value: developing}
+  - {index: 19, value: world}
+  - {index: 20, value: caused}
+  - {index: 21, value: by}
+  - {index: 22, value: the}
+  - {index: 23, value: recession}
+  - {index: 24, value: and}
+  - {index: 25, value: the}
+  - {index: 26, value: dramatic}
+  - {index: 27, value: rise}
+  - {index: 28, value: in}
+  - {index: 29, value: interest}
+  - {index: 30, value: rates}
+  - {index: 31, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 4
+  e1Nominal: discomfort
+  e2Index: 7
+  e2Nominal: surgery
+  from: TBD
+  incomingEdges:
+  - {label: expl, node: '0', target: '1'}
+  - {label: advmod, node: '2', target: '3'}
+  - {label: amod, node: '3', target: '4'}
+  - {label: nsubj, node: '4', target: '1'}
+  - {label: det, node: '6', target: '7'}
+  - {label: prep_from, node: '7', target: '4'}
+  - {label: advmod, node: '9', target: '10'}
+  - {label: nsubj, node: '10', target: '12'}
+  - {label: advmod, node: '11', target: '12'}
+  - {label: conj_and, node: '12', target: '1'}
+  - {label: quantmod, node: '13', target: '14'}
+  - {label: dobj, node: '14', target: '12'}
+  - {label: dep, node: '15', target: '14'}
+  - {label: poss, node: '17', target: '18'}
+  - {label: prep_for, node: '18', target: '14'}
+  lemma:
+  - {index: 0, value: there}
+  - {index: 1, value: be}
+  - {index: 2, value: relatively}
+  - {index: 3, value: little}
+  - {index: 4, value: discomfort}
+  - {index: 5, value: from}
+  - {index: 6, value: this}
+  - {index: 7, value: surgery}
+  - {index: 8, value: and}
+  - {index: 9, value: most}
+  - {index: 10, value: individual}
+  - {index: 11, value: rarely}
+  - {index: 12, value: take}
+  - {index: 13, value: more}
+  - {index: 14, value: than}
+  - {index: 15, value: Tylenol}
+  - {index: 16, value: for}
+  - {index: 17, value: they}
+  - {index: 18, value: discomfort}
+  - {index: 19, value: .}
+  outgoingEdges:
+  - {label: expl, node: '1', target: '0'}
+  - {label: nsubj, node: '1', target: '4'}
+  - {label: conj_and, node: '1', target: '12'}
+  - {label: advmod, node: '3', target: '2'}
+  - {label: amod, node: '4', target: '3'}
+  - {label: prep_from, node: '4', target: '7'}
+  - {label: det, node: '7', target: '6'}
+  - {label: advmod, node: '10', target: '9'}
+  - {label: nsubj, node: '12', target: '10'}
+  - {label: advmod, node: '12', target: '11'}
+  - {label: dobj, node: '12', target: '14'}
+  - {label: quantmod, node: '14', target: '13'}
+  - {label: dep, node: '14', target: '15'}
+  - {label: prep_for, node: '14', target: '18'}
+  - {label: poss, node: '18', target: '17'}
+  roots: ['1']
+  sentence: There is relatively little discomfort from this surgery and most individuals rarely take more than Tylenol for their discomfort.
+  to: TBD
+  words:
+  - {index: 0, value: There}
+  - {index: 1, value: is}
+  - {index: 2, value: relatively}
+  - {index: 3, value: little}
+  - {index: 4, value: discomfort}
+  - {index: 5, value: from}
+  - {index: 6, value: this}
+  - {index: 7, value: surgery}
+  - {index: 8, value: and}
+  - {index: 9, value: most}
+  - {index: 10, value: individuals}
+  - {index: 11, value: rarely}
+  - {index: 12, value: take}
+  - {index: 13, value: more}
+  - {index: 14, value: than}
+  - {index: 15, value: Tylenol}
+  - {index: 16, value: for}
+  - {index: 17, value: their}
+  - {index: 18, value: discomfort}
+  - {index: 19, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: smile
+  e2Index: 17
+  e2Nominal: hope
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '13'}
+  - {label: det, node: '3', target: '5'}
+  - {label: amod, node: '4', target: '5'}
+  - {label: appos, node: '5', target: '1'}
+  - {label: poss, node: '7', target: '9'}
+  - {label: prep_of, node: '9', target: '5'}
+  - {label: cop, node: '11', target: '13'}
+  - {label: det, node: '12', target: '13'}
+  - {label: det, node: '15', target: '17'}
+  - {label: amod, node: '16', target: '17'}
+  - {label: prep_of, node: '17', target: '13'}
+  lemma:
+  - {index: 0, value: this}
+  - {index: 1, value: smile}
+  - {index: 2, value: ','}
+  - {index: 3, value: a}
+  - {index: 4, value: 'true'}
+  - {index: 5, value: reflection}
+  - {index: 6, value: of}
+  - {index: 7, value: God}
+  - {index: 8, value: '''s'}
+  - {index: 9, value: tenderness}
+  - {index: 10, value: ','}
+  - {index: 11, value: be}
+  - {index: 12, value: the}
+  - {index: 13, value: source}
+  - {index: 14, value: of}
+  - {index: 15, value: a}
+  - {index: 16, value: invincible}
+  - {index: 17, value: hope}
+  - {index: 18, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: appos, node: '1', target: '5'}
+  - {label: det, node: '5', target: '3'}
+  - {label: amod, node: '5', target: '4'}
+  - {label: prep_of, node: '5', target: '9'}
+  - {label: poss, node: '9', target: '7'}
+  - {label: nsubj, node: '13', target: '1'}
+  - {label: cop, node: '13', target: '11'}
+  - {label: det, node: '13', target: '12'}
+  - {label: prep_of, node: '13', target: '17'}
+  - {label: det, node: '17', target: '15'}
+  - {label: amod, node: '17', target: '16'}
+  roots: ['13']
+  sentence: This smile, a true reflection of God's tenderness, is the source of an invincible hope.
+  to: TBD
+  words:
+  - {index: 0, value: This}
+  - {index: 1, value: smile}
+  - {index: 2, value: ','}
+  - {index: 3, value: a}
+  - {index: 4, value: 'true'}
+  - {index: 5, value: reflection}
+  - {index: 6, value: of}
+  - {index: 7, value: God}
+  - {index: 8, value: '''s'}
+  - {index: 9, value: tenderness}
+  - {index: 10, value: ','}
+  - {index: 11, value: is}
+  - {index: 12, value: the}
+  - {index: 13, value: source}
+  - {index: 14, value: of}
+  - {index: 15, value: an}
+  - {index: 16, value: invincible}
+  - {index: 17, value: hope}
+  - {index: 18, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: software
+  e2Index: 6
+  e2Nominal: drain
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: det, node: '3', target: '6'}
+  - {label: advmod, node: '4', target: '5'}
+  - {label: amod, node: '5', target: '6'}
+  - {label: dobj, node: '6', target: '2'}
+  - {label: det, node: '8', target: '9'}
+  - {label: prep_on, node: '9', target: '2'}
+  - {label: det, node: '11', target: '12'}
+  - {label: prep_for, node: '12', target: '2'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: software}
+  - {index: 2, value: cause}
+  - {index: 3, value: a}
+  - {index: 4, value: pretty}
+  - {index: 5, value: good}
+  - {index: 6, value: drain}
+  - {index: 7, value: 'on'}
+  - {index: 8, value: the}
+  - {index: 9, value: CPU}
+  - {index: 10, value: for}
+  - {index: 11, value: some}
+  - {index: 12, value: reason}
+  - {index: 13, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: dobj, node: '2', target: '6'}
+  - {label: prep_on, node: '2', target: '9'}
+  - {label: prep_for, node: '2', target: '12'}
+  - {label: advmod, node: '5', target: '4'}
+  - {label: det, node: '6', target: '3'}
+  - {label: amod, node: '6', target: '5'}
+  - {label: det, node: '9', target: '8'}
+  - {label: det, node: '12', target: '11'}
+  roots: ['2']
+  sentence: The software caused a pretty good drain on the CPU for some reason.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: software}
+  - {index: 2, value: caused}
+  - {index: 3, value: a}
+  - {index: 4, value: pretty}
+  - {index: 5, value: good}
+  - {index: 6, value: drain}
+  - {index: 7, value: 'on'}
+  - {index: 8, value: the}
+  - {index: 9, value: CPU}
+  - {index: 10, value: for}
+  - {index: 11, value: some}
+  - {index: 12, value: reason}
+  - {index: 13, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: harm
+  e2Index: 8
+  e2Nominal: system
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '4'}
+  - {label: aux, node: '2', target: '4'}
+  - {label: auxpass, node: '3', target: '4'}
+  - {label: det, node: '6', target: '8'}
+  - {label: nn, node: '7', target: '8'}
+  - {label: agent, node: '8', target: '4'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: harm}
+  - {index: 2, value: have}
+  - {index: 3, value: be}
+  - {index: 4, value: cause}
+  - {index: 5, value: by}
+  - {index: 6, value: the}
+  - {index: 7, value: invitation}
+  - {index: 8, value: system}
+  - {index: 9, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubjpass, node: '4', target: '1'}
+  - {label: aux, node: '4', target: '2'}
+  - {label: auxpass, node: '4', target: '3'}
+  - {label: agent, node: '4', target: '8'}
+  - {label: det, node: '8', target: '6'}
+  - {label: nn, node: '8', target: '7'}
+  roots: ['4']
+  sentence: The harm has been caused by the invitation system.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: harm}
+  - {index: 2, value: has}
+  - {index: 3, value: been}
+  - {index: 4, value: caused}
+  - {index: 5, value: by}
+  - {index: 6, value: the}
+  - {index: 7, value: invitation}
+  - {index: 8, value: system}
+  - {index: 9, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 4
+  e1Nominal: fortune
+  e2Index: 7
+  e2Nominal: selling
+  from: TBD
+  incomingEdges:
+  - {label: nn, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: poss, node: '3', target: '4'}
+  - {label: dobj, node: '4', target: '2'}
+  - {label: det, node: '6', target: '7'}
+  - {label: prep_from, node: '7', target: '2'}
+  - {label: prep_of, node: '9', target: '7'}
+  - {label: nsubj, node: '10', target: '11'}
+  - {label: rcmod, node: '11', target: '9'}
+  - {label: dobj, node: '12', target: '11'}
+  lemma:
+  - {index: 0, value: Alfred}
+  - {index: 1, value: Nobel}
+  - {index: 2, value: create}
+  - {index: 3, value: he}
+  - {index: 4, value: fortune}
+  - {index: 5, value: from}
+  - {index: 6, value: the}
+  - {index: 7, value: selling}
+  - {index: 8, value: of}
+  - {index: 9, value: explosive}
+  - {index: 10, value: that}
+  - {index: 11, value: utilize}
+  - {index: 12, value: nitroglycerin}
+  - {index: 13, value: .}
+  outgoingEdges:
+  - {label: nn, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: dobj, node: '2', target: '4'}
+  - {label: prep_from, node: '2', target: '7'}
+  - {label: poss, node: '4', target: '3'}
+  - {label: det, node: '7', target: '6'}
+  - {label: prep_of, node: '7', target: '9'}
+  - {label: rcmod, node: '9', target: '11'}
+  - {label: nsubj, node: '11', target: '10'}
+  - {label: dobj, node: '11', target: '12'}
+  roots: ['2']
+  sentence: Alfred Nobel created his fortune from the selling of explosives that utilized nitroglycerin.
+  to: TBD
+  words:
+  - {index: 0, value: Alfred}
+  - {index: 1, value: Nobel}
+  - {index: 2, value: created}
+  - {index: 3, value: his}
+  - {index: 4, value: fortune}
+  - {index: 5, value: from}
+  - {index: 6, value: the}
+  - {index: 7, value: selling}
+  - {index: 8, value: of}
+  - {index: 9, value: explosives}
+  - {index: 10, value: that}
+  - {index: 11, value: utilized}
+  - {index: 12, value: nitroglycerin}
+  - {index: 13, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: lack
+  e2Index: 7
+  e2Nominal: reliance
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '4'}
+  - {label: prep_of, node: '3', target: '1'}
+  - {label: det, node: '5', target: '7'}
+  - {label: amod, node: '6', target: '7'}
+  - {label: dobj, node: '7', target: '4'}
+  - {label: det, node: '9', target: '10'}
+  - {label: prep_on, node: '10', target: '4'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: lack}
+  - {index: 2, value: of}
+  - {index: 3, value: stability}
+  - {index: 4, value: cause}
+  - {index: 5, value: a}
+  - {index: 6, value: strong}
+  - {index: 7, value: reliance}
+  - {index: 8, value: 'on'}
+  - {index: 9, value: the}
+  - {index: 10, value: colonizer}
+  - {index: 11, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: prep_of, node: '1', target: '3'}
+  - {label: nsubj, node: '4', target: '1'}
+  - {label: dobj, node: '4', target: '7'}
+  - {label: prep_on, node: '4', target: '10'}
+  - {label: det, node: '7', target: '5'}
+  - {label: amod, node: '7', target: '6'}
+  - {label: det, node: '10', target: '9'}
+  roots: ['4']
+  sentence: The lack of stability caused a strong reliance on the colonizers.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: lack}
+  - {index: 2, value: of}
+  - {index: 3, value: stability}
+  - {index: 4, value: caused}
+  - {index: 5, value: a}
+  - {index: 6, value: strong}
+  - {index: 7, value: reliance}
+  - {index: 8, value: 'on'}
+  - {index: 9, value: the}
+  - {index: 10, value: colonizers}
+  - {index: 11, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 13
+  e1Nominal: damage
+  e2Index: 21
+  e2Nominal: war
+  from: TBD
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '9'}
+  - {label: det, node: '2', target: '4'}
+  - {label: amod, node: '3', target: '4'}
+  - {label: conj_and, node: '4', target: '0'}
+  - {label: nsubj, node: '4', target: '9'}
+  - {label: det, node: '6', target: '8'}
+  - {label: nn, node: '7', target: '8'}
+  - {label: prep_of, node: '8', target: '4'}
+  - {label: prepc_about, node: '11', target: '9'}
+  - {label: det, node: '12', target: '13'}
+  - {label: dobj, node: '13', target: '11'}
+  - {label: vmod, node: '14', target: '13'}
+  - {label: det, node: '16', target: '17'}
+  - {label: agent, node: '17', target: '14'}
+  - {label: det, node: '19', target: '21'}
+  - {label: amod, node: '20', target: '21'}
+  - {label: agent, node: '21', target: '14'}
+  - {label: conj_and, node: '21', target: '17'}
+  lemma:
+  - {index: 0, value: Lenin}
+  - {index: 1, value: and}
+  - {index: 2, value: the}
+  - {index: 3, value: other}
+  - {index: 4, value: leader}
+  - {index: 5, value: of}
+  - {index: 6, value: the}
+  - {index: 7, value: Soviet}
+  - {index: 8, value: Union}
+  - {index: 9, value: set}
+  - {index: 10, value: about}
+  - {index: 11, value: repair}
+  - {index: 12, value: the}
+  - {index: 13, value: damage}
+  - {index: 14, value: cause}
+  - {index: 15, value: by}
+  - {index: 16, value: the}
+  - {index: 17, value: revolution}
+  - {index: 18, value: and}
+  - {index: 19, value: the}
+  - {index: 20, value: civil}
+  - {index: 21, value: war}
+  - {index: 22, value: .}
+  outgoingEdges:
+  - {label: conj_and, node: '0', target: '4'}
+  - {label: det, node: '4', target: '2'}
+  - {label: amod, node: '4', target: '3'}
+  - {label: prep_of, node: '4', target: '8'}
+  - {label: det, node: '8', target: '6'}
+  - {label: nn, node: '8', target: '7'}
+  - {label: nsubj, node: '9', target: '0'}
+  - {label: nsubj, node: '9', target: '4'}
+  - {label: prepc_about, node: '9', target: '11'}
+  - {label: dobj, node: '11', target: '13'}
+  - {label: det, node: '13', target: '12'}
+  - {label: vmod, node: '13', target: '14'}
+  - {label: agent, node: '14', target: '17'}
+  - {label: agent, node: '14', target: '21'}
+  - {label: det, node: '17', target: '16'}
+  - {label: conj_and, node: '17', target: '21'}
+  - {label: det, node: '21', target: '19'}
+  - {label: amod, node: '21', target: '20'}
+  roots: ['9']
+  sentence: Lenin and the other leaders of the Soviet Union set about repairing the damage caused by the revolution and the civil war.
+  to: TBD
+  words:
+  - {index: 0, value: Lenin}
+  - {index: 1, value: and}
+  - {index: 2, value: the}
+  - {index: 3, value: other}
+  - {index: 4, value: leaders}
+  - {index: 5, value: of}
+  - {index: 6, value: the}
+  - {index: 7, value: Soviet}
+  - {index: 8, value: Union}
+  - {index: 9, value: set}
+  - {index: 10, value: about}
+  - {index: 11, value: repairing}
+  - {index: 12, value: the}
+  - {index: 13, value: damage}
+  - {index: 14, value: caused}
+  - {index: 15, value: by}
+  - {index: 16, value: the}
+  - {index: 17, value: revolution}
+  - {index: 18, value: and}
+  - {index: 19, value: the}
+  - {index: 20, value: civil}
+  - {index: 21, value: war}
+  - {index: 22, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: reaction
+  e2Index: 5
+  e2Nominal: press
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '21'}
+  - {label: nsubj, node: '1', target: '23'}
+  - {label: det, node: '3', target: '5'}
+  - {label: amod, node: '4', target: '5'}
+  - {label: prep_from, node: '5', target: '1'}
+  - {label: dobj, node: '7', target: '10'}
+  - {label: nsubj, node: '8', target: '10'}
+  - {label: cop, node: '9', target: '10'}
+  - {label: rcmod, node: '10', target: '1'}
+  - {label: nsubj, node: '11', target: '16'}
+  - {label: advmod, node: '12', target: '16'}
+  - {label: prep_in, node: '14', target: '12'}
+  - {label: aux, node: '15', target: '16'}
+  - {label: ccomp, node: '16', target: '10'}
+  - {label: aux, node: '18', target: '21'}
+  - {label: cop, node: '19', target: '21'}
+  - {label: advmod, node: '20', target: '21'}
+  - {label: conj_and, node: '23', target: '21'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: reaction}
+  - {index: 2, value: from}
+  - {index: 3, value: the}
+  - {index: 4, value: international}
+  - {index: 5, value: press}
+  - {index: 6, value: ','}
+  - {index: 7, value: which}
+  - {index: 8, value: I}
+  - {index: 9, value: be}
+  - {index: 10, value: sure}
+  - {index: 11, value: you}
+  - {index: 12, value: here}
+  - {index: 13, value: in}
+  - {index: 14, value: Tokyo}
+  - {index: 15, value: have}
+  - {index: 16, value: notice}
+  - {index: 17, value: ','}
+  - {index: 18, value: have}
+  - {index: 19, value: be}
+  - {index: 20, value: very}
+  - {index: 21, value: wide}
+  - {index: 22, value: and}
+  - {index: 23, value: detailed}
+  - {index: 24, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: prep_from, node: '1', target: '5'}
+  - {label: rcmod, node: '1', target: '10'}
+  - {label: det, node: '5', target: '3'}
+  - {label: amod, node: '5', target: '4'}
+  - {label: dobj, node: '10', target: '7'}
+  - {label: nsubj, node: '10', target: '8'}
+  - {label: cop, node: '10', target: '9'}
+  - {label: ccomp, node: '10', target: '16'}
+  - {label: prep_in, node: '12', target: '14'}
+  - {label: nsubj, node: '16', target: '11'}
+  - {label: advmod, node: '16', target: '12'}
+  - {label: aux, node: '16', target: '15'}
+  - {label: nsubj, node: '21', target: '1'}
+  - {label: aux, node: '21', target: '18'}
+  - {label: cop, node: '21', target: '19'}
+  - {label: advmod, node: '21', target: '20'}
+  - {label: conj_and, node: '21', target: '23'}
+  - {label: nsubj, node: '23', target: '1'}
+  roots: ['21']
+  sentence: The reaction from the international press, which I am sure you here in Tokyo have noticed, has been very wide and detailed.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: reaction}
+  - {index: 2, value: from}
+  - {index: 3, value: the}
+  - {index: 4, value: international}
+  - {index: 5, value: press}
+  - {index: 6, value: ','}
+  - {index: 7, value: which}
+  - {index: 8, value: I}
+  - {index: 9, value: am}
+  - {index: 10, value: sure}
+  - {index: 11, value: you}
+  - {index: 12, value: here}
+  - {index: 13, value: in}
+  - {index: 14, value: Tokyo}
+  - {index: 15, value: have}
+  - {index: 16, value: noticed}
+  - {index: 17, value: ','}
+  - {index: 18, value: has}
+  - {index: 19, value: been}
+  - {index: 20, value: very}
+  - {index: 21, value: wide}
+  - {index: 22, value: and}
+  - {index: 23, value: detailed}
+  - {index: 24, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 10
+  e1Nominal: crash
+  e2Index: 14
+  e2Nominal: event
+  from: TBD
+  incomingEdges:
+  - {label: advmod, node: '0', target: '4'}
+  - {label: det, node: '1', target: '3'}
+  - {label: amod, node: '2', target: '3'}
+  - {label: nsubj, node: '3', target: '4'}
+  - {label: advcl, node: '4', target: '11'}
+  - {label: prep_in, node: '6', target: '4'}
+  - {label: num, node: '7', target: '6'}
+  - {label: det, node: '9', target: '10'}
+  - {label: nsubj, node: '10', target: '11'}
+  - {label: nsubj, node: '10', target: '23'}
+  - {label: det, node: '12', target: '14'}
+  - {label: amod, node: '13', target: '14'}
+  - {label: dobj, node: '14', target: '11'}
+  - {label: xcomp, node: '15', target: '11'}
+  - {label: dobj, node: '16', target: '15'}
+  - {label: det, node: '18', target: '20'}
+  - {label: nn, node: '19', target: '20'}
+  - {label: prep_on, node: '20', target: '15'}
+  - {label: conj_and, node: '23', target: '11'}
+  - {label: dobj, node: '24', target: '23'}
+  - {label: prep, node: '25', target: '24'}
+  - {label: det, node: '26', target: '27'}
+  - {label: pobj, node: '27', target: '25'}
+  - {label: prep_of, node: '29', target: '27'}
+  - {label: prep_at, node: '31', target: '23'}
+  - {label: prep_of, node: '33', target: '31'}
+  lemma:
+  - {index: 0, value: when}
+  - {index: 1, value: the}
+  - {index: 2, value: first}
+  - {index: 3, value: model}
+  - {index: 4, value: sink}
+  - {index: 5, value: in}
+  - {index: 6, value: August}
+  - {index: 7, value: '1991'}
+  - {index: 8, value: ','}
+  - {index: 9, value: the}
+  - {index: 10, value: crash}
+  - {index: 11, value: cause}
+  - {index: 12, value: a}
+  - {index: 13, value: seismic}
+  - {index: 14, value: event}
+  - {index: 15, value: register}
+  - {index: 16, value: '3.0'}
+  - {index: 17, value: 'on'}
+  - {index: 18, value: the}
+  - {index: 19, value: Richter}
+  - {index: 20, value: scale}
+  - {index: 21, value: ','}
+  - {index: 22, value: and}
+  - {index: 23, value: leave}
+  - {index: 24, value: nothing}
+  - {index: 25, value: but}
+  - {index: 26, value: a}
+  - {index: 27, value: pile}
+  - {index: 28, value: of}
+  - {index: 29, value: debris}
+  - {index: 30, value: at}
+  - {index: 31, value: 220m}
+  - {index: 32, value: of}
+  - {index: 33, value: depth}
+  - {index: 34, value: .}
+  outgoingEdges:
+  - {label: det, node: '3', target: '1'}
+  - {label: amod, node: '3', target: '2'}
+  - {label: advmod, node: '4', target: '0'}
+  - {label: nsubj, node: '4', target: '3'}
+  - {label: prep_in, node: '4', target: '6'}
+  - {label: num, node: '6', target: '7'}
+  - {label: det, node: '10', target: '9'}
+  - {label: advcl, node: '11', target: '4'}
+  - {label: nsubj, node: '11', target: '10'}
+  - {label: dobj, node: '11', target: '14'}
+  - {label: xcomp, node: '11', target: '15'}
+  - {label: conj_and, node: '11', target: '23'}
+  - {label: det, node: '14', target: '12'}
+  - {label: amod, node: '14', target: '13'}
+  - {label: dobj, node: '15', target: '16'}
+  - {label: prep_on, node: '15', target: '20'}
+  - {label: det, node: '20', target: '18'}
+  - {label: nn, node: '20', target: '19'}
+  - {label: nsubj, node: '23', target: '10'}
+  - {label: dobj, node: '23', target: '24'}
+  - {label: prep_at, node: '23', target: '31'}
+  - {label: prep, node: '24', target: '25'}
+  - {label: pobj, node: '25', target: '27'}
+  - {label: det, node: '27', target: '26'}
+  - {label: prep_of, node: '27', target: '29'}
+  - {label: prep_of, node: '31', target: '33'}
+  roots: ['11']
+  sentence: When the first model sank in August 1991, the crash caused a seismic event registering 3.0 on the Richter scale, and left nothing but a pile of debris at 220m of depth.
+  to: TBD
+  words:
+  - {index: 0, value: When}
+  - {index: 1, value: the}
+  - {index: 2, value: first}
+  - {index: 3, value: model}
+  - {index: 4, value: sank}
+  - {index: 5, value: in}
+  - {index: 6, value: August}
+  - {index: 7, value: '1991'}
+  - {index: 8, value: ','}
+  - {index: 9, value: the}
+  - {index: 10, value: crash}
+  - {index: 11, value: caused}
+  - {index: 12, value: a}
+  - {index: 13, value: seismic}
+  - {index: 14, value: event}
+  - {index: 15, value: registering}
+  - {index: 16, value: '3.0'}
+  - {index: 17, value: 'on'}
+  - {index: 18, value: the}
+  - {index: 19, value: Richter}
+  - {index: 20, value: scale}
+  - {index: 21, value: ','}
+  - {index: 22, value: and}
+  - {index: 23, value: left}
+  - {index: 24, value: nothing}
+  - {index: 25, value: but}
+  - {index: 26, value: a}
+  - {index: 27, value: pile}
+  - {index: 28, value: of}
+  - {index: 29, value: debris}
+  - {index: 30, value: at}
+  - {index: 31, value: 220m}
+  - {index: 32, value: of}
+  - {index: 33, value: depth}
+  - {index: 34, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 9
+  e1Nominal: accident
+  e2Index: 14
+  e2Nominal: death
+  from: TBD
+  incomingEdges:
+  - {label: prep_for, node: '1', target: '22'}
+  - {label: csubjpass, node: '3', target: '22'}
+  - {label: advmod, node: '4', target: '3'}
+  - {label: conj_and, node: '6', target: '3'}
+  - {label: csubjpass, node: '6', target: '22'}
+  - {label: det, node: '7', target: '9'}
+  - {label: nn, node: '8', target: '9'}
+  - {label: dobj, node: '9', target: '6'}
+  - {label: nsubj, node: '10', target: '11'}
+  - {label: rcmod, node: '11', target: '9'}
+  - {label: det, node: '13', target: '14'}
+  - {label: prep_in, node: '14', target: '11'}
+  - {label: det, node: '16', target: '17'}
+  - {label: prep_of, node: '17', target: '14'}
+  - {label: prep_of, node: '19', target: '14'}
+  - {label: conj_or, node: '19', target: '17'}
+  - {label: aux, node: '20', target: '22'}
+  - {label: auxpass, node: '21', target: '22'}
+  - {label: prep_as, node: '24', target: '22'}
+  lemma:
+  - {index: 0, value: for}
+  - {index: 1, value: example}
+  - {index: 2, value: ','}
+  - {index: 3, value: drive}
+  - {index: 4, value: recklessly}
+  - {index: 5, value: and}
+  - {index: 6, value: cause}
+  - {index: 7, value: a}
+  - {index: 8, value: auto}
+  - {index: 9, value: accident}
+  - {index: 10, value: that}
+  - {index: 11, value: result}
+  - {index: 12, value: in}
+  - {index: 13, value: the}
+  - {index: 14, value: death}
+  - {index: 15, value: of}
+  - {index: 16, value: another}
+  - {index: 17, value: driver}
+  - {index: 18, value: or}
+  - {index: 19, value: passenger}
+  - {index: 20, value: could}
+  - {index: 21, value: be}
+  - {index: 22, value: qualify}
+  - {index: 23, value: as}
+  - {index: 24, value: manslaughter}
+  - {index: 25, value: .}
+  outgoingEdges:
+  - {label: advmod, node: '3', target: '4'}
+  - {label: conj_and, node: '3', target: '6'}
+  - {label: dobj, node: '6', target: '9'}
+  - {label: det, node: '9', target: '7'}
+  - {label: nn, node: '9', target: '8'}
+  - {label: rcmod, node: '9', target: '11'}
+  - {label: nsubj, node: '11', target: '10'}
+  - {label: prep_in, node: '11', target: '14'}
+  - {label: det, node: '14', target: '13'}
+  - {label: prep_of, node: '14', target: '17'}
+  - {label: prep_of, node: '14', target: '19'}
+  - {label: det, node: '17', target: '16'}
+  - {label: conj_or, node: '17', target: '19'}
+  - {label: prep_for, node: '22', target: '1'}
+  - {label: csubjpass, node: '22', target: '3'}
+  - {label: csubjpass, node: '22', target: '6'}
+  - {label: aux, node: '22', target: '20'}
+  - {label: auxpass, node: '22', target: '21'}
+  - {label: prep_as, node: '22', target: '24'}
+  roots: ['22']
+  sentence: For example, driving recklessly and causing an auto accident that result in the death of another driver or passenger could be qualified as manslaughter.
+  to: TBD
+  words:
+  - {index: 0, value: For}
+  - {index: 1, value: example}
+  - {index: 2, value: ','}
+  - {index: 3, value: driving}
+  - {index: 4, value: recklessly}
+  - {index: 5, value: and}
+  - {index: 6, value: causing}
+  - {index: 7, value: an}
+  - {index: 8, value: auto}
+  - {index: 9, value: accident}
+  - {index: 10, value: that}
+  - {index: 11, value: result}
+  - {index: 12, value: in}
+  - {index: 13, value: the}
+  - {index: 14, value: death}
+  - {index: 15, value: of}
+  - {index: 16, value: another}
+  - {index: 17, value: driver}
+  - {index: 18, value: or}
+  - {index: 19, value: passenger}
+  - {index: 20, value: could}
+  - {index: 21, value: be}
+  - {index: 22, value: qualified}
+  - {index: 23, value: as}
+  - {index: 24, value: manslaughter}
+  - {index: 25, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 4
+  e1Nominal: death
+  e2Index: 10
+  e2Nominal: storm
+  from: TBD
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '15'}
+  - {label: vmod, node: '1', target: '0'}
+  - {label: det, node: '3', target: '4'}
+  - {label: prep_with, node: '4', target: '1'}
+  - {label: prep_with, node: '6', target: '1'}
+  - {label: conj_and, node: '6', target: '4'}
+  - {label: vmod, node: '7', target: '4'}
+  - {label: det, node: '9', target: '10'}
+  - {label: agent, node: '10', target: '7'}
+  - {label: cop, node: '11', target: '15'}
+  - {label: det, node: '12', target: '15'}
+  - {label: advmod, node: '13', target: '15'}
+  - {label: amod, node: '14', target: '15'}
+  - {label: det, node: '17', target: '18'}
+  - {label: prep_for, node: '18', target: '15'}
+  lemma:
+  - {index: 0, value: that}
+  - {index: 1, value: couple}
+  - {index: 2, value: with}
+  - {index: 3, value: the}
+  - {index: 4, value: death}
+  - {index: 5, value: and}
+  - {index: 6, value: destruction}
+  - {index: 7, value: cause}
+  - {index: 8, value: by}
+  - {index: 9, value: the}
+  - {index: 10, value: storm}
+  - {index: 11, value: be}
+  - {index: 12, value: a}
+  - {index: 13, value: very}
+  - {index: 14, value: traumatic}
+  - {index: 15, value: experience}
+  - {index: 16, value: for}
+  - {index: 17, value: these}
+  - {index: 18, value: resident}
+  - {index: 19, value: .}
+  outgoingEdges:
+  - {label: vmod, node: '0', target: '1'}
+  - {label: prep_with, node: '1', target: '4'}
+  - {label: prep_with, node: '1', target: '6'}
+  - {label: det, node: '4', target: '3'}
+  - {label: conj_and, node: '4', target: '6'}
+  - {label: vmod, node: '4', target: '7'}
+  - {label: agent, node: '7', target: '10'}
+  - {label: det, node: '10', target: '9'}
+  - {label: nsubj, node: '15', target: '0'}
+  - {label: cop, node: '15', target: '11'}
+  - {label: det, node: '15', target: '12'}
+  - {label: advmod, node: '15', target: '13'}
+  - {label: amod, node: '15', target: '14'}
+  - {label: prep_for, node: '15', target: '18'}
+  - {label: det, node: '18', target: '17'}
+  roots: ['15']
+  sentence: That coupled with the death and destruction caused by the storm was a very traumatic experience for these residents.
+  to: TBD
+  words:
+  - {index: 0, value: That}
+  - {index: 1, value: coupled}
+  - {index: 2, value: with}
+  - {index: 3, value: the}
+  - {index: 4, value: death}
+  - {index: 5, value: and}
+  - {index: 6, value: destruction}
+  - {index: 7, value: caused}
+  - {index: 8, value: by}
+  - {index: 9, value: the}
+  - {index: 10, value: storm}
+  - {index: 11, value: was}
+  - {index: 12, value: a}
+  - {index: 13, value: very}
+  - {index: 14, value: traumatic}
+  - {index: 15, value: experience}
+  - {index: 16, value: for}
+  - {index: 17, value: these}
+  - {index: 18, value: residents}
+  - {index: 19, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: infection
+  e2Index: 5
+  e2Nominal: wound
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: det, node: '4', target: '5'}
+  - {label: prep_from, node: '5', target: '2'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: infection}
+  - {index: 2, value: come}
+  - {index: 3, value: from}
+  - {index: 4, value: a}
+  - {index: 5, value: wound}
+  - {index: 6, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: prep_from, node: '2', target: '5'}
+  - {label: det, node: '5', target: '4'}
+  roots: ['2']
+  sentence: The infection came from a wound.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: infection}
+  - {index: 2, value: came}
+  - {index: 3, value: from}
+  - {index: 4, value: a}
+  - {index: 5, value: wound}
+  - {index: 6, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 6
+  e1Nominal: profit
+  e2Index: 9
+  e2Nominal: selling
+  from: TBD
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '4'}
+  - {label: appos, node: '2', target: '0'}
+  - {label: det, node: '5', target: '6'}
+  - {label: dobj, node: '6', target: '4'}
+  - {label: det, node: '8', target: '9'}
+  - {label: prep_from, node: '9', target: '4'}
+  - {label: nn, node: '11', target: '12'}
+  - {label: poss, node: '12', target: '15'}
+  - {label: nn, node: '14', target: '15'}
+  - {label: prep_of, node: '15', target: '9'}
+  lemma:
+  - {index: 0, value: Sumatera}
+  - {index: 1, value: -lrb-}
+  - {index: 2, value: Yagasu}
+  - {index: 3, value: -rrb-}
+  - {index: 4, value: make}
+  - {index: 5, value: a}
+  - {index: 6, value: profit}
+  - {index: 7, value: from}
+  - {index: 8, value: the}
+  - {index: 9, value: selling}
+  - {index: 10, value: of}
+  - {index: 11, value: woman}
+  - {index: 12, value: group}
+  - {index: 13, value: ''''}
+  - {index: 14, value: handicraft}
+  - {index: 15, value: activity}
+  - {index: 16, value: .}
+  outgoingEdges:
+  - {label: appos, node: '0', target: '2'}
+  - {label: nsubj, node: '4', target: '0'}
+  - {label: dobj, node: '4', target: '6'}
+  - {label: prep_from, node: '4', target: '9'}
+  - {label: det, node: '6', target: '5'}
+  - {label: det, node: '9', target: '8'}
+  - {label: prep_of, node: '9', target: '15'}
+  - {label: nn, node: '12', target: '11'}
+  - {label: poss, node: '15', target: '12'}
+  - {label: nn, node: '15', target: '14'}
+  roots: ['4']
+  sentence: Sumatera (Yagasu) made a profit from the selling of women groups' handicrafts activities.
+  to: TBD
+  words:
+  - {index: 0, value: Sumatera}
+  - {index: 1, value: -LRB-}
+  - {index: 2, value: Yagasu}
+  - {index: 3, value: -RRB-}
+  - {index: 4, value: made}
+  - {index: 5, value: a}
+  - {index: 6, value: profit}
+  - {index: 7, value: from}
+  - {index: 8, value: the}
+  - {index: 9, value: selling}
+  - {index: 10, value: of}
+  - {index: 11, value: women}
+  - {index: 12, value: groups}
+  - {index: 13, value: ''''}
+  - {index: 14, value: handicrafts}
+  - {index: 15, value: activities}
+  - {index: 16, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 19
+  e1Nominal: profit
+  e2Index: 22
+  e2Nominal: selling
+  from: TBD
+  incomingEdges:
+  - {label: nn, node: '0', target: '1'}
+  - {label: det, node: '3', target: '4'}
+  - {label: dep, node: '4', target: '1'}
+  - {label: nsubj, node: '5', target: '6'}
+  - {label: nsubj, node: '5', target: '11'}
+  - {label: rcmod, node: '6', target: '4'}
+  - {label: nn, node: '7', target: '8'}
+  - {label: dobj, node: '8', target: '6'}
+  - {label: rcmod, node: '11', target: '4'}
+  - {label: conj_and, node: '11', target: '6'}
+  - {label: dobj, node: '12', target: '11'}
+  - {label: det, node: '14', target: '15'}
+  - {label: prep_with, node: '15', target: '11'}
+  - {label: prepc_of, node: '17', target: '15'}
+  - {label: det, node: '18', target: '19'}
+  - {label: dobj, node: '19', target: '17'}
+  - {label: det, node: '21', target: '22'}
+  - {label: prep_from, node: '22', target: '17'}
+  - {label: det, node: '24', target: '26'}
+  - {label: nn, node: '25', target: '26'}
+  - {label: prep_of, node: '26', target: '22'}
+  lemma:
+  - {index: 0, value: Cyber}
+  - {index: 1, value: squatter}
+  - {index: 2, value: '-'}
+  - {index: 3, value: a}
+  - {index: 4, value: person}
+  - {index: 5, value: who}
+  - {index: 6, value: buy}
+  - {index: 7, value: domain}
+  - {index: 8, value: name}
+  - {index: 9, value: ','}
+  - {index: 10, value: and}
+  - {index: 11, value: hold}
+  - {index: 12, value: they}
+  - {index: 13, value: with}
+  - {index: 14, value: the}
+  - {index: 15, value: intent}
+  - {index: 16, value: of}
+  - {index: 17, value: make}
+  - {index: 18, value: a}
+  - {index: 19, value: profit}
+  - {index: 20, value: from}
+  - {index: 21, value: the}
+  - {index: 22, value: selling}
+  - {index: 23, value: of}
+  - {index: 24, value: the}
+  - {index: 25, value: domain}
+  - {index: 26, value: name}
+  - {index: 27, value: .}
+  outgoingEdges:
+  - {label: nn, node: '1', target: '0'}
+  - {label: dep, node: '1', target: '4'}
+  - {label: det, node: '4', target: '3'}
+  - {label: rcmod, node: '4', target: '6'}
+  - {label: rcmod, node: '4', target: '11'}
+  - {label: nsubj, node: '6', target: '5'}
+  - {label: dobj, node: '6', target: '8'}
+  - {label: conj_and, node: '6', target: '11'}
+  - {label: nn, node: '8', target: '7'}
+  - {label: nsubj, node: '11', target: '5'}
+  - {label: dobj, node: '11', target: '12'}
+  - {label: prep_with, node: '11', target: '15'}
+  - {label: det, node: '15', target: '14'}
+  - {label: prepc_of, node: '15', target: '17'}
+  - {label: dobj, node: '17', target: '19'}
+  - {label: prep_from, node: '17', target: '22'}
+  - {label: det, node: '19', target: '18'}
+  - {label: det, node: '22', target: '21'}
+  - {label: prep_of, node: '22', target: '26'}
+  - {label: det, node: '26', target: '24'}
+  - {label: nn, node: '26', target: '25'}
+  roots: ['1']
+  sentence: Cyber squatter- A person who buys domain names, and holds them with the intent of making a profit from the selling of the domain name.
+  to: TBD
+  words:
+  - {index: 0, value: Cyber}
+  - {index: 1, value: squatter}
+  - {index: 2, value: '-'}
+  - {index: 3, value: A}
+  - {index: 4, value: person}
+  - {index: 5, value: who}
+  - {index: 6, value: buys}
+  - {index: 7, value: domain}
+  - {index: 8, value: names}
+  - {index: 9, value: ','}
+  - {index: 10, value: and}
+  - {index: 11, value: holds}
+  - {index: 12, value: them}
+  - {index: 13, value: with}
+  - {index: 14, value: the}
+  - {index: 15, value: intent}
+  - {index: 16, value: of}
+  - {index: 17, value: making}
+  - {index: 18, value: a}
+  - {index: 19, value: profit}
+  - {index: 20, value: from}
+  - {index: 21, value: the}
+  - {index: 22, value: selling}
+  - {index: 23, value: of}
+  - {index: 24, value: the}
+  - {index: 25, value: domain}
+  - {index: 26, value: name}
+  - {index: 27, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: addition
+  e2Index: 11
+  e2Nominal: reaction
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '7'}
+  - {label: prep_of, node: '3', target: '1'}
+  - {label: det, node: '5', target: '6'}
+  - {label: prep_to, node: '6', target: '3'}
+  - {label: det, node: '8', target: '11'}
+  - {label: amod, node: '9', target: '11'}
+  - {label: nn, node: '10', target: '11'}
+  - {label: dobj, node: '11', target: '7'}
+  - {label: vmod, node: '13', target: '7'}
+  - {label: det, node: '15', target: '17'}
+  - {label: amod, node: '16', target: '17'}
+  - {label: prep_in, node: '17', target: '13'}
+  - {label: prep_in, node: '19', target: '17'}
+  - {label: prep_in, node: '21', target: '17'}
+  - {label: conj_and, node: '21', target: '19'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: addition}
+  - {index: 2, value: of}
+  - {index: 3, value: water}
+  - {index: 4, value: to}
+  - {index: 5, value: the}
+  - {index: 6, value: tank}
+  - {index: 7, value: cause}
+  - {index: 8, value: a}
+  - {index: 9, value: runaway}
+  - {index: 10, value: chemical}
+  - {index: 11, value: reaction}
+  - {index: 12, value: ','}
+  - {index: 13, value: result}
+  - {index: 14, value: in}
+  - {index: 15, value: a}
+  - {index: 16, value: rapid}
+  - {index: 17, value: rise}
+  - {index: 18, value: in}
+  - {index: 19, value: pressure}
+  - {index: 20, value: and}
+  - {index: 21, value: temperature}
+  - {index: 22, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: prep_of, node: '1', target: '3'}
+  - {label: prep_to, node: '3', target: '6'}
+  - {label: det, node: '6', target: '5'}
+  - {label: nsubj, node: '7', target: '1'}
+  - {label: dobj, node: '7', target: '11'}
+  - {label: vmod, node: '7', target: '13'}
+  - {label: det, node: '11', target: '8'}
+  - {label: amod, node: '11', target: '9'}
+  - {label: nn, node: '11', target: '10'}
+  - {label: prep_in, node: '13', target: '17'}
+  - {label: det, node: '17', target: '15'}
+  - {label: amod, node: '17', target: '16'}
+  - {label: prep_in, node: '17', target: '19'}
+  - {label: prep_in, node: '17', target: '21'}
+  - {label: conj_and, node: '19', target: '21'}
+  roots: ['7']
+  sentence: The addition of water to the tank caused a runaway chemical reaction, resulting in a rapid rise in pressure and temperature.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: addition}
+  - {index: 2, value: of}
+  - {index: 3, value: water}
+  - {index: 4, value: to}
+  - {index: 5, value: the}
+  - {index: 6, value: tank}
+  - {index: 7, value: caused}
+  - {index: 8, value: a}
+  - {index: 9, value: runaway}
+  - {index: 10, value: chemical}
+  - {index: 11, value: reaction}
+  - {index: 12, value: ','}
+  - {index: 13, value: resulting}
+  - {index: 14, value: in}
+  - {index: 15, value: a}
+  - {index: 16, value: rapid}
+  - {index: 17, value: rise}
+  - {index: 18, value: in}
+  - {index: 19, value: pressure}
+  - {index: 20, value: and}
+  - {index: 21, value: temperature}
+  - {index: 22, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: outbreak
+  e2Index: 8
+  e2Nominal: virus
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '3'}
+  - {label: auxpass, node: '2', target: '3'}
+  - {label: det, node: '5', target: '8'}
+  - {label: amod, node: '6', target: '8'}
+  - {label: nn, node: '7', target: '8'}
+  - {label: agent, node: '8', target: '3'}
+  - {label: nsubjpass, node: '9', target: '11'}
+  - {label: nsubj, node: '9', target: '29'}
+  - {label: auxpass, node: '10', target: '11'}
+  - {label: rcmod, node: '11', target: '8'}
+  - {label: prep_in, node: '13', target: '11'}
+  - {label: vmod, node: '14', target: '13'}
+  - {label: advmod, node: '15', target: '14'}
+  - {label: det, node: '16', target: '18'}
+  - {label: amod, node: '17', target: '18'}
+  - {label: dobj, node: '18', target: '14'}
+  - {label: amod, node: '20', target: '21'}
+  - {label: prep_in, node: '21', target: '14'}
+  - {label: mark, node: '22', target: '25'}
+  - {label: nsubj, node: '23', target: '25'}
+  - {label: cop, node: '24', target: '25'}
+  - {label: advcl, node: '25', target: '14'}
+  - {label: aux, node: '27', target: '29'}
+  - {label: neg, node: '28', target: '29'}
+  - {label: rcmod, node: '29', target: '8'}
+  - {label: conj_and, node: '29', target: '11'}
+  - {label: amod, node: '30', target: '31'}
+  - {label: dobj, node: '31', target: '29'}
+  - {label: aux, node: '32', target: '33'}
+  - {label: xcomp, node: '33', target: '29'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: outbreak}
+  - {index: 2, value: be}
+  - {index: 3, value: cause}
+  - {index: 4, value: by}
+  - {index: 5, value: the}
+  - {index: 6, value: live}
+  - {index: 7, value: polio}
+  - {index: 8, value: virus}
+  - {index: 9, value: that}
+  - {index: 10, value: be}
+  - {index: 11, value: use}
+  - {index: 12, value: in}
+  - {index: 13, value: vaccine}
+  - {index: 14, value: give}
+  - {index: 15, value: orally}
+  - {index: 16, value: the}
+  - {index: 17, value: preferred}
+  - {index: 18, value: method}
+  - {index: 19, value: in}
+  - {index: 20, value: develop}
+  - {index: 21, value: country}
+  - {index: 22, value: because}
+  - {index: 23, value: it}
+  - {index: 24, value: be}
+  - {index: 25, value: cheaper}
+  - {index: 26, value: and}
+  - {index: 27, value: do}
+  - {index: 28, value: not}
+  - {index: 29, value: require}
+  - {index: 30, value: medical}
+  - {index: 31, value: training}
+  - {index: 32, value: to}
+  - {index: 33, value: dispense}
+  - {index: 34, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubjpass, node: '3', target: '1'}
+  - {label: auxpass, node: '3', target: '2'}
+  - {label: agent, node: '3', target: '8'}
+  - {label: det, node: '8', target: '5'}
+  - {label: amod, node: '8', target: '6'}
+  - {label: nn, node: '8', target: '7'}
+  - {label: rcmod, node: '8', target: '11'}
+  - {label: rcmod, node: '8', target: '29'}
+  - {label: nsubjpass, node: '11', target: '9'}
+  - {label: auxpass, node: '11', target: '10'}
+  - {label: prep_in, node: '11', target: '13'}
+  - {label: conj_and, node: '11', target: '29'}
+  - {label: vmod, node: '13', target: '14'}
+  - {label: advmod, node: '14', target: '15'}
+  - {label: dobj, node: '14', target: '18'}
+  - {label: prep_in, node: '14', target: '21'}
+  - {label: advcl, node: '14', target: '25'}
+  - {label: det, node: '18', target: '16'}
+  - {label: amod, node: '18', target: '17'}
+  - {label: amod, node: '21', target: '20'}
+  - {label: mark, node: '25', target: '22'}
+  - {label: nsubj, node: '25', target: '23'}
+  - {label: cop, node: '25', target: '24'}
+  - {label: nsubj, node: '29', target: '9'}
+  - {label: aux, node: '29', target: '27'}
+  - {label: neg, node: '29', target: '28'}
+  - {label: dobj, node: '29', target: '31'}
+  - {label: xcomp, node: '29', target: '33'}
+  - {label: amod, node: '31', target: '30'}
+  - {label: aux, node: '33', target: '32'}
+  roots: ['3']
+  sentence: The outbreak was caused by the live polio virus that is used in vaccines given orally the preferred method in developing countries because it is cheaper and doesn't require medical training to dispense.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: outbreak}
+  - {index: 2, value: was}
+  - {index: 3, value: caused}
+  - {index: 4, value: by}
+  - {index: 5, value: the}
+  - {index: 6, value: live}
+  - {index: 7, value: polio}
+  - {index: 8, value: virus}
+  - {index: 9, value: that}
+  - {index: 10, value: is}
+  - {index: 11, value: used}
+  - {index: 12, value: in}
+  - {index: 13, value: vaccines}
+  - {index: 14, value: given}
+  - {index: 15, value: orally}
+  - {index: 16, value: the}
+  - {index: 17, value: preferred}
+  - {index: 18, value: method}
+  - {index: 19, value: in}
+  - {index: 20, value: developing}
+  - {index: 21, value: countries}
+  - {index: 22, value: because}
+  - {index: 23, value: it}
+  - {index: 24, value: is}
+  - {index: 25, value: cheaper}
+  - {index: 26, value: and}
+  - {index: 27, value: does}
+  - {index: 28, value: n't}
+  - {index: 29, value: require}
+  - {index: 30, value: medical}
+  - {index: 31, value: training}
+  - {index: 32, value: to}
+  - {index: 33, value: dispense}
+  - {index: 34, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 4
+  e1Nominal: damage
+  e2Index: 7
+  e2Nominal: explosion
+  from: TBD
+  incomingEdges:
+  - {label: amod, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: det, node: '3', target: '4'}
+  - {label: dobj, node: '4', target: '2'}
+  - {label: det, node: '6', target: '7'}
+  - {label: prep_after, node: '7', target: '2'}
+  - {label: det, node: '9', target: '10'}
+  - {label: prep_in, node: '10', target: '7'}
+  - {label: prep_in, node: '12', target: '10'}
+  lemma:
+  - {index: 0, value: iraqi}
+  - {index: 1, value: soldier}
+  - {index: 2, value: inspect}
+  - {index: 3, value: the}
+  - {index: 4, value: damage}
+  - {index: 5, value: after}
+  - {index: 6, value: the}
+  - {index: 7, value: explosion}
+  - {index: 8, value: in}
+  - {index: 9, value: a}
+  - {index: 10, value: school}
+  - {index: 11, value: in}
+  - {index: 12, value: Baghdad}
+  - {index: 13, value: .}
+  outgoingEdges:
+  - {label: amod, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: dobj, node: '2', target: '4'}
+  - {label: prep_after, node: '2', target: '7'}
+  - {label: det, node: '4', target: '3'}
+  - {label: det, node: '7', target: '6'}
+  - {label: prep_in, node: '7', target: '10'}
+  - {label: det, node: '10', target: '9'}
+  - {label: prep_in, node: '10', target: '12'}
+  roots: ['2']
+  sentence: Iraqi soldiers inspect the damage after the explosion in a school in Baghdad.
+  to: TBD
+  words:
+  - {index: 0, value: Iraqi}
+  - {index: 1, value: soldiers}
+  - {index: 2, value: inspect}
+  - {index: 3, value: the}
+  - {index: 4, value: damage}
+  - {index: 5, value: after}
+  - {index: 6, value: the}
+  - {index: 7, value: explosion}
+  - {index: 8, value: in}
+  - {index: 9, value: a}
+  - {index: 10, value: school}
+  - {index: 11, value: in}
+  - {index: 12, value: Baghdad}
+  - {index: 13, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 5
+  e1Nominal: commission
+  e2Index: 8
+  e2Nominal: selling
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '3'}
+  - {label: auxpass, node: '2', target: '3'}
+  - {label: aux, node: '4', target: '5'}
+  - {label: xcomp, node: '5', target: '3'}
+  - {label: det, node: '7', target: '8'}
+  - {label: prep_from, node: '8', target: '5'}
+  - {label: poss, node: '10', target: '11'}
+  - {label: prep_of, node: '11', target: '8'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: broker}
+  - {index: 2, value: be}
+  - {index: 3, value: entitle}
+  - {index: 4, value: to}
+  - {index: 5, value: commission}
+  - {index: 6, value: from}
+  - {index: 7, value: the}
+  - {index: 8, value: selling}
+  - {index: 9, value: of}
+  - {index: 10, value: you}
+  - {index: 11, value: property}
+  - {index: 12, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubjpass, node: '3', target: '1'}
+  - {label: auxpass, node: '3', target: '2'}
+  - {label: xcomp, node: '3', target: '5'}
+  - {label: aux, node: '5', target: '4'}
+  - {label: prep_from, node: '5', target: '8'}
+  - {label: det, node: '8', target: '7'}
+  - {label: prep_of, node: '8', target: '11'}
+  - {label: poss, node: '11', target: '10'}
+  roots: ['3']
+  sentence: The broker is entitled to commission from the selling of your property.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: broker}
+  - {index: 2, value: is}
+  - {index: 3, value: entitled}
+  - {index: 4, value: to}
+  - {index: 5, value: commission}
+  - {index: 6, value: from}
+  - {index: 7, value: the}
+  - {index: 8, value: selling}
+  - {index: 9, value: of}
+  - {index: 10, value: your}
+  - {index: 11, value: property}
+  - {index: 12, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: unemployment
+  e2Index: 11
+  e2Nominal: alcoholism
+  from: TBD
+  incomingEdges:
+  - {label: amod, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '6'}
+  - {label: prep_of, node: '3', target: '1'}
+  - {label: prep_of, node: '5', target: '1'}
+  - {label: conj_and, node: '5', target: '3'}
+  - {label: nn, node: '8', target: '9'}
+  - {label: prep_to, node: '9', target: '6'}
+  - {label: prep_to, node: '11', target: '6'}
+  - {label: conj_and, node: '11', target: '9'}
+  - {label: prep_to, node: '13', target: '6'}
+  - {label: conj_or, node: '13', target: '9'}
+  - {label: conj_or, node: '15', target: '9'}
+  - {label: conj_and, node: '15', target: '13'}
+  - {label: nsubj, node: '16', target: '17'}
+  - {label: rcmod, node: '17', target: '13'}
+  - {label: det, node: '18', target: '20'}
+  - {label: amod, node: '19', target: '20'}
+  - {label: dobj, node: '20', target: '17'}
+  - {label: prep_on, node: '22', target: '20'}
+  lemma:
+  - {index: 0, value: parental}
+  - {index: 1, value: pressure}
+  - {index: 2, value: of}
+  - {index: 3, value: unemployment}
+  - {index: 4, value: and}
+  - {index: 5, value: poverty}
+  - {index: 6, value: lead}
+  - {index: 7, value: to}
+  - {index: 8, value: drug}
+  - {index: 9, value: abuse}
+  - {index: 10, value: and}
+  - {index: 11, value: alcoholism}
+  - {index: 12, value: or}
+  - {index: 13, value: stress}
+  - {index: 14, value: and}
+  - {index: 15, value: depression}
+  - {index: 16, value: which}
+  - {index: 17, value: have}
+  - {index: 18, value: a}
+  - {index: 19, value: profound}
+  - {index: 20, value: effect}
+  - {index: 21, value: 'on'}
+  - {index: 22, value: child}
+  - {index: 23, value: .}
+  outgoingEdges:
+  - {label: amod, node: '1', target: '0'}
+  - {label: prep_of, node: '1', target: '3'}
+  - {label: prep_of, node: '1', target: '5'}
+  - {label: conj_and, node: '3', target: '5'}
+  - {label: nsubj, node: '6', target: '1'}
+  - {label: prep_to, node: '6', target: '9'}
+  - {label: prep_to, node: '6', target: '11'}
+  - {label: prep_to, node: '6', target: '13'}
+  - {label: nn, node: '9', target: '8'}
+  - {label: conj_and, node: '9', target: '11'}
+  - {label: conj_or, node: '9', target: '13'}
+  - {label: conj_or, node: '9', target: '15'}
+  - {label: conj_and, node: '13', target: '15'}
+  - {label: rcmod, node: '13', target: '17'}
+  - {label: nsubj, node: '17', target: '16'}
+  - {label: dobj, node: '17', target: '20'}
+  - {label: det, node: '20', target: '18'}
+  - {label: amod, node: '20', target: '19'}
+  - {label: prep_on, node: '20', target: '22'}
+  roots: ['6']
+  sentence: Parental pressures of unemployment and poverty lead to drug abuse and alcoholism or stress and depression which have a profound effect on children.
+  to: TBD
+  words:
+  - {index: 0, value: Parental}
+  - {index: 1, value: pressures}
+  - {index: 2, value: of}
+  - {index: 3, value: unemployment}
+  - {index: 4, value: and}
+  - {index: 5, value: poverty}
+  - {index: 6, value: lead}
+  - {index: 7, value: to}
+  - {index: 8, value: drug}
+  - {index: 9, value: abuse}
+  - {index: 10, value: and}
+  - {index: 11, value: alcoholism}
+  - {index: 12, value: or}
+  - {index: 13, value: stress}
+  - {index: 14, value: and}
+  - {index: 15, value: depression}
+  - {index: 16, value: which}
+  - {index: 17, value: have}
+  - {index: 18, value: a}
+  - {index: 19, value: profound}
+  - {index: 20, value: effect}
+  - {index: 21, value: 'on'}
+  - {index: 22, value: children}
+  - {index: 23, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 2
+  e1Nominal: field
+  e2Index: 8
+  e2Nominal: current
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubjpass, node: '2', target: '4'}
+  - {label: auxpass, node: '3', target: '4'}
+  - {label: det, node: '6', target: '8'}
+  - {label: amod, node: '7', target: '8'}
+  - {label: agent, node: '8', target: '4'}
+  - {label: vmod, node: '9', target: '8'}
+  - {label: det, node: '11', target: '12'}
+  - {label: poss, node: '12', target: '14'}
+  - {label: prep_in, node: '14', target: '9'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: magnetic}
+  - {index: 2, value: field}
+  - {index: 3, value: be}
+  - {index: 4, value: generate}
+  - {index: 5, value: by}
+  - {index: 6, value: a}
+  - {index: 7, value: electric}
+  - {index: 8, value: current}
+  - {index: 9, value: circulate}
+  - {index: 10, value: in}
+  - {index: 11, value: the}
+  - {index: 12, value: star}
+  - {index: 13, value: '''s'}
+  - {index: 14, value: interior}
+  - {index: 15, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: nsubjpass, node: '4', target: '2'}
+  - {label: auxpass, node: '4', target: '3'}
+  - {label: agent, node: '4', target: '8'}
+  - {label: det, node: '8', target: '6'}
+  - {label: amod, node: '8', target: '7'}
+  - {label: vmod, node: '8', target: '9'}
+  - {label: prep_in, node: '9', target: '14'}
+  - {label: det, node: '12', target: '11'}
+  - {label: poss, node: '14', target: '12'}
+  roots: ['4']
+  sentence: The magnetic field is generated by an electric current circulating in the star's interior.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: magnetic}
+  - {index: 2, value: field}
+  - {index: 3, value: is}
+  - {index: 4, value: generated}
+  - {index: 5, value: by}
+  - {index: 6, value: an}
+  - {index: 7, value: electric}
+  - {index: 8, value: current}
+  - {index: 9, value: circulating}
+  - {index: 10, value: in}
+  - {index: 11, value: the}
+  - {index: 12, value: star}
+  - {index: 13, value: '''s'}
+  - {index: 14, value: interior}
+  - {index: 15, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 2
+  e1Nominal: unity
+  e2Index: 11
+  e2Nominal: power
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubj, node: '2', target: '8'}
+  - {label: det, node: '4', target: '5'}
+  - {label: prep_of, node: '5', target: '2'}
+  - {label: cop, node: '6', target: '8'}
+  - {label: det, node: '7', target: '8'}
+  - {label: poss, node: '10', target: '11'}
+  - {label: prep_of, node: '11', target: '8'}
+  - {label: nsubj, node: '14', target: '19'}
+  - {label: cop, node: '15', target: '19'}
+  - {label: det, node: '17', target: '18'}
+  - {label: prep_by, node: '18', target: '19'}
+  - {label: conj_but, node: '19', target: '8'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: political}
+  - {index: 2, value: unity}
+  - {index: 3, value: of}
+  - {index: 4, value: the}
+  - {index: 5, value: Iroquois}
+  - {index: 6, value: be}
+  - {index: 7, value: the}
+  - {index: 8, value: source}
+  - {index: 9, value: of}
+  - {index: 10, value: they}
+  - {index: 11, value: power}
+  - {index: 12, value: ','}
+  - {index: 13, value: but}
+  - {index: 14, value: it}
+  - {index: 15, value: be}
+  - {index: 16, value: by}
+  - {index: 17, value: 'no'}
+  - {index: 18, value: means}
+  - {index: 19, value: perfect}
+  - {index: 20, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: prep_of, node: '2', target: '5'}
+  - {label: det, node: '5', target: '4'}
+  - {label: nsubj, node: '8', target: '2'}
+  - {label: cop, node: '8', target: '6'}
+  - {label: det, node: '8', target: '7'}
+  - {label: prep_of, node: '8', target: '11'}
+  - {label: conj_but, node: '8', target: '19'}
+  - {label: poss, node: '11', target: '10'}
+  - {label: det, node: '18', target: '17'}
+  - {label: nsubj, node: '19', target: '14'}
+  - {label: cop, node: '19', target: '15'}
+  - {label: prep_by, node: '19', target: '18'}
+  roots: ['8']
+  sentence: The political unity of the Iroquois was the source of their power, but it was by no means perfect.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: political}
+  - {index: 2, value: unity}
+  - {index: 3, value: of}
+  - {index: 4, value: the}
+  - {index: 5, value: Iroquois}
+  - {index: 6, value: was}
+  - {index: 7, value: the}
+  - {index: 8, value: source}
+  - {index: 9, value: of}
+  - {index: 10, value: their}
+  - {index: 11, value: power}
+  - {index: 12, value: ','}
+  - {index: 13, value: but}
+  - {index: 14, value: it}
+  - {index: 15, value: was}
+  - {index: 16, value: by}
+  - {index: 17, value: 'no'}
+  - {index: 18, value: means}
+  - {index: 19, value: perfect}
+  - {index: 20, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: extraction
+  e2Index: 9
+  e2Nominal: extinction
+  from: TBD
+  incomingEdges:
+  - {label: nn, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '7'}
+  - {label: nsubj, node: '1', target: '17'}
+  - {label: det, node: '3', target: '4'}
+  - {label: prep_in, node: '4', target: '1'}
+  - {label: aux, node: '5', target: '7'}
+  - {label: advmod, node: '6', target: '7'}
+  - {label: det, node: '8', target: '9'}
+  - {label: dobj, node: '9', target: '7'}
+  - {label: det, node: '11', target: '15'}
+  - {label: nn, node: '12', target: '15'}
+  - {label: conj_and, node: '14', target: '12'}
+  - {label: nn, node: '14', target: '15'}
+  - {label: prep_of, node: '15', target: '9'}
+  - {label: conj_and, node: '17', target: '7'}
+  - {label: aux, node: '18', target: '19'}
+  - {label: xcomp, node: '19', target: '17'}
+  - {label: amod, node: '20', target: '21'}
+  - {label: dobj, node: '21', target: '19'}
+  lemma:
+  - {index: 0, value: Oil}
+  - {index: 1, value: extraction}
+  - {index: 2, value: in}
+  - {index: 3, value: the}
+  - {index: 4, value: Amazon}
+  - {index: 5, value: have}
+  - {index: 6, value: already}
+  - {index: 7, value: cause}
+  - {index: 8, value: the}
+  - {index: 9, value: extinction}
+  - {index: 10, value: of}
+  - {index: 11, value: the}
+  - {index: 12, value: Tetete}
+  - {index: 13, value: and}
+  - {index: 14, value: Zaparo}
+  - {index: 15, value: nationality}
+  - {index: 16, value: and}
+  - {index: 17, value: continue}
+  - {index: 18, value: to}
+  - {index: 19, value: threaten}
+  - {index: 20, value: indigenous}
+  - {index: 21, value: people}
+  - {index: 22, value: .}
+  outgoingEdges:
+  - {label: nn, node: '1', target: '0'}
+  - {label: prep_in, node: '1', target: '4'}
+  - {label: det, node: '4', target: '3'}
+  - {label: nsubj, node: '7', target: '1'}
+  - {label: aux, node: '7', target: '5'}
+  - {label: advmod, node: '7', target: '6'}
+  - {label: dobj, node: '7', target: '9'}
+  - {label: conj_and, node: '7', target: '17'}
+  - {label: det, node: '9', target: '8'}
+  - {label: prep_of, node: '9', target: '15'}
+  - {label: conj_and, node: '12', target: '14'}
+  - {label: det, node: '15', target: '11'}
+  - {label: nn, node: '15', target: '12'}
+  - {label: nn, node: '15', target: '14'}
+  - {label: nsubj, node: '17', target: '1'}
+  - {label: xcomp, node: '17', target: '19'}
+  - {label: aux, node: '19', target: '18'}
+  - {label: dobj, node: '19', target: '21'}
+  - {label: amod, node: '21', target: '20'}
+  roots: ['7']
+  sentence: Oil extraction in the Amazon has already caused the extinction of the Tetete and Zaparo nationalities and continues to threaten indigenous peoples.
+  to: TBD
+  words:
+  - {index: 0, value: Oil}
+  - {index: 1, value: extraction}
+  - {index: 2, value: in}
+  - {index: 3, value: the}
+  - {index: 4, value: Amazon}
+  - {index: 5, value: has}
+  - {index: 6, value: already}
+  - {index: 7, value: caused}
+  - {index: 8, value: the}
+  - {index: 9, value: extinction}
+  - {index: 10, value: of}
+  - {index: 11, value: the}
+  - {index: 12, value: Tetete}
+  - {index: 13, value: and}
+  - {index: 14, value: Zaparo}
+  - {index: 15, value: nationalities}
+  - {index: 16, value: and}
+  - {index: 17, value: continues}
+  - {index: 18, value: to}
+  - {index: 19, value: threaten}
+  - {index: 20, value: indigenous}
+  - {index: 21, value: peoples}
+  - {index: 22, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 9
+  e1Nominal: anger
+  e2Index: 14
+  e2Nominal: city
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '1', target: '2'}
+  - {label: prep_by, node: '2', target: '11'}
+  - {label: det, node: '4', target: '6'}
+  - {label: nn, node: '5', target: '6'}
+  - {label: prep_of, node: '6', target: '2'}
+  - {label: det, node: '8', target: '9'}
+  - {label: nsubj, node: '9', target: '11'}
+  - {label: aux, node: '10', target: '11'}
+  - {label: det, node: '13', target: '14'}
+  - {label: prep_from, node: '14', target: '11'}
+  lemma:
+  - {index: 0, value: by}
+  - {index: 1, value: the}
+  - {index: 2, value: end}
+  - {index: 3, value: of}
+  - {index: 4, value: the}
+  - {index: 5, value: work}
+  - {index: 6, value: day}
+  - {index: 7, value: ','}
+  - {index: 8, value: the}
+  - {index: 9, value: anger}
+  - {index: 10, value: be}
+  - {index: 11, value: radiate}
+  - {index: 12, value: from}
+  - {index: 13, value: the}
+  - {index: 14, value: city}
+  - {index: 15, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '1'}
+  - {label: prep_of, node: '2', target: '6'}
+  - {label: det, node: '6', target: '4'}
+  - {label: nn, node: '6', target: '5'}
+  - {label: det, node: '9', target: '8'}
+  - {label: prep_by, node: '11', target: '2'}
+  - {label: nsubj, node: '11', target: '9'}
+  - {label: aux, node: '11', target: '10'}
+  - {label: prep_from, node: '11', target: '14'}
+  - {label: det, node: '14', target: '13'}
+  roots: ['11']
+  sentence: By the end of the work day, the anger was radiating from the city.
+  to: TBD
+  words:
+  - {index: 0, value: By}
+  - {index: 1, value: the}
+  - {index: 2, value: end}
+  - {index: 3, value: of}
+  - {index: 4, value: the}
+  - {index: 5, value: work}
+  - {index: 6, value: day}
+  - {index: 7, value: ','}
+  - {index: 8, value: the}
+  - {index: 9, value: anger}
+  - {index: 10, value: was}
+  - {index: 11, value: radiating}
+  - {index: 12, value: from}
+  - {index: 13, value: the}
+  - {index: 14, value: city}
+  - {index: 15, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 44
+  e1Nominal: erosion
+  e2Index: 48
+  e2Nominal: mining
+  from: TBD
+  incomingEdges:
+  - {label: advmod, node: '0', target: '2'}
+  - {label: advmod, node: '1', target: '2'}
+  - {label: vmod, node: '2', target: '14'}
+  - {label: nn, node: '4', target: '5'}
+  - {label: prep_as, node: '5', target: '2'}
+  - {label: det, node: '7', target: '9'}
+  - {label: num, node: '8', target: '9'}
+  - {label: prep_to, node: '9', target: '5'}
+  - {label: nsubjpass, node: '11', target: '14'}
+  - {label: nsubjpass, node: '11', target: '24'}
+  - {label: aux, node: '12', target: '14'}
+  - {label: auxpass, node: '13', target: '14'}
+  - {label: aux, node: '15', target: '16'}
+  - {label: xcomp, node: '16', target: '14'}
+  - {label: det, node: '17', target: '20'}
+  - {label: amod, node: '18', target: '20'}
+  - {label: amod, node: '19', target: '20'}
+  - {label: dobj, node: '20', target: '16'}
+  - {label: aux, node: '22', target: '24'}
+  - {label: auxpass, node: '23', target: '24'}
+  - {label: conj_and, node: '24', target: '14'}
+  - {label: aux, node: '25', target: '27'}
+  - {label: cop, node: '26', target: '27'}
+  - {label: xcomp, node: '27', target: '24'}
+  - {label: amod, node: '29', target: '32'}
+  - {label: amod, node: '30', target: '32'}
+  - {label: nn, node: '31', target: '32'}
+  - {label: prep_to, node: '32', target: '27'}
+  - {label: amod, node: '34', target: '35'}
+  - {label: prep_in, node: '35', target: '32'}
+  - {label: nsubj, node: '36', target: '37'}
+  - {label: rcmod, node: '37', target: '32'}
+  - {label: dobj, node: '38', target: '37'}
+  - {label: det, node: '40', target: '41'}
+  - {label: prep_as, node: '41', target: '37'}
+  - {label: det, node: '43', target: '44'}
+  - {label: prep_of, node: '44', target: '41'}
+  - {label: vmod, node: '45', target: '44'}
+  - {label: amod, node: '47', target: '48'}
+  - {label: agent, node: '48', target: '45'}
+  - {label: det, node: '50', target: '52'}
+  - {label: amod, node: '51', target: '52'}
+  - {label: prep_in, node: '52', target: '48'}
+  - {label: det, node: '54', target: '57'}
+  - {label: nn, node: '55', target: '57'}
+  - {label: nn, node: '56', target: '57'}
+  - {label: prep_of, node: '57', target: '52'}
+  lemma:
+  - {index: 0, value: widely}
+  - {index: 1, value: previously}
+  - {index: 2, value: interpret}
+  - {index: 3, value: as}
+  - {index: 4, value: precursory}
+  - {index: 5, value: activity}
+  - {index: 6, value: to}
+  - {index: 7, value: the}
+  - {index: 8, value: '1906'}
+  - {index: 9, value: earthquake}
+  - {index: 10, value: ','}
+  - {index: 11, value: they}
+  - {index: 12, value: have}
+  - {index: 13, value: be}
+  - {index: 14, value: find}
+  - {index: 15, value: to}
+  - {index: 16, value: have}
+  - {index: 17, value: a}
+  - {index: 18, value: strong}
+  - {index: 19, value: seasonal}
+  - {index: 20, value: pattern}
+  - {index: 21, value: and}
+  - {index: 22, value: have}
+  - {index: 23, value: be}
+  - {index: 24, value: postulate}
+  - {index: 25, value: to}
+  - {index: 26, value: be}
+  - {index: 27, value: due}
+  - {index: 28, value: to}
+  - {index: 29, value: large}
+  - {index: 30, value: seasonal}
+  - {index: 31, value: sediment}
+  - {index: 32, value: load}
+  - {index: 33, value: in}
+  - {index: 34, value: coastal}
+  - {index: 35, value: bay}
+  - {index: 36, value: that}
+  - {index: 37, value: overlie}
+  - {index: 38, value: fault}
+  - {index: 39, value: as}
+  - {index: 40, value: a}
+  - {index: 41, value: result}
+  - {index: 42, value: of}
+  - {index: 43, value: the}
+  - {index: 44, value: erosion}
+  - {index: 45, value: cause}
+  - {index: 46, value: by}
+  - {index: 47, value: hydraulic}
+  - {index: 48, value: mining}
+  - {index: 49, value: in}
+  - {index: 50, value: the}
+  - {index: 51, value: later}
+  - {index: 52, value: year}
+  - {index: 53, value: of}
+  - {index: 54, value: the}
+  - {index: 55, value: California}
+  - {index: 56, value: Gold}
+  - {index: 57, value: Rush}
+  - {index: 58, value: .}
+  outgoingEdges:
+  - {label: advmod, node: '2', target: '0'}
+  - {label: advmod, node: '2', target: '1'}
+  - {label: prep_as, node: '2', target: '5'}
+  - {label: nn, node: '5', target: '4'}
+  - {label: prep_to, node: '5', target: '9'}
+  - {label: det, node: '9', target: '7'}
+  - {label: num, node: '9', target: '8'}
+  - {label: vmod, node: '14', target: '2'}
+  - {label: nsubjpass, node: '14', target: '11'}
+  - {label: aux, node: '14', target: '12'}
+  - {label: auxpass, node: '14', target: '13'}
+  - {label: xcomp, node: '14', target: '16'}
+  - {label: conj_and, node: '14', target: '24'}
+  - {label: aux, node: '16', target: '15'}
+  - {label: dobj, node: '16', target: '20'}
+  - {label: det, node: '20', target: '17'}
+  - {label: amod, node: '20', target: '18'}
+  - {label: amod, node: '20', target: '19'}
+  - {label: nsubjpass, node: '24', target: '11'}
+  - {label: aux, node: '24', target: '22'}
+  - {label: auxpass, node: '24', target: '23'}
+  - {label: xcomp, node: '24', target: '27'}
+  - {label: aux, node: '27', target: '25'}
+  - {label: cop, node: '27', target: '26'}
+  - {label: prep_to, node: '27', target: '32'}
+  - {label: amod, node: '32', target: '29'}
+  - {label: amod, node: '32', target: '30'}
+  - {label: nn, node: '32', target: '31'}
+  - {label: prep_in, node: '32', target: '35'}
+  - {label: rcmod, node: '32', target: '37'}
+  - {label: amod, node: '35', target: '34'}
+  - {label: nsubj, node: '37', target: '36'}
+  - {label: dobj, node: '37', target: '38'}
+  - {label: prep_as, node: '37', target: '41'}
+  - {label: det, node: '41', target: '40'}
+  - {label: prep_of, node: '41', target: '44'}
+  - {label: det, node: '44', target: '43'}
+  - {label: vmod, node: '44', target: '45'}
+  - {label: agent, node: '45', target: '48'}
+  - {label: amod, node: '48', target: '47'}
+  - {label: prep_in, node: '48', target: '52'}
+  - {label: det, node: '52', target: '50'}
+  - {label: amod, node: '52', target: '51'}
+  - {label: prep_of, node: '52', target: '57'}
+  - {label: det, node: '57', target: '54'}
+  - {label: nn, node: '57', target: '55'}
+  - {label: nn, node: '57', target: '56'}
+  roots: ['14']
+  sentence: Widely previously interpreted as precursory activity to the 1906 earthquake, they have been found to have a strong seasonal pattern and have been postulated to be due to large seasonal sediment loads in coastal bays that overlie faults as a result of the erosion caused by hydraulic mining in the later years of the California Gold Rush.
+  to: TBD
+  words:
+  - {index: 0, value: Widely}
+  - {index: 1, value: previously}
+  - {index: 2, value: interpreted}
+  - {index: 3, value: as}
+  - {index: 4, value: precursory}
+  - {index: 5, value: activity}
+  - {index: 6, value: to}
+  - {index: 7, value: the}
+  - {index: 8, value: '1906'}
+  - {index: 9, value: earthquake}
+  - {index: 10, value: ','}
+  - {index: 11, value: they}
+  - {index: 12, value: have}
+  - {index: 13, value: been}
+  - {index: 14, value: found}
+  - {index: 15, value: to}
+  - {index: 16, value: have}
+  - {index: 17, value: a}
+  - {index: 18, value: strong}
+  - {index: 19, value: seasonal}
+  - {index: 20, value: pattern}
+  - {index: 21, value: and}
+  - {index: 22, value: have}
+  - {index: 23, value: been}
+  - {index: 24, value: postulated}
+  - {index: 25, value: to}
+  - {index: 26, value: be}
+  - {index: 27, value: due}
+  - {index: 28, value: to}
+  - {index: 29, value: large}
+  - {index: 30, value: seasonal}
+  - {index: 31, value: sediment}
+  - {index: 32, value: loads}
+  - {index: 33, value: in}
+  - {index: 34, value: coastal}
+  - {index: 35, value: bays}
+  - {index: 36, value: that}
+  - {index: 37, value: overlie}
+  - {index: 38, value: faults}
+  - {index: 39, value: as}
+  - {index: 40, value: a}
+  - {index: 41, value: result}
+  - {index: 42, value: of}
+  - {index: 43, value: the}
+  - {index: 44, value: erosion}
+  - {index: 45, value: caused}
+  - {index: 46, value: by}
+  - {index: 47, value: hydraulic}
+  - {index: 48, value: mining}
+  - {index: 49, value: in}
+  - {index: 50, value: the}
+  - {index: 51, value: later}
+  - {index: 52, value: years}
+  - {index: 53, value: of}
+  - {index: 54, value: the}
+  - {index: 55, value: California}
+  - {index: 56, value: Gold}
+  - {index: 57, value: Rush}
+  - {index: 58, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 7
+  e1Nominal: grief
+  e2Index: 11
+  e2Nominal: miscarriage
+  from: TBD
+  incomingEdges:
+  - {label: amod, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '4'}
+  - {label: auxpass, node: '2', target: '4'}
+  - {label: advmod, node: '3', target: '4'}
+  - {label: amod, node: '6', target: '7'}
+  - {label: prep_to, node: '7', target: '4'}
+  - {label: prep_from, node: '9', target: '4'}
+  - {label: prep_from, node: '11', target: '4'}
+  - {label: conj_and, node: '11', target: '9'}
+  - {label: det, node: '14', target: '15'}
+  - {label: prep_from, node: '15', target: '4'}
+  - {label: conj_and, node: '15', target: '9'}
+  - {label: det, node: '17', target: '18'}
+  - {label: prep_of, node: '18', target: '15'}
+  lemma:
+  - {index: 0, value: marital}
+  - {index: 1, value: breakdown}
+  - {index: 2, value: be}
+  - {index: 3, value: often}
+  - {index: 4, value: attribute}
+  - {index: 5, value: to}
+  - {index: 6, value: unresolved}
+  - {index: 7, value: grief}
+  - {index: 8, value: from}
+  - {index: 9, value: infertility}
+  - {index: 10, value: ','}
+  - {index: 11, value: miscarriage}
+  - {index: 12, value: ','}
+  - {index: 13, value: and}
+  - {index: 14, value: the}
+  - {index: 15, value: loss}
+  - {index: 16, value: of}
+  - {index: 17, value: a}
+  - {index: 18, value: child}
+  - {index: 19, value: .}
+  outgoingEdges:
+  - {label: amod, node: '1', target: '0'}
+  - {label: nsubjpass, node: '4', target: '1'}
+  - {label: auxpass, node: '4', target: '2'}
+  - {label: advmod, node: '4', target: '3'}
+  - {label: prep_to, node: '4', target: '7'}
+  - {label: prep_from, node: '4', target: '9'}
+  - {label: prep_from, node: '4', target: '11'}
+  - {label: prep_from, node: '4', target: '15'}
+  - {label: amod, node: '7', target: '6'}
+  - {label: conj_and, node: '9', target: '11'}
+  - {label: conj_and, node: '9', target: '15'}
+  - {label: det, node: '15', target: '14'}
+  - {label: prep_of, node: '15', target: '18'}
+  - {label: det, node: '18', target: '17'}
+  roots: ['4']
+  sentence: Marital breakdown is often attributed to unresolved grief from infertility, miscarriage, and the loss of a child.
+  to: TBD
+  words:
+  - {index: 0, value: Marital}
+  - {index: 1, value: breakdown}
+  - {index: 2, value: is}
+  - {index: 3, value: often}
+  - {index: 4, value: attributed}
+  - {index: 5, value: to}
+  - {index: 6, value: unresolved}
+  - {index: 7, value: grief}
+  - {index: 8, value: from}
+  - {index: 9, value: infertility}
+  - {index: 10, value: ','}
+  - {index: 11, value: miscarriage}
+  - {index: 12, value: ','}
+  - {index: 13, value: and}
+  - {index: 14, value: the}
+  - {index: 15, value: loss}
+  - {index: 16, value: of}
+  - {index: 17, value: a}
+  - {index: 18, value: child}
+  - {index: 19, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 26
+  e1Nominal: smoke
+  e2Index: 30
+  e2Nominal: burning
+  from: TBD
+  incomingEdges:
+  - {label: prep_in, node: '1', target: '9'}
+  - {label: nn, node: '3', target: '6'}
+  - {label: conj_and, node: '5', target: '3'}
+  - {label: nn, node: '5', target: '6'}
+  - {label: nsubjpass, node: '6', target: '9'}
+  - {label: aux, node: '7', target: '9'}
+  - {label: auxpass, node: '8', target: '9'}
+  - {label: det, node: '11', target: '13'}
+  - {label: amod, node: '12', target: '13'}
+  - {label: agent, node: '13', target: '9'}
+  - {label: vmod, node: '14', target: '13'}
+  - {label: nn, node: '16', target: '17'}
+  - {label: prep_in, node: '17', target: '14'}
+  - {label: det, node: '19', target: '20'}
+  - {label: nsubj, node: '20', target: '23'}
+  - {label: aux, node: '21', target: '23'}
+  - {label: cop, node: '22', target: '23'}
+  - {label: conj_and, node: '23', target: '9'}
+  - {label: det, node: '25', target: '26'}
+  - {label: prep_by, node: '26', target: '23'}
+  - {label: vmod, node: '27', target: '26'}
+  - {label: det, node: '29', target: '30'}
+  - {label: agent, node: '30', target: '27'}
+  - {label: prep_of, node: '32', target: '30'}
+  - {label: prep_of, node: '34', target: '30'}
+  - {label: conj_and, node: '34', target: '32'}
+  - {label: nn, node: '36', target: '38'}
+  - {label: nn, node: '37', target: '38'}
+  - {label: prep_for, node: '38', target: '27'}
+  lemma:
+  - {index: 0, value: in}
+  - {index: 1, value: addition}
+  - {index: 2, value: ','}
+  - {index: 3, value: soil}
+  - {index: 4, value: and}
+  - {index: 5, value: river}
+  - {index: 6, value: system}
+  - {index: 7, value: have}
+  - {index: 8, value: be}
+  - {index: 9, value: contaminate}
+  - {index: 10, value: by}
+  - {index: 11, value: the}
+  - {index: 12, value: harsh}
+  - {index: 13, value: chemical}
+  - {index: 14, value: use}
+  - {index: 15, value: in}
+  - {index: 16, value: cocaine}
+  - {index: 17, value: production}
+  - {index: 18, value: and}
+  - {index: 19, value: the}
+  - {index: 20, value: air}
+  - {index: 21, value: have}
+  - {index: 22, value: be}
+  - {index: 23, value: polluted}
+  - {index: 24, value: by}
+  - {index: 25, value: the}
+  - {index: 26, value: smoke}
+  - {index: 27, value: cause}
+  - {index: 28, value: by}
+  - {index: 29, value: the}
+  - {index: 30, value: burning}
+  - {index: 31, value: of}
+  - {index: 32, value: jungle}
+  - {index: 33, value: and}
+  - {index: 34, value: forest}
+  - {index: 35, value: for}
+  - {index: 36, value: coca}
+  - {index: 37, value: bush}
+  - {index: 38, value: cultivation}
+  - {index: 39, value: .}
+  outgoingEdges:
+  - {label: conj_and, node: '3', target: '5'}
+  - {label: nn, node: '6', target: '3'}
+  - {label: nn, node: '6', target: '5'}
+  - {label: prep_in, node: '9', target: '1'}
+  - {label: nsubjpass, node: '9', target: '6'}
+  - {label: aux, node: '9', target: '7'}
+  - {label: auxpass, node: '9', target: '8'}
+  - {label: agent, node: '9', target: '13'}
+  - {label: conj_and, node: '9', target: '23'}
+  - {label: det, node: '13', target: '11'}
+  - {label: amod, node: '13', target: '12'}
+  - {label: vmod, node: '13', target: '14'}
+  - {label: prep_in, node: '14', target: '17'}
+  - {label: nn, node: '17', target: '16'}
+  - {label: det, node: '20', target: '19'}
+  - {label: nsubj, node: '23', target: '20'}
+  - {label: aux, node: '23', target: '21'}
+  - {label: cop, node: '23', target: '22'}
+  - {label: prep_by, node: '23', target: '26'}
+  - {label: det, node: '26', target: '25'}
+  - {label: vmod, node: '26', target: '27'}
+  - {label: agent, node: '27', target: '30'}
+  - {label: prep_for, node: '27', target: '38'}
+  - {label: det, node: '30', target: '29'}
+  - {label: prep_of, node: '30', target: '32'}
+  - {label: prep_of, node: '30', target: '34'}
+  - {label: conj_and, node: '32', target: '34'}
+  - {label: nn, node: '38', target: '36'}
+  - {label: nn, node: '38', target: '37'}
+  roots: ['9']
+  sentence: In addition, soil and river systems have been contaminated by the harsh chemicals used in cocaine production and the air has been polluted by the smoke caused by the burning of jungle and forest for coca bush cultivation.
+  to: TBD
+  words:
+  - {index: 0, value: In}
+  - {index: 1, value: addition}
+  - {index: 2, value: ','}
+  - {index: 3, value: soil}
+  - {index: 4, value: and}
+  - {index: 5, value: river}
+  - {index: 6, value: systems}
+  - {index: 7, value: have}
+  - {index: 8, value: been}
+  - {index: 9, value: contaminated}
+  - {index: 10, value: by}
+  - {index: 11, value: the}
+  - {index: 12, value: harsh}
+  - {index: 13, value: chemicals}
+  - {index: 14, value: used}
+  - {index: 15, value: in}
+  - {index: 16, value: cocaine}
+  - {index: 17, value: production}
+  - {index: 18, value: and}
+  - {index: 19, value: the}
+  - {index: 20, value: air}
+  - {index: 21, value: has}
+  - {index: 22, value: been}
+  - {index: 23, value: polluted}
+  - {index: 24, value: by}
+  - {index: 25, value: the}
+  - {index: 26, value: smoke}
+  - {index: 27, value: caused}
+  - {index: 28, value: by}
+  - {index: 29, value: the}
+  - {index: 30, value: burning}
+  - {index: 31, value: of}
+  - {index: 32, value: jungle}
+  - {index: 33, value: and}
+  - {index: 34, value: forest}
+  - {index: 35, value: for}
+  - {index: 36, value: coca}
+  - {index: 37, value: bush}
+  - {index: 38, value: cultivation}
+  - {index: 39, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: recession
+  e2Index: 5
+  e2Nominal: stock
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '9'}
+  - {label: vmod, node: '2', target: '1'}
+  - {label: det, node: '4', target: '6'}
+  - {label: nn, node: '5', target: '6'}
+  - {label: agent, node: '6', target: '2'}
+  - {label: cop, node: '7', target: '9'}
+  - {label: advmod, node: '8', target: '9'}
+  - {label: advmod, node: '12', target: '15'}
+  - {label: dep, node: '13', target: '15'}
+  - {label: det, node: '14', target: '15'}
+  - {label: conj_but, node: '15', target: '9'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: recession}
+  - {index: 2, value: cause}
+  - {index: 3, value: by}
+  - {index: 4, value: the}
+  - {index: 5, value: stock}
+  - {index: 6, value: bubble}
+  - {index: 7, value: be}
+  - {index: 8, value: relatively}
+  - {index: 9, value: mild}
+  - {index: 10, value: ','}
+  - {index: 11, value: but}
+  - {index: 12, value: so}
+  - {index: 13, value: be}
+  - {index: 14, value: the}
+  - {index: 15, value: recovery}
+  - {index: 16, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: vmod, node: '1', target: '2'}
+  - {label: agent, node: '2', target: '6'}
+  - {label: det, node: '6', target: '4'}
+  - {label: nn, node: '6', target: '5'}
+  - {label: nsubj, node: '9', target: '1'}
+  - {label: cop, node: '9', target: '7'}
+  - {label: advmod, node: '9', target: '8'}
+  - {label: conj_but, node: '9', target: '15'}
+  - {label: advmod, node: '15', target: '12'}
+  - {label: dep, node: '15', target: '13'}
+  - {label: det, node: '15', target: '14'}
+  roots: ['9']
+  sentence: The recession caused by the stock bubble was relatively mild, but so was the recovery.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: recession}
+  - {index: 2, value: caused}
+  - {index: 3, value: by}
+  - {index: 4, value: the}
+  - {index: 5, value: stock}
+  - {index: 6, value: bubble}
+  - {index: 7, value: was}
+  - {index: 8, value: relatively}
+  - {index: 9, value: mild}
+  - {index: 10, value: ','}
+  - {index: 11, value: but}
+  - {index: 12, value: so}
+  - {index: 13, value: was}
+  - {index: 14, value: the}
+  - {index: 15, value: recovery}
+  - {index: 16, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: violence
+  e2Index: 5
+  e2Nominal: death
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: det, node: '4', target: '5'}
+  - {label: prep_in, node: '5', target: '2'}
+  - {label: nn, node: '7', target: '10'}
+  - {label: nn, node: '8', target: '10'}
+  - {label: nn, node: '9', target: '10'}
+  - {label: prep_of, node: '10', target: '5'}
+  - {label: nsubj, node: '12', target: '13'}
+  - {label: rcmod, node: '13', target: '10'}
+  - {label: amod, node: '14', target: '15'}
+  - {label: dobj, node: '15', target: '13'}
+  - {label: det, node: '17', target: '19'}
+  - {label: amod, node: '18', target: '19'}
+  - {label: dobj, node: '19', target: '13'}
+  - {label: conj_and, node: '19', target: '15'}
+  - {label: amod, node: '21', target: '22'}
+  - {label: prep_of, node: '22', target: '19'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: violence}
+  - {index: 2, value: result}
+  - {index: 3, value: in}
+  - {index: 4, value: the}
+  - {index: 5, value: death}
+  - {index: 6, value: of}
+  - {index: 7, value: police}
+  - {index: 8, value: capo}
+  - {index: 9, value: Filippo}
+  - {index: 10, value: Raciti}
+  - {index: 11, value: ','}
+  - {index: 12, value: which}
+  - {index: 13, value: cause}
+  - {index: 14, value: widespread}
+  - {index: 15, value: soul-searching}
+  - {index: 16, value: and}
+  - {index: 17, value: a}
+  - {index: 18, value: week-long}
+  - {index: 19, value: suspension}
+  - {index: 20, value: of}
+  - {index: 21, value: italian}
+  - {index: 22, value: football}
+  - {index: 23, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: prep_in, node: '2', target: '5'}
+  - {label: det, node: '5', target: '4'}
+  - {label: prep_of, node: '5', target: '10'}
+  - {label: nn, node: '10', target: '7'}
+  - {label: nn, node: '10', target: '8'}
+  - {label: nn, node: '10', target: '9'}
+  - {label: rcmod, node: '10', target: '13'}
+  - {label: nsubj, node: '13', target: '12'}
+  - {label: dobj, node: '13', target: '15'}
+  - {label: dobj, node: '13', target: '19'}
+  - {label: amod, node: '15', target: '14'}
+  - {label: conj_and, node: '15', target: '19'}
+  - {label: det, node: '19', target: '17'}
+  - {label: amod, node: '19', target: '18'}
+  - {label: prep_of, node: '19', target: '22'}
+  - {label: amod, node: '22', target: '21'}
+  roots: ['2']
+  sentence: The violence resulted in the death of police capo Filippo Raciti, which caused widespread soul-searching and a week-long suspension of Italian football.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: violence}
+  - {index: 2, value: resulted}
+  - {index: 3, value: in}
+  - {index: 4, value: the}
+  - {index: 5, value: death}
+  - {index: 6, value: of}
+  - {index: 7, value: police}
+  - {index: 8, value: capo}
+  - {index: 9, value: Filippo}
+  - {index: 10, value: Raciti}
+  - {index: 11, value: ','}
+  - {index: 12, value: which}
+  - {index: 13, value: caused}
+  - {index: 14, value: widespread}
+  - {index: 15, value: soul-searching}
+  - {index: 16, value: and}
+  - {index: 17, value: a}
+  - {index: 18, value: week-long}
+  - {index: 19, value: suspension}
+  - {index: 20, value: of}
+  - {index: 21, value: Italian}
+  - {index: 22, value: football}
+  - {index: 23, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 11
+  e1Nominal: preservation
+  e2Index: 16
+  e2Nominal: cooling
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: det, node: '3', target: '4'}
+  - {label: dobj, node: '4', target: '2'}
+  - {label: aux, node: '5', target: '6'}
+  - {label: vmod, node: '6', target: '4'}
+  - {label: nn, node: '7', target: '8'}
+  - {label: dobj, node: '8', target: '6'}
+  - {label: mark, node: '9', target: '10'}
+  - {label: advcl, node: '10', target: '6'}
+  - {label: dobj, node: '11', target: '10'}
+  - {label: det, node: '12', target: '13'}
+  - {label: dep, node: '13', target: '10'}
+  - {label: amod, node: '15', target: '16'}
+  - {label: prep_through, node: '16', target: '13'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: Titan}
+  - {index: 2, value: heat}
+  - {index: 3, value: the}
+  - {index: 4, value: dermi}
+  - {index: 5, value: to}
+  - {index: 6, value: cause}
+  - {index: 7, value: collagen}
+  - {index: 8, value: contraction}
+  - {index: 9, value: while}
+  - {index: 10, value: ensure}
+  - {index: 11, value: preservation}
+  - {index: 12, value: the}
+  - {index: 13, value: epidermis}
+  - {index: 14, value: through}
+  - {index: 15, value: continuous}
+  - {index: 16, value: cooling}
+  - {index: 17, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: dobj, node: '2', target: '4'}
+  - {label: det, node: '4', target: '3'}
+  - {label: vmod, node: '4', target: '6'}
+  - {label: aux, node: '6', target: '5'}
+  - {label: dobj, node: '6', target: '8'}
+  - {label: advcl, node: '6', target: '10'}
+  - {label: nn, node: '8', target: '7'}
+  - {label: mark, node: '10', target: '9'}
+  - {label: dobj, node: '10', target: '11'}
+  - {label: dep, node: '10', target: '13'}
+  - {label: det, node: '13', target: '12'}
+  - {label: prep_through, node: '13', target: '16'}
+  - {label: amod, node: '16', target: '15'}
+  roots: ['2']
+  sentence: The Titan heats the dermis to cause collagen contraction while ensuring preservation the epidermis through continuous cooling.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: Titan}
+  - {index: 2, value: heats}
+  - {index: 3, value: the}
+  - {index: 4, value: dermis}
+  - {index: 5, value: to}
+  - {index: 6, value: cause}
+  - {index: 7, value: collagen}
+  - {index: 8, value: contraction}
+  - {index: 9, value: while}
+  - {index: 10, value: ensuring}
+  - {index: 11, value: preservation}
+  - {index: 12, value: the}
+  - {index: 13, value: epidermis}
+  - {index: 14, value: through}
+  - {index: 15, value: continuous}
+  - {index: 16, value: cooling}
+  - {index: 17, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 21
+  e1Nominal: scandal
+  e2Index: 25
+  e2Nominal: resignation
+  from: TBD
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '12'}
+  - {label: det, node: '2', target: '3'}
+  - {label: prep_of, node: '3', target: '0'}
+  - {label: nsubjpass, node: '4', target: '6'}
+  - {label: auxpass, node: '5', target: '6'}
+  - {label: rcmod, node: '6', target: '3'}
+  - {label: det, node: '8', target: '11'}
+  - {label: nn, node: '9', target: '11'}
+  - {label: nn, node: '10', target: '11'}
+  - {label: prep_in, node: '11', target: '6'}
+  - {label: prt, node: '13', target: '12'}
+  - {label: aux, node: '14', target: '18'}
+  - {label: auxpass, node: '15', target: '18'}
+  - {label: advmod, node: '16', target: '18'}
+  - {label: advmod, node: '17', target: '18'}
+  - {label: xcomp, node: '18', target: '12'}
+  - {label: mark, node: '19', target: '22'}
+  - {label: det, node: '20', target: '21'}
+  - {label: nsubj, node: '21', target: '22'}
+  - {label: ccomp, node: '22', target: '18'}
+  - {label: det, node: '24', target: '25'}
+  - {label: prep_in, node: '25', target: '22'}
+  - {label: det, node: '27', target: '28'}
+  - {label: prep_of, node: '28', target: '25'}
+  lemma:
+  - {index: 0, value: one}
+  - {index: 1, value: of}
+  - {index: 2, value: these}
+  - {index: 3, value: papers}
+  - {index: 4, value: which}
+  - {index: 5, value: be}
+  - {index: 6, value: publish}
+  - {index: 7, value: in}
+  - {index: 8, value: the}
+  - {index: 9, value: journal}
+  - {index: 10, value: climate}
+  - {index: 11, value: research}
+  - {index: 12, value: turn}
+  - {index: 13, value: out}
+  - {index: 14, value: to}
+  - {index: 15, value: be}
+  - {index: 16, value: so}
+  - {index: 17, value: badly}
+  - {index: 18, value: flaw}
+  - {index: 19, value: that}
+  - {index: 20, value: the}
+  - {index: 21, value: scandal}
+  - {index: 22, value: result}
+  - {index: 23, value: in}
+  - {index: 24, value: the}
+  - {index: 25, value: resignation}
+  - {index: 26, value: of}
+  - {index: 27, value: the}
+  - {index: 28, value: editor-in-chief}
+  - {index: 29, value: .}
+  outgoingEdges:
+  - {label: prep_of, node: '0', target: '3'}
+  - {label: det, node: '3', target: '2'}
+  - {label: rcmod, node: '3', target: '6'}
+  - {label: nsubjpass, node: '6', target: '4'}
+  - {label: auxpass, node: '6', target: '5'}
+  - {label: prep_in, node: '6', target: '11'}
+  - {label: det, node: '11', target: '8'}
+  - {label: nn, node: '11', target: '9'}
+  - {label: nn, node: '11', target: '10'}
+  - {label: nsubj, node: '12', target: '0'}
+  - {label: prt, node: '12', target: '13'}
+  - {label: xcomp, node: '12', target: '18'}
+  - {label: aux, node: '18', target: '14'}
+  - {label: auxpass, node: '18', target: '15'}
+  - {label: advmod, node: '18', target: '16'}
+  - {label: advmod, node: '18', target: '17'}
+  - {label: ccomp, node: '18', target: '22'}
+  - {label: det, node: '21', target: '20'}
+  - {label: mark, node: '22', target: '19'}
+  - {label: nsubj, node: '22', target: '21'}
+  - {label: prep_in, node: '22', target: '25'}
+  - {label: det, node: '25', target: '24'}
+  - {label: prep_of, node: '25', target: '28'}
+  - {label: det, node: '28', target: '27'}
+  roots: ['12']
+  sentence: One of these papers which was published in the journal Climate Research turned out to be so badly flawed that the scandal resulted in the resignation of the editor-in-chief.
+  to: TBD
+  words:
+  - {index: 0, value: One}
+  - {index: 1, value: of}
+  - {index: 2, value: these}
+  - {index: 3, value: papers}
+  - {index: 4, value: which}
+  - {index: 5, value: was}
+  - {index: 6, value: published}
+  - {index: 7, value: in}
+  - {index: 8, value: the}
+  - {index: 9, value: journal}
+  - {index: 10, value: Climate}
+  - {index: 11, value: Research}
+  - {index: 12, value: turned}
+  - {index: 13, value: out}
+  - {index: 14, value: to}
+  - {index: 15, value: be}
+  - {index: 16, value: so}
+  - {index: 17, value: badly}
+  - {index: 18, value: flawed}
+  - {index: 19, value: that}
+  - {index: 20, value: the}
+  - {index: 21, value: scandal}
+  - {index: 22, value: resulted}
+  - {index: 23, value: in}
+  - {index: 24, value: the}
+  - {index: 25, value: resignation}
+  - {index: 26, value: of}
+  - {index: 27, value: the}
+  - {index: 28, value: editor-in-chief}
+  - {index: 29, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: increase
+  e2Index: 6
+  e2Nominal: absorption
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '3'}
+  - {label: auxpass, node: '2', target: '3'}
+  - {label: det, node: '5', target: '6'}
+  - {label: agent, node: '6', target: '3'}
+  - {label: nn, node: '8', target: '9'}
+  - {label: prep_of, node: '9', target: '6'}
+  - {label: det, node: '11', target: '12'}
+  - {label: agent, node: '12', target: '3'}
+  - {label: agent, node: '14', target: '3'}
+  - {label: conj_and, node: '14', target: '12'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: increase}
+  - {index: 2, value: be}
+  - {index: 3, value: cause}
+  - {index: 4, value: by}
+  - {index: 5, value: the}
+  - {index: 6, value: absorption}
+  - {index: 7, value: of}
+  - {index: 8, value: uv}
+  - {index: 9, value: radiation}
+  - {index: 10, value: by}
+  - {index: 11, value: the}
+  - {index: 12, value: oxygen}
+  - {index: 13, value: and}
+  - {index: 14, value: ozone}
+  - {index: 15, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubjpass, node: '3', target: '1'}
+  - {label: auxpass, node: '3', target: '2'}
+  - {label: agent, node: '3', target: '6'}
+  - {label: agent, node: '3', target: '12'}
+  - {label: agent, node: '3', target: '14'}
+  - {label: det, node: '6', target: '5'}
+  - {label: prep_of, node: '6', target: '9'}
+  - {label: nn, node: '9', target: '8'}
+  - {label: det, node: '12', target: '11'}
+  - {label: conj_and, node: '12', target: '14'}
+  roots: ['3']
+  sentence: The increase is caused by the absorption of UV radiation by the oxygen and ozone.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: increase}
+  - {index: 2, value: is}
+  - {index: 3, value: caused}
+  - {index: 4, value: by}
+  - {index: 5, value: the}
+  - {index: 6, value: absorption}
+  - {index: 7, value: of}
+  - {index: 8, value: UV}
+  - {index: 9, value: radiation}
+  - {index: 10, value: by}
+  - {index: 11, value: the}
+  - {index: 12, value: oxygen}
+  - {index: 13, value: and}
+  - {index: 14, value: ozone}
+  - {index: 15, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 29
+  e1Nominal: steam
+  e2Index: 34
+  e2Nominal: heat
+  from: TBD
+  incomingEdges:
+  - {label: advmod, node: '0', target: '5'}
+  - {label: amod, node: '1', target: '4'}
+  - {label: amod, node: '2', target: '4'}
+  - {label: nn, node: '3', target: '4'}
+  - {label: nsubj, node: '4', target: '5'}
+  - {label: ccomp, node: '5', target: '31'}
+  - {label: advmod, node: '6', target: '8'}
+  - {label: det, node: '7', target: '8'}
+  - {label: dobj, node: '8', target: '5'}
+  - {label: prep_as, node: '10', target: '5'}
+  - {label: amod, node: '12', target: '13'}
+  - {label: prep_from, node: '13', target: '10'}
+  - {label: mark, node: '14', target: '20'}
+  - {label: nsubj, node: '15', target: '20'}
+  - {label: prepc_instead_of, node: '18', target: '15'}
+  - {label: dobj, node: '19', target: '18'}
+  - {label: advcl, node: '20', target: '5'}
+  - {label: det, node: '22', target: '23'}
+  - {label: prep_from, node: '23', target: '20'}
+  - {label: amod, node: '25', target: '26'}
+  - {label: prep_of, node: '26', target: '23'}
+  - {label: det, node: '28', target: '29'}
+  - {label: nsubjpass, node: '29', target: '31'}
+  - {label: auxpass, node: '30', target: '31'}
+  - {label: det, node: '33', target: '34'}
+  - {label: agent, node: '34', target: '31'}
+  - {label: vmod, node: '35', target: '34'}
+  - {label: prep_from, node: '37', target: '35'}
+  lemma:
+  - {index: 0, value: so}
+  - {index: 1, value: solar}
+  - {index: 2, value: thermal}
+  - {index: 3, value: power}
+  - {index: 4, value: generation}
+  - {index: 5, value: work}
+  - {index: 6, value: essentially}
+  - {index: 7, value: the}
+  - {index: 8, value: same}
+  - {index: 9, value: as}
+  - {index: 10, value: generation}
+  - {index: 11, value: from}
+  - {index: 12, value: fossil}
+  - {index: 13, value: fuel}
+  - {index: 14, value: except}
+  - {index: 15, value: that}
+  - {index: 16, value: instead}
+  - {index: 17, value: of}
+  - {index: 18, value: use}
+  - {index: 19, value: steam}
+  - {index: 20, value: produce}
+  - {index: 21, value: from}
+  - {index: 22, value: the}
+  - {index: 23, value: combustion}
+  - {index: 24, value: of}
+  - {index: 25, value: fossil}
+  - {index: 26, value: fuel}
+  - {index: 27, value: ','}
+  - {index: 28, value: the}
+  - {index: 29, value: steam}
+  - {index: 30, value: be}
+  - {index: 31, value: produce}
+  - {index: 32, value: by}
+  - {index: 33, value: the}
+  - {index: 34, value: heat}
+  - {index: 35, value: collect}
+  - {index: 36, value: from}
+  - {index: 37, value: sunlight}
+  - {index: 38, value: .}
+  outgoingEdges:
+  - {label: amod, node: '4', target: '1'}
+  - {label: amod, node: '4', target: '2'}
+  - {label: nn, node: '4', target: '3'}
+  - {label: advmod, node: '5', target: '0'}
+  - {label: nsubj, node: '5', target: '4'}
+  - {label: dobj, node: '5', target: '8'}
+  - {label: prep_as, node: '5', target: '10'}
+  - {label: advcl, node: '5', target: '20'}
+  - {label: advmod, node: '8', target: '6'}
+  - {label: det, node: '8', target: '7'}
+  - {label: prep_from, node: '10', target: '13'}
+  - {label: amod, node: '13', target: '12'}
+  - {label: prepc_instead_of, node: '15', target: '18'}
+  - {label: dobj, node: '18', target: '19'}
+  - {label: mark, node: '20', target: '14'}
+  - {label: nsubj, node: '20', target: '15'}
+  - {label: prep_from, node: '20', target: '23'}
+  - {label: det, node: '23', target: '22'}
+  - {label: prep_of, node: '23', target: '26'}
+  - {label: amod, node: '26', target: '25'}
+  - {label: det, node: '29', target: '28'}
+  - {label: ccomp, node: '31', target: '5'}
+  - {label: nsubjpass, node: '31', target: '29'}
+  - {label: auxpass, node: '31', target: '30'}
+  - {label: agent, node: '31', target: '34'}
+  - {label: det, node: '34', target: '33'}
+  - {label: vmod, node: '34', target: '35'}
+  - {label: prep_from, node: '35', target: '37'}
+  roots: ['31']
+  sentence: So solar thermal power generation works essentially the same as generation from fossil fuels except that instead of using steam produced from the combustion of fossil fuels, the steam is produced by the heat collected from sunlight.
+  to: TBD
+  words:
+  - {index: 0, value: So}
+  - {index: 1, value: solar}
+  - {index: 2, value: thermal}
+  - {index: 3, value: power}
+  - {index: 4, value: generation}
+  - {index: 5, value: works}
+  - {index: 6, value: essentially}
+  - {index: 7, value: the}
+  - {index: 8, value: same}
+  - {index: 9, value: as}
+  - {index: 10, value: generation}
+  - {index: 11, value: from}
+  - {index: 12, value: fossil}
+  - {index: 13, value: fuels}
+  - {index: 14, value: except}
+  - {index: 15, value: that}
+  - {index: 16, value: instead}
+  - {index: 17, value: of}
+  - {index: 18, value: using}
+  - {index: 19, value: steam}
+  - {index: 20, value: produced}
+  - {index: 21, value: from}
+  - {index: 22, value: the}
+  - {index: 23, value: combustion}
+  - {index: 24, value: of}
+  - {index: 25, value: fossil}
+  - {index: 26, value: fuels}
+  - {index: 27, value: ','}
+  - {index: 28, value: the}
+  - {index: 29, value: steam}
+  - {index: 30, value: is}
+  - {index: 31, value: produced}
+  - {index: 32, value: by}
+  - {index: 33, value: the}
+  - {index: 34, value: heat}
+  - {index: 35, value: collected}
+  - {index: 36, value: from}
+  - {index: 37, value: sunlight}
+  - {index: 38, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 16
+  e1Nominal: harm
+  e2Index: 21
+  e2Nominal: treatment
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '6'}
+  - {label: conj_and, node: '3', target: '1'}
+  - {label: nsubj, node: '3', target: '6'}
+  - {label: cop, node: '4', target: '6'}
+  - {label: amod, node: '5', target: '6'}
+  - {label: aux, node: '7', target: '8'}
+  - {label: vmod, node: '8', target: '6'}
+  - {label: det, node: '9', target: '10'}
+  - {label: dobj, node: '10', target: '8'}
+  - {label: det, node: '12', target: '13'}
+  - {label: prep_between, node: '13', target: '10'}
+  - {label: det, node: '15', target: '16'}
+  - {label: prep_between, node: '16', target: '10'}
+  - {label: conj_and, node: '16', target: '13'}
+  - {label: vmod, node: '17', target: '16'}
+  - {label: det, node: '19', target: '21'}
+  - {label: amod, node: '20', target: '21'}
+  - {label: agent, node: '21', target: '17'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: NNT}
+  - {index: 2, value: and}
+  - {index: 3, value: NNH}
+  - {index: 4, value: be}
+  - {index: 5, value: useful}
+  - {index: 6, value: index}
+  - {index: 7, value: to}
+  - {index: 8, value: describe}
+  - {index: 9, value: the}
+  - {index: 10, value: trade-off}
+  - {index: 11, value: between}
+  - {index: 12, value: the}
+  - {index: 13, value: benefit}
+  - {index: 14, value: and}
+  - {index: 15, value: the}
+  - {index: 16, value: harm}
+  - {index: 17, value: produce}
+  - {index: 18, value: by}
+  - {index: 19, value: a}
+  - {index: 20, value: new}
+  - {index: 21, value: treatment}
+  - {index: 22, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: conj_and, node: '1', target: '3'}
+  - {label: nsubj, node: '6', target: '1'}
+  - {label: nsubj, node: '6', target: '3'}
+  - {label: cop, node: '6', target: '4'}
+  - {label: amod, node: '6', target: '5'}
+  - {label: vmod, node: '6', target: '8'}
+  - {label: aux, node: '8', target: '7'}
+  - {label: dobj, node: '8', target: '10'}
+  - {label: det, node: '10', target: '9'}
+  - {label: prep_between, node: '10', target: '13'}
+  - {label: prep_between, node: '10', target: '16'}
+  - {label: det, node: '13', target: '12'}
+  - {label: conj_and, node: '13', target: '16'}
+  - {label: det, node: '16', target: '15'}
+  - {label: vmod, node: '16', target: '17'}
+  - {label: agent, node: '17', target: '21'}
+  - {label: det, node: '21', target: '19'}
+  - {label: amod, node: '21', target: '20'}
+  roots: ['6']
+  sentence: The NNT and NNH are useful indices to describe the trade-off between the benefit and the harm produced by a new treatment.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: NNT}
+  - {index: 2, value: and}
+  - {index: 3, value: NNH}
+  - {index: 4, value: are}
+  - {index: 5, value: useful}
+  - {index: 6, value: indices}
+  - {index: 7, value: to}
+  - {index: 8, value: describe}
+  - {index: 9, value: the}
+  - {index: 10, value: trade-off}
+  - {index: 11, value: between}
+  - {index: 12, value: the}
+  - {index: 13, value: benefit}
+  - {index: 14, value: and}
+  - {index: 15, value: the}
+  - {index: 16, value: harm}
+  - {index: 17, value: produced}
+  - {index: 18, value: by}
+  - {index: 19, value: a}
+  - {index: 20, value: new}
+  - {index: 21, value: treatment}
+  - {index: 22, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 18
+  e1Nominal: heat
+  e2Index: 22
+  e2Nominal: discoloration
+  from: TBD
+  incomingEdges:
+  - {label: mark, node: '0', target: '2'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: advcl, node: '2', target: '19'}
+  - {label: dobj, node: '3', target: '2'}
+  - {label: advmod, node: '4', target: '7'}
+  - {label: det, node: '5', target: '7'}
+  - {label: amod, node: '6', target: '7'}
+  - {label: nsubjpass, node: '7', target: '13'}
+  - {label: prep_on_top_of, node: '11', target: '7'}
+  - {label: auxpass, node: '12', target: '13'}
+  - {label: rcmod, node: '13', target: '3'}
+  - {label: prep_with, node: '15', target: '13'}
+  - {label: det, node: '17', target: '18'}
+  - {label: nsubj, node: '18', target: '19'}
+  - {label: det, node: '20', target: '22'}
+  - {label: amod, node: '21', target: '22'}
+  - {label: dobj, node: '22', target: '19'}
+  - {label: det, node: '24', target: '26'}
+  - {label: nn, node: '25', target: '26'}
+  - {label: prep_on, node: '26', target: '19'}
+  lemma:
+  - {index: 0, value: as}
+  - {index: 1, value: I}
+  - {index: 2, value: pull}
+  - {index: 3, value: unit}
+  - {index: 4, value: apart}
+  - {index: 5, value: the}
+  - {index: 6, value: small}
+  - {index: 7, value: fan}
+  - {index: 8, value: 'on'}
+  - {index: 9, value: top}
+  - {index: 10, value: of}
+  - {index: 11, value: light}
+  - {index: 12, value: be}
+  - {index: 13, value: cake}
+  - {index: 14, value: with}
+  - {index: 15, value: dust}
+  - {index: 16, value: ','}
+  - {index: 17, value: the}
+  - {index: 18, value: heat}
+  - {index: 19, value: cause}
+  - {index: 20, value: a}
+  - {index: 21, value: little}
+  - {index: 22, value: discoloration}
+  - {index: 23, value: 'on'}
+  - {index: 24, value: the}
+  - {index: 25, value: difusing}
+  - {index: 26, value: lense}
+  - {index: 27, value: .}
+  outgoingEdges:
+  - {label: mark, node: '2', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: dobj, node: '2', target: '3'}
+  - {label: rcmod, node: '3', target: '13'}
+  - {label: advmod, node: '7', target: '4'}
+  - {label: det, node: '7', target: '5'}
+  - {label: amod, node: '7', target: '6'}
+  - {label: prep_on_top_of, node: '7', target: '11'}
+  - {label: nsubjpass, node: '13', target: '7'}
+  - {label: auxpass, node: '13', target: '12'}
+  - {label: prep_with, node: '13', target: '15'}
+  - {label: det, node: '18', target: '17'}
+  - {label: advcl, node: '19', target: '2'}
+  - {label: nsubj, node: '19', target: '18'}
+  - {label: dobj, node: '19', target: '22'}
+  - {label: prep_on, node: '19', target: '26'}
+  - {label: det, node: '22', target: '20'}
+  - {label: amod, node: '22', target: '21'}
+  - {label: det, node: '26', target: '24'}
+  - {label: nn, node: '26', target: '25'}
+  roots: ['19']
+  sentence: As I pulled unit apart the small fan on top of light was caked with dust, the heat caused a little discoloration on the difusing lense.
+  to: TBD
+  words:
+  - {index: 0, value: As}
+  - {index: 1, value: I}
+  - {index: 2, value: pulled}
+  - {index: 3, value: unit}
+  - {index: 4, value: apart}
+  - {index: 5, value: the}
+  - {index: 6, value: small}
+  - {index: 7, value: fan}
+  - {index: 8, value: 'on'}
+  - {index: 9, value: top}
+  - {index: 10, value: of}
+  - {index: 11, value: light}
+  - {index: 12, value: was}
+  - {index: 13, value: caked}
+  - {index: 14, value: with}
+  - {index: 15, value: dust}
+  - {index: 16, value: ','}
+  - {index: 17, value: the}
+  - {index: 18, value: heat}
+  - {index: 19, value: caused}
+  - {index: 20, value: a}
+  - {index: 21, value: little}
+  - {index: 22, value: discoloration}
+  - {index: 23, value: 'on'}
+  - {index: 24, value: the}
+  - {index: 25, value: difusing}
+  - {index: 26, value: lense}
+  - {index: 27, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 2
+  e1Nominal: bang
+  e2Index: 7
+  e2Nominal: collision
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubjpass, node: '2', target: '4'}
+  - {label: auxpass, node: '3', target: '4'}
+  - {label: det, node: '6', target: '7'}
+  - {label: agent, node: '7', target: '4'}
+  - {label: num, node: '9', target: '11'}
+  - {label: amod, node: '10', target: '11'}
+  - {label: prep_of, node: '11', target: '7'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: big}
+  - {index: 2, value: bang}
+  - {index: 3, value: be}
+  - {index: 4, value: cause}
+  - {index: 5, value: by}
+  - {index: 6, value: the}
+  - {index: 7, value: collision}
+  - {index: 8, value: of}
+  - {index: 9, value: two}
+  - {index: 10, value: parallel}
+  - {index: 11, value: universe}
+  - {index: 12, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: nsubjpass, node: '4', target: '2'}
+  - {label: auxpass, node: '4', target: '3'}
+  - {label: agent, node: '4', target: '7'}
+  - {label: det, node: '7', target: '6'}
+  - {label: prep_of, node: '7', target: '11'}
+  - {label: num, node: '11', target: '9'}
+  - {label: amod, node: '11', target: '10'}
+  roots: ['4']
+  sentence: The big bang was caused by the collision of two parallel universes.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: big}
+  - {index: 2, value: bang}
+  - {index: 3, value: was}
+  - {index: 4, value: caused}
+  - {index: 5, value: by}
+  - {index: 6, value: the}
+  - {index: 7, value: collision}
+  - {index: 8, value: of}
+  - {index: 9, value: two}
+  - {index: 10, value: parallel}
+  - {index: 11, value: universes}
+  - {index: 12, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: increase
+  e2Index: 9
+  e2Nominal: strain
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '7'}
+  - {label: prep_in, node: '3', target: '1'}
+  - {label: advmod, node: '5', target: '7'}
+  - {label: det, node: '8', target: '9'}
+  - {label: dobj, node: '9', target: '7'}
+  - {label: det, node: '11', target: '13'}
+  - {label: nn, node: '12', target: '13'}
+  - {label: prep_on, node: '13', target: '7'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: increase}
+  - {index: 2, value: in}
+  - {index: 3, value: customer}
+  - {index: 4, value: ','}
+  - {index: 5, value: though}
+  - {index: 6, value: ','}
+  - {index: 7, value: cause}
+  - {index: 8, value: a}
+  - {index: 9, value: strain}
+  - {index: 10, value: 'on'}
+  - {index: 11, value: the}
+  - {index: 12, value: company}
+  - {index: 13, value: server}
+  - {index: 14, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: prep_in, node: '1', target: '3'}
+  - {label: nsubj, node: '7', target: '1'}
+  - {label: advmod, node: '7', target: '5'}
+  - {label: dobj, node: '7', target: '9'}
+  - {label: prep_on, node: '7', target: '13'}
+  - {label: det, node: '9', target: '8'}
+  - {label: det, node: '13', target: '11'}
+  - {label: nn, node: '13', target: '12'}
+  roots: ['7']
+  sentence: The increase in customers, though, caused a strain on the company servers.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: increase}
+  - {index: 2, value: in}
+  - {index: 3, value: customers}
+  - {index: 4, value: ','}
+  - {index: 5, value: though}
+  - {index: 6, value: ','}
+  - {index: 7, value: caused}
+  - {index: 8, value: a}
+  - {index: 9, value: strain}
+  - {index: 10, value: 'on'}
+  - {index: 11, value: the}
+  - {index: 12, value: company}
+  - {index: 13, value: servers}
+  - {index: 14, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: storm
+  e2Index: 7
+  e2Nominal: damage
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: det, node: '3', target: '5'}
+  - {label: amod, node: '4', target: '5'}
+  - {label: dobj, node: '5', target: '2'}
+  - {label: prep_of, node: '7', target: '5'}
+  - {label: det, node: '9', target: '11'}
+  - {label: nn, node: '10', target: '11'}
+  - {label: prep_on, node: '11', target: '2'}
+  - {label: conj_and, node: '14', target: '2'}
+  - {label: det, node: '15', target: '16'}
+  - {label: nsubj, node: '16', target: '18'}
+  - {label: advmod, node: '17', target: '18'}
+  - {label: ccomp, node: '18', target: '2'}
+  - {label: det, node: '19', target: '20'}
+  - {label: dobj, node: '20', target: '18'}
+  - {label: prep_at, node: '22', target: '18'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: storm}
+  - {index: 2, value: cause}
+  - {index: 3, value: a}
+  - {index: 4, value: tremendous}
+  - {index: 5, value: amount}
+  - {index: 6, value: of}
+  - {index: 7, value: damage}
+  - {index: 8, value: 'on'}
+  - {index: 9, value: the}
+  - {index: 10, value: landing}
+  - {index: 11, value: beach}
+  - {index: 12, value: ','}
+  - {index: 13, value: and}
+  - {index: 14, value: for}
+  - {index: 15, value: the}
+  - {index: 16, value: time}
+  - {index: 17, value: completely}
+  - {index: 18, value: isolate}
+  - {index: 19, value: the}
+  - {index: 20, value: troops}
+  - {index: 21, value: at}
+  - {index: 22, value: Anzac}
+  - {index: 23, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: dobj, node: '2', target: '5'}
+  - {label: prep_on, node: '2', target: '11'}
+  - {label: conj_and, node: '2', target: '14'}
+  - {label: ccomp, node: '2', target: '18'}
+  - {label: det, node: '5', target: '3'}
+  - {label: amod, node: '5', target: '4'}
+  - {label: prep_of, node: '5', target: '7'}
+  - {label: det, node: '11', target: '9'}
+  - {label: nn, node: '11', target: '10'}
+  - {label: det, node: '16', target: '15'}
+  - {label: nsubj, node: '18', target: '16'}
+  - {label: advmod, node: '18', target: '17'}
+  - {label: dobj, node: '18', target: '20'}
+  - {label: prep_at, node: '18', target: '22'}
+  - {label: det, node: '20', target: '19'}
+  roots: ['2']
+  sentence: The storm caused a tremendous amount of damage on the landing beaches, and for the time completely isolated the troops at Anzac.
+  to: TBD
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: storm}
+  - {index: 2, value: caused}
+  - {index: 3, value: a}
+  - {index: 4, value: tremendous}
+  - {index: 5, value: amount}
+  - {index: 6, value: of}
+  - {index: 7, value: damage}
+  - {index: 8, value: 'on'}
+  - {index: 9, value: the}
+  - {index: 10, value: landing}
+  - {index: 11, value: beaches}
+  - {index: 12, value: ','}
+  - {index: 13, value: and}
+  - {index: 14, value: for}
+  - {index: 15, value: the}
+  - {index: 16, value: time}
+  - {index: 17, value: completely}
+  - {index: 18, value: isolated}
+  - {index: 19, value: the}
+  - {index: 20, value: troops}
+  - {index: 21, value: at}
+  - {index: 22, value: Anzac}
+  - {index: 23, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 16
+  e1Nominal: discomfort
+  e2Index: 19
+  e2Nominal: injury
+  from: TBD
+  incomingEdges:
+  - {label: cc, node: '0', target: '5'}
+  - {label: prep_in, node: '2', target: '5'}
+  - {label: nsubj, node: '4', target: '5'}
+  - {label: det, node: '6', target: '8'}
+  - {label: amod, node: '7', target: '8'}
+  - {label: dobj, node: '8', target: '5'}
+  - {label: aux, node: '9', target: '10'}
+  - {label: vmod, node: '10', target: '8'}
+  - {label: aux, node: '11', target: '12'}
+  - {label: xcomp, node: '12', target: '10'}
+  - {label: det, node: '13', target: '14'}
+  - {label: dobj, node: '14', target: '12'}
+  - {label: dobj, node: '16', target: '12'}
+  - {label: conj_and, node: '16', target: '14'}
+  - {label: det, node: '18', target: '19'}
+  - {label: prep_from, node: '19', target: '12'}
+  lemma:
+  - {index: 0, value: but}
+  - {index: 1, value: in}
+  - {index: 2, value: '1993'}
+  - {index: 3, value: ','}
+  - {index: 4, value: Montalban}
+  - {index: 5, value: have}
+  - {index: 6, value: a}
+  - {index: 7, value: 10-hour}
+  - {index: 8, value: surgery}
+  - {index: 9, value: to}
+  - {index: 10, value: try}
+  - {index: 11, value: to}
+  - {index: 12, value: alleviate}
+  - {index: 13, value: the}
+  - {index: 14, value: pain}
+  - {index: 15, value: and}
+  - {index: 16, value: discomfort}
+  - {index: 17, value: from}
+  - {index: 18, value: this}
+  - {index: 19, value: injury}
+  - {index: 20, value: .}
+  outgoingEdges:
+  - {label: cc, node: '5', target: '0'}
+  - {label: prep_in, node: '5', target: '2'}
+  - {label: nsubj, node: '5', target: '4'}
+  - {label: dobj, node: '5', target: '8'}
+  - {label: det, node: '8', target: '6'}
+  - {label: amod, node: '8', target: '7'}
+  - {label: vmod, node: '8', target: '10'}
+  - {label: aux, node: '10', target: '9'}
+  - {label: xcomp, node: '10', target: '12'}
+  - {label: aux, node: '12', target: '11'}
+  - {label: dobj, node: '12', target: '14'}
+  - {label: dobj, node: '12', target: '16'}
+  - {label: prep_from, node: '12', target: '19'}
+  - {label: det, node: '14', target: '13'}
+  - {label: conj_and, node: '14', target: '16'}
+  - {label: det, node: '19', target: '18'}
+  roots: ['5']
+  sentence: But in 1993, Montalban had a 10-hour surgery to try to alleviate the pain and discomfort from this injury.
+  to: TBD
+  words:
+  - {index: 0, value: But}
+  - {index: 1, value: in}
+  - {index: 2, value: '1993'}
+  - {index: 3, value: ','}
+  - {index: 4, value: Montalban}
+  - {index: 5, value: had}
+  - {index: 6, value: a}
+  - {index: 7, value: 10-hour}
+  - {index: 8, value: surgery}
+  - {index: 9, value: to}
+  - {index: 10, value: try}
+  - {index: 11, value: to}
+  - {index: 12, value: alleviate}
+  - {index: 13, value: the}
+  - {index: 14, value: pain}
+  - {index: 15, value: and}
+  - {index: 16, value: discomfort}
+  - {index: 17, value: from}
+  - {index: 18, value: this}
+  - {index: 19, value: injury}
+  - {index: 20, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: disease
+  e2Index: 17
+  e2Nominal: ingestion
+  from: TBD
+  incomingEdges:
+  - {label: amod, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '8'}
+  - {label: dep, node: '3', target: '1'}
+  - {label: cop, node: '5', target: '8'}
+  - {label: det, node: '6', target: '8'}
+  - {label: amod, node: '7', target: '8'}
+  - {label: det, node: '10', target: '13'}
+  - {label: amod, node: '11', target: '13'}
+  - {label: amod, node: '12', target: '13'}
+  - {label: prep_of, node: '13', target: '8'}
+  - {label: vmod, node: '14', target: '13'}
+  - {label: det, node: '16', target: '17'}
+  - {label: agent, node: '17', target: '14'}
+  - {label: prep_of, node: '19', target: '17'}
+  - {label: prep_of, node: '21', target: '17'}
+  - {label: conj_and, node: '21', target: '19'}
+  - {label: prep_of, node: '23', target: '17'}
+  - {label: conj_and, node: '23', target: '19'}
+  - {label: advmod, node: '26', target: '19'}
+  - {label: nn, node: '27', target: '28'}
+  - {label: prep_of, node: '28', target: '17'}
+  - {label: conj_and, node: '28', target: '19'}
+  lemma:
+  - {index: 0, value: celiac}
+  - {index: 1, value: disease}
+  - {index: 2, value: -lrb-}
+  - {index: 3, value: cd}
+  - {index: 4, value: -rrb-}
+  - {index: 5, value: be}
+  - {index: 6, value: a}
+  - {index: 7, value: inflammatory}
+  - {index: 8, value: disorder}
+  - {index: 9, value: of}
+  - {index: 10, value: the}
+  - {index: 11, value: upper}
+  - {index: 12, value: small}
+  - {index: 13, value: intestine}
+  - {index: 14, value: trigger}
+  - {index: 15, value: by}
+  - {index: 16, value: the}
+  - {index: 17, value: ingestion}
+  - {index: 18, value: of}
+  - {index: 19, value: wheat}
+  - {index: 20, value: ','}
+  - {index: 21, value: rye}
+  - {index: 22, value: ','}
+  - {index: 23, value: barley}
+  - {index: 24, value: ','}
+  - {index: 25, value: and}
+  - {index: 26, value: possibly}
+  - {index: 27, value: oat}
+  - {index: 28, value: product}
+  - {index: 29, value: .}
+  outgoingEdges:
+  - {label: amod, node: '1', target: '0'}
+  - {label: dep, node: '1', target: '3'}
+  - {label: nsubj, node: '8', target: '1'}
+  - {label: cop, node: '8', target: '5'}
+  - {label: det, node: '8', target: '6'}
+  - {label: amod, node: '8', target: '7'}
+  - {label: prep_of, node: '8', target: '13'}
+  - {label: det, node: '13', target: '10'}
+  - {label: amod, node: '13', target: '11'}
+  - {label: amod, node: '13', target: '12'}
+  - {label: vmod, node: '13', target: '14'}
+  - {label: agent, node: '14', target: '17'}
+  - {label: det, node: '17', target: '16'}
+  - {label: prep_of, node: '17', target: '19'}
+  - {label: prep_of, node: '17', target: '21'}
+  - {label: prep_of, node: '17', target: '23'}
+  - {label: prep_of, node: '17', target: '28'}
+  - {label: conj_and, node: '19', target: '21'}
+  - {label: conj_and, node: '19', target: '23'}
+  - {label: advmod, node: '19', target: '26'}
+  - {label: conj_and, node: '19', target: '28'}
+  - {label: nn, node: '28', target: '27'}
+  roots: ['8']
+  sentence: Celiac disease (CD) is an inflammatory disorder of the upper small intestine triggered by the ingestion of wheat, rye, barley, and possibly oat products.
+  to: TBD
+  words:
+  - {index: 0, value: Celiac}
+  - {index: 1, value: disease}
+  - {index: 2, value: -LRB-}
+  - {index: 3, value: CD}
+  - {index: 4, value: -RRB-}
+  - {index: 5, value: is}
+  - {index: 6, value: an}
+  - {index: 7, value: inflammatory}
+  - {index: 8, value: disorder}
+  - {index: 9, value: of}
+  - {index: 10, value: the}
+  - {index: 11, value: upper}
+  - {index: 12, value: small}
+  - {index: 13, value: intestine}
+  - {index: 14, value: triggered}
+  - {index: 15, value: by}
+  - {index: 16, value: the}
+  - {index: 17, value: ingestion}
+  - {index: 18, value: of}
+  - {index: 19, value: wheat}
+  - {index: 20, value: ','}
+  - {index: 21, value: rye}
+  - {index: 22, value: ','}
+  - {index: 23, value: barley}
+  - {index: 24, value: ','}
+  - {index: 25, value: and}
+  - {index: 26, value: possibly}
+  - {index: 27, value: oat}
+  - {index: 28, value: products}
+  - {index: 29, value: .}

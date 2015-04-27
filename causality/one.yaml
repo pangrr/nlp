@@ -1,0 +1,61 @@
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: discomfort
+  e2Index: 5
+  e2Nominal: traveling
+  from: e2
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '1'}
+  - {label: det, node: '2', target: '3'}
+  - {label: dobj, node: '3', target: '1'}
+  - {label: prepc_from, node: '5', target: '1'}
+  - {label: det, node: '7', target: '9'}
+  - {label: amod, node: '8', target: '9'}
+  - {label: prep_with, node: '9', target: '5'}
+  - {label: nn, node: '11', target: '12'}
+  - {label: prep_with, node: '12', target: '5'}
+  - {label: conj_or, node: '12', target: '9'}
+  lemma:
+  - {index: 0, value: earplug}
+  - {index: 1, value: relieve}
+  - {index: 2, value: the}
+  - {index: 3, value: discomfort}
+  - {index: 4, value: from}
+  - {index: 5, value: travel}
+  - {index: 6, value: with}
+  - {index: 7, value: a}
+  - {index: 8, value: cold}
+  - {index: 9, value: allergy}
+  - {index: 10, value: or}
+  - {index: 11, value: sinus}
+  - {index: 12, value: condition}
+  - {index: 13, value: .}
+  outgoingEdges:
+  - {label: nsubj, node: '1', target: '0'}
+  - {label: dobj, node: '1', target: '3'}
+  - {label: prepc_from, node: '1', target: '5'}
+  - {label: det, node: '3', target: '2'}
+  - {label: prep_with, node: '5', target: '9'}
+  - {label: prep_with, node: '5', target: '12'}
+  - {label: det, node: '9', target: '7'}
+  - {label: amod, node: '9', target: '8'}
+  - {label: conj_or, node: '9', target: '12'}
+  - {label: nn, node: '12', target: '11'}
+  roots: ['1']
+  sentence: Earplugs relieve the discomfort from traveling with a cold allergy or sinus condition.
+  to: e1
+  words:
+  - {index: 0, value: Earplugs}
+  - {index: 1, value: relieve}
+  - {index: 2, value: the}
+  - {index: 3, value: discomfort}
+  - {index: 4, value: from}
+  - {index: 5, value: traveling}
+  - {index: 6, value: with}
+  - {index: 7, value: a}
+  - {index: 8, value: cold}
+  - {index: 9, value: allergy}
+  - {index: 10, value: or}
+  - {index: 11, value: sinus}
+  - {index: 12, value: condition}
+  - {index: 13, value: .}

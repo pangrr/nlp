@@ -1,0 +1,631 @@
+- !!causal.ParsedCausalRelation
+  e1Index: 4
+  e1Nominal: virus
+  e2Index: 18
+  e2Nominal: disease
+  from: e1
+  incomingEdges:
+  - {label: advmod, node: '0', target: '6'}
+  - {label: det, node: '2', target: '4'}
+  - {label: nn, node: '3', target: '4'}
+  - {label: nsubj, node: '4', target: '6'}
+  - {label: aux, node: '5', target: '6'}
+  - {label: advmod, node: '8', target: '11'}
+  - {label: det, node: '9', target: '11'}
+  - {label: amod, node: '10', target: '11'}
+  - {label: prep_by, node: '11', target: '6'}
+  - {label: amod, node: '13', target: '14'}
+  - {label: prep_of, node: '14', target: '11'}
+  - {label: advmod, node: '16', target: '17'}
+  - {label: amod, node: '17', target: '18'}
+  - {label: prep_of, node: '18', target: '14'}
+  - {label: det, node: '20', target: '22'}
+  - {label: amod, node: '21', target: '22'}
+  - {label: prep_of, node: '22', target: '11'}
+  - {label: conj_and, node: '22', target: '14'}
+  - {label: prep_of, node: '24', target: '22'}
+  lemma:
+  - {index: 0, value: first}
+  - {index: 1, value: ','}
+  - {index: 2, value: the}
+  - {index: 3, value: h5n1}
+  - {index: 4, value: virus}
+  - {index: 5, value: have}
+  - {index: 6, value: cause}
+  - {index: 7, value: by}
+  - {index: 8, value: far}
+  - {index: 9, value: the}
+  - {index: 10, value: greatest}
+  - {index: 11, value: number}
+  - {index: 12, value: of}
+  - {index: 13, value: human}
+  - {index: 14, value: case}
+  - {index: 15, value: of}
+  - {index: 16, value: very}
+  - {index: 17, value: severe}
+  - {index: 18, value: disease}
+  - {index: 19, value: and}
+  - {index: 20, value: the}
+  - {index: 21, value: greatest}
+  - {index: 22, value: number}
+  - {index: 23, value: of}
+  - {index: 24, value: death}
+  - {index: 25, value: .}
+  outgoingEdges:
+  - {label: det, node: '4', target: '2'}
+  - {label: nn, node: '4', target: '3'}
+  - {label: advmod, node: '6', target: '0'}
+  - {label: nsubj, node: '6', target: '4'}
+  - {label: aux, node: '6', target: '5'}
+  - {label: prep_by, node: '6', target: '11'}
+  - {label: advmod, node: '11', target: '8'}
+  - {label: det, node: '11', target: '9'}
+  - {label: amod, node: '11', target: '10'}
+  - {label: prep_of, node: '11', target: '14'}
+  - {label: prep_of, node: '11', target: '22'}
+  - {label: amod, node: '14', target: '13'}
+  - {label: prep_of, node: '14', target: '18'}
+  - {label: conj_and, node: '14', target: '22'}
+  - {label: advmod, node: '17', target: '16'}
+  - {label: amod, node: '18', target: '17'}
+  - {label: det, node: '22', target: '20'}
+  - {label: amod, node: '22', target: '21'}
+  - {label: prep_of, node: '22', target: '24'}
+  roots: ['6']
+  sentence: First, the H5N1 virus has caused by far the greatest number of human cases of very severe disease and the greatest number of deaths.
+  to: e2
+  words:
+  - {index: 0, value: First}
+  - {index: 1, value: ','}
+  - {index: 2, value: the}
+  - {index: 3, value: H5N1}
+  - {index: 4, value: virus}
+  - {index: 5, value: has}
+  - {index: 6, value: caused}
+  - {index: 7, value: by}
+  - {index: 8, value: far}
+  - {index: 9, value: the}
+  - {index: 10, value: greatest}
+  - {index: 11, value: number}
+  - {index: 12, value: of}
+  - {index: 13, value: human}
+  - {index: 14, value: cases}
+  - {index: 15, value: of}
+  - {index: 16, value: very}
+  - {index: 17, value: severe}
+  - {index: 18, value: disease}
+  - {index: 19, value: and}
+  - {index: 20, value: the}
+  - {index: 21, value: greatest}
+  - {index: 22, value: number}
+  - {index: 23, value: of}
+  - {index: 24, value: deaths}
+  - {index: 25, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: abuse
+  e2Index: 9
+  e2Nominal: illness
+  from: e2
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubjpass, node: '1', target: '3'}
+  - {label: auxpass, node: '2', target: '3'}
+  - {label: det, node: '5', target: '6'}
+  - {label: poss, node: '6', target: '9'}
+  - {label: amod, node: '8', target: '9'}
+  - {label: prep_in, node: '9', target: '3'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: abuse}
+  - {index: 2, value: be}
+  - {index: 3, value: root}
+  - {index: 4, value: in}
+  - {index: 5, value: the}
+  - {index: 6, value: perpetrator}
+  - {index: 7, value: '''s'}
+  - {index: 8, value: mental}
+  - {index: 9, value: illness}
+  - {index: 10, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubjpass, node: '3', target: '1'}
+  - {label: auxpass, node: '3', target: '2'}
+  - {label: prep_in, node: '3', target: '9'}
+  - {label: det, node: '6', target: '5'}
+  - {label: poss, node: '9', target: '6'}
+  - {label: amod, node: '9', target: '8'}
+  roots: ['3']
+  sentence: The abuse is rooted in the perpetrator's mental illness.
+  to: e1
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: abuse}
+  - {index: 2, value: is}
+  - {index: 3, value: rooted}
+  - {index: 4, value: in}
+  - {index: 5, value: the}
+  - {index: 6, value: perpetrator}
+  - {index: 7, value: '''s'}
+  - {index: 8, value: mental}
+  - {index: 9, value: illness}
+  - {index: 10, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: mortality
+  e2Index: 5
+  e2Nominal: war
+  from: e2
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '8'}
+  - {label: vmod, node: '2', target: '1'}
+  - {label: det, node: '4', target: '5'}
+  - {label: agent, node: '5', target: '2'}
+  - {label: cop, node: '6', target: '8'}
+  - {label: advmod, node: '7', target: '8'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: mortality}
+  - {index: 2, value: cause}
+  - {index: 3, value: by}
+  - {index: 4, value: the}
+  - {index: 5, value: war}
+  - {index: 6, value: be}
+  - {index: 7, value: also}
+  - {index: 8, value: high}
+  - {index: 9, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: vmod, node: '1', target: '2'}
+  - {label: agent, node: '2', target: '5'}
+  - {label: det, node: '5', target: '4'}
+  - {label: nsubj, node: '8', target: '1'}
+  - {label: cop, node: '8', target: '6'}
+  - {label: advmod, node: '8', target: '7'}
+  roots: ['8']
+  sentence: The mortality caused by the war is also high.
+  to: e1
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: mortality}
+  - {index: 2, value: caused}
+  - {index: 3, value: by}
+  - {index: 4, value: the}
+  - {index: 5, value: war}
+  - {index: 6, value: is}
+  - {index: 7, value: also}
+  - {index: 8, value: high}
+  - {index: 9, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 5
+  e1Nominal: pain
+  e2Index: 7
+  e2Nominal: stroke
+  from: e2
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubj, node: '2', target: '3'}
+  - {label: det, node: '4', target: '5'}
+  - {label: dobj, node: '5', target: '3'}
+  - {label: prep_from, node: '7', target: '3'}
+  - {label: poss, node: '9', target: '10'}
+  - {label: prep_in, node: '10', target: '7'}
+  lemma:
+  - {index: 0, value: a}
+  - {index: 1, value: magnetic}
+  - {index: 2, value: bracelet}
+  - {index: 3, value: help}
+  - {index: 4, value: the}
+  - {index: 5, value: pain}
+  - {index: 6, value: from}
+  - {index: 7, value: stroke}
+  - {index: 8, value: in}
+  - {index: 9, value: you}
+  - {index: 10, value: arm}
+  - {index: 11, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: nsubj, node: '3', target: '2'}
+  - {label: dobj, node: '3', target: '5'}
+  - {label: prep_from, node: '3', target: '7'}
+  - {label: det, node: '5', target: '4'}
+  - {label: prep_in, node: '7', target: '10'}
+  - {label: poss, node: '10', target: '9'}
+  roots: ['3']
+  sentence: A magnetic bracelet helps the pain from stroke in your arm.
+  to: e1
+  words:
+  - {index: 0, value: A}
+  - {index: 1, value: magnetic}
+  - {index: 2, value: bracelet}
+  - {index: 3, value: helps}
+  - {index: 4, value: the}
+  - {index: 5, value: pain}
+  - {index: 6, value: from}
+  - {index: 7, value: stroke}
+  - {index: 8, value: in}
+  - {index: 9, value: your}
+  - {index: 10, value: arm}
+  - {index: 11, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 2
+  e1Nominal: light
+  e2Index: 11
+  e2Nominal: screen
+  from: e2
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubj, node: '2', target: '7'}
+  - {label: det, node: '4', target: '5'}
+  - {label: prep_in, node: '5', target: '2'}
+  - {label: aux, node: '6', target: '7'}
+  - {label: det, node: '9', target: '11'}
+  - {label: nn, node: '10', target: '11'}
+  - {label: prep_from, node: '11', target: '7'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: only}
+  - {index: 2, value: light}
+  - {index: 3, value: in}
+  - {index: 4, value: the}
+  - {index: 5, value: house}
+  - {index: 6, value: be}
+  - {index: 7, value: radiate}
+  - {index: 8, value: from}
+  - {index: 9, value: the}
+  - {index: 10, value: tv}
+  - {index: 11, value: screen}
+  - {index: 12, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: prep_in, node: '2', target: '5'}
+  - {label: det, node: '5', target: '4'}
+  - {label: nsubj, node: '7', target: '2'}
+  - {label: aux, node: '7', target: '6'}
+  - {label: prep_from, node: '7', target: '11'}
+  - {label: det, node: '11', target: '9'}
+  - {label: nn, node: '11', target: '10'}
+  roots: ['7']
+  sentence: The only light in the house was radiating from the TV screen.
+  to: e1
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: only}
+  - {index: 2, value: light}
+  - {index: 3, value: in}
+  - {index: 4, value: the}
+  - {index: 5, value: house}
+  - {index: 6, value: was}
+  - {index: 7, value: radiating}
+  - {index: 8, value: from}
+  - {index: 9, value: the}
+  - {index: 10, value: TV}
+  - {index: 11, value: screen}
+  - {index: 12, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 1
+  e1Nominal: storm
+  e2Index: 10
+  e2Nominal: damage
+  from: e1
+  incomingEdges:
+  - {label: det, node: '0', target: '1'}
+  - {label: nsubj, node: '1', target: '2'}
+  - {label: num, node: '4', target: '5'}
+  - {label: prep_in, node: '5', target: '2'}
+  - {label: number, node: '7', target: '8'}
+  - {label: num, node: '8', target: '10'}
+  - {label: nn, node: '9', target: '10'}
+  - {label: prep_in, node: '10', target: '2'}
+  - {label: conj_and, node: '10', target: '5'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: storm}
+  - {index: 2, value: result}
+  - {index: 3, value: in}
+  - {index: 4, value: '31'}
+  - {index: 5, value: death}
+  - {index: 6, value: and}
+  - {index: 7, value: '2.5'}
+  - {index: 8, value: million}
+  - {index: 9, value: dollar}
+  - {index: 10, value: damage}
+  - {index: 11, value: .}
+  outgoingEdges:
+  - {label: det, node: '1', target: '0'}
+  - {label: nsubj, node: '2', target: '1'}
+  - {label: prep_in, node: '2', target: '5'}
+  - {label: prep_in, node: '2', target: '10'}
+  - {label: num, node: '5', target: '4'}
+  - {label: conj_and, node: '5', target: '10'}
+  - {label: number, node: '8', target: '7'}
+  - {label: num, node: '10', target: '8'}
+  - {label: nn, node: '10', target: '9'}
+  roots: ['2']
+  sentence: The storm resulted in 31 deaths and 2.5 million dollars damage.
+  to: e2
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: storm}
+  - {index: 2, value: resulted}
+  - {index: 3, value: in}
+  - {index: 4, value: '31'}
+  - {index: 5, value: deaths}
+  - {index: 6, value: and}
+  - {index: 7, value: '2.5'}
+  - {index: 8, value: million}
+  - {index: 9, value: dollars}
+  - {index: 10, value: damage}
+  - {index: 11, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 2
+  e1Nominal: debt
+  e2Index: 7
+  e2Nominal: stress
+  from: e1
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '5'}
+  - {label: conj_and, node: '2', target: '0'}
+  - {label: nsubj, node: '2', target: '5'}
+  - {label: conj_and, node: '4', target: '0'}
+  - {label: nsubj, node: '4', target: '5'}
+  - {label: amod, node: '6', target: '7'}
+  - {label: dobj, node: '7', target: '5'}
+  lemma:
+  - {index: 0, value: unemployment}
+  - {index: 1, value: ','}
+  - {index: 2, value: debt}
+  - {index: 3, value: and}
+  - {index: 4, value: poverty}
+  - {index: 5, value: cause}
+  - {index: 6, value: enormous}
+  - {index: 7, value: stress}
+  - {index: 8, value: .}
+  outgoingEdges:
+  - {label: conj_and, node: '0', target: '2'}
+  - {label: conj_and, node: '0', target: '4'}
+  - {label: nsubj, node: '5', target: '0'}
+  - {label: nsubj, node: '5', target: '2'}
+  - {label: nsubj, node: '5', target: '4'}
+  - {label: dobj, node: '5', target: '7'}
+  - {label: amod, node: '7', target: '6'}
+  roots: ['5']
+  sentence: Unemployment, debt and poverty cause enormous stress.
+  to: e2
+  words:
+  - {index: 0, value: Unemployment}
+  - {index: 1, value: ','}
+  - {index: 2, value: debt}
+  - {index: 3, value: and}
+  - {index: 4, value: poverty}
+  - {index: 5, value: cause}
+  - {index: 6, value: enormous}
+  - {index: 7, value: stress}
+  - {index: 8, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 5
+  e1Nominal: convulsion
+  e2Index: 12
+  e2Nominal: fever
+  from: e2
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubj, node: '2', target: '5'}
+  - {label: cop, node: '3', target: '5'}
+  - {label: det, node: '4', target: '5'}
+  - {label: det, node: '7', target: '8'}
+  - {label: prep_in, node: '8', target: '5'}
+  - {label: vmod, node: '9', target: '8'}
+  - {label: det, node: '11', target: '12'}
+  - {label: agent, node: '12', target: '9'}
+  lemma:
+  - {index: 0, value: a}
+  - {index: 1, value: febrile}
+  - {index: 2, value: seizure}
+  - {index: 3, value: be}
+  - {index: 4, value: a}
+  - {index: 5, value: convulsion}
+  - {index: 6, value: in}
+  - {index: 7, value: a}
+  - {index: 8, value: child}
+  - {index: 9, value: trigger}
+  - {index: 10, value: by}
+  - {index: 11, value: a}
+  - {index: 12, value: fever}
+  - {index: 13, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: nsubj, node: '5', target: '2'}
+  - {label: cop, node: '5', target: '3'}
+  - {label: det, node: '5', target: '4'}
+  - {label: prep_in, node: '5', target: '8'}
+  - {label: det, node: '8', target: '7'}
+  - {label: vmod, node: '8', target: '9'}
+  - {label: agent, node: '9', target: '12'}
+  - {label: det, node: '12', target: '11'}
+  roots: ['5']
+  sentence: A febrile seizure is a convulsion in a child triggered by a fever.
+  to: e1
+  words:
+  - {index: 0, value: A}
+  - {index: 1, value: febrile}
+  - {index: 2, value: seizure}
+  - {index: 3, value: is}
+  - {index: 4, value: a}
+  - {index: 5, value: convulsion}
+  - {index: 6, value: in}
+  - {index: 7, value: a}
+  - {index: 8, value: child}
+  - {index: 9, value: triggered}
+  - {index: 10, value: by}
+  - {index: 11, value: a}
+  - {index: 12, value: fever}
+  - {index: 13, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: problem
+  e2Index: 10
+  e2Nominal: law
+  from: e2
+  incomingEdges:
+  - {label: nsubjpass, node: '0', target: '5'}
+  - {label: det, node: '2', target: '3'}
+  - {label: prep_of, node: '3', target: '0'}
+  - {label: auxpass, node: '4', target: '5'}
+  - {label: det, node: '7', target: '10'}
+  - {label: amod, node: '8', target: '10'}
+  - {label: nn, node: '9', target: '10'}
+  - {label: prep_in, node: '10', target: '5'}
+  lemma:
+  - {index: 0, value: part}
+  - {index: 1, value: of}
+  - {index: 2, value: the}
+  - {index: 3, value: problem}
+  - {index: 4, value: be}
+  - {index: 5, value: root}
+  - {index: 6, value: in}
+  - {index: 7, value: a}
+  - {index: 8, value: ill-conceived}
+  - {index: 9, value: state}
+  - {index: 10, value: law}
+  - {index: 11, value: .}
+  outgoingEdges:
+  - {label: prep_of, node: '0', target: '3'}
+  - {label: det, node: '3', target: '2'}
+  - {label: nsubjpass, node: '5', target: '0'}
+  - {label: auxpass, node: '5', target: '4'}
+  - {label: prep_in, node: '5', target: '10'}
+  - {label: det, node: '10', target: '7'}
+  - {label: amod, node: '10', target: '8'}
+  - {label: nn, node: '10', target: '9'}
+  roots: ['5']
+  sentence: Part of the problem is rooted in an ill-conceived state law.
+  to: e1
+  words:
+  - {index: 0, value: Part}
+  - {index: 1, value: of}
+  - {index: 2, value: the}
+  - {index: 3, value: problem}
+  - {index: 4, value: is}
+  - {index: 5, value: rooted}
+  - {index: 6, value: in}
+  - {index: 7, value: an}
+  - {index: 8, value: ill-conceived}
+  - {index: 9, value: state}
+  - {index: 10, value: law}
+  - {index: 11, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 2
+  e1Nominal: mistake
+  e2Index: 5
+  e2Nominal: quarrel
+  from: e1
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubj, node: '2', target: '3'}
+  - {label: nsubj, node: '4', target: '5'}
+  - {label: ccomp, node: '5', target: '3'}
+  - {label: amod, node: '7', target: '8'}
+  - {label: prep_between, node: '8', target: '5'}
+  lemma:
+  - {index: 0, value: the}
+  - {index: 1, value: fatal}
+  - {index: 2, value: mistake}
+  - {index: 3, value: cause}
+  - {index: 4, value: a}
+  - {index: 5, value: quarrel}
+  - {index: 6, value: between}
+  - {index: 7, value: different}
+  - {index: 8, value: company}
+  - {index: 9, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: nsubj, node: '3', target: '2'}
+  - {label: ccomp, node: '3', target: '5'}
+  - {label: nsubj, node: '5', target: '4'}
+  - {label: prep_between, node: '5', target: '8'}
+  - {label: amod, node: '8', target: '7'}
+  roots: ['3']
+  sentence: The fatal mistake caused a quarrel between different companies.
+  to: e2
+  words:
+  - {index: 0, value: The}
+  - {index: 1, value: fatal}
+  - {index: 2, value: mistake}
+  - {index: 3, value: caused}
+  - {index: 4, value: a}
+  - {index: 5, value: quarrel}
+  - {index: 6, value: between}
+  - {index: 7, value: different}
+  - {index: 8, value: companies}
+  - {index: 9, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 3
+  e1Nominal: discomfort
+  e2Index: 5
+  e2Nominal: traveling
+  from: e2
+  incomingEdges:
+  - {label: nsubj, node: '0', target: '1'}
+  - {label: det, node: '2', target: '3'}
+  - {label: dobj, node: '3', target: '1'}
+  - {label: prepc_from, node: '5', target: '1'}
+  - {label: det, node: '7', target: '9'}
+  - {label: amod, node: '8', target: '9'}
+  - {label: prep_with, node: '9', target: '5'}
+  - {label: nn, node: '11', target: '12'}
+  - {label: prep_with, node: '12', target: '5'}
+  - {label: conj_or, node: '12', target: '9'}
+  lemma:
+  - {index: 0, value: earplug}
+  - {index: 1, value: relieve}
+  - {index: 2, value: the}
+  - {index: 3, value: discomfort}
+  - {index: 4, value: from}
+  - {index: 5, value: travel}
+  - {index: 6, value: with}
+  - {index: 7, value: a}
+  - {index: 8, value: cold}
+  - {index: 9, value: allergy}
+  - {index: 10, value: or}
+  - {index: 11, value: sinus}
+  - {index: 12, value: condition}
+  - {index: 13, value: .}
+  outgoingEdges:
+  - {label: nsubj, node: '1', target: '0'}
+  - {label: dobj, node: '1', target: '3'}
+  - {label: prepc_from, node: '1', target: '5'}
+  - {label: det, node: '3', target: '2'}
+  - {label: prep_with, node: '5', target: '9'}
+  - {label: prep_with, node: '5', target: '12'}
+  - {label: det, node: '9', target: '7'}
+  - {label: amod, node: '9', target: '8'}
+  - {label: conj_or, node: '9', target: '12'}
+  - {label: nn, node: '12', target: '11'}
+  roots: ['1']
+  sentence: Earplugs relieve the discomfort from traveling with a cold allergy or sinus condition.
+  to: e1
+  words:
+  - {index: 0, value: Earplugs}
+  - {index: 1, value: relieve}
+  - {index: 2, value: the}
+  - {index: 3, value: discomfort}
+  - {index: 4, value: from}
+  - {index: 5, value: traveling}
+  - {index: 6, value: with}
+  - {index: 7, value: a}
+  - {index: 8, value: cold}
+  - {index: 9, value: allergy}
+  - {index: 10, value: or}
+  - {index: 11, value: sinus}
+  - {index: 12, value: condition}
+  - {index: 13, value: .}
