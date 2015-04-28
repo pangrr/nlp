@@ -9,6 +9,7 @@ import sys
 
 
 
+
 class Sentences:
     def __init__ (self, file, evils):
         self.sents = self.load (file)
@@ -117,23 +118,33 @@ class Classifier:
     def __init__ (self, sents, temps):
         self.sents = sents
         self.temps = temps
+        self.answers = []
 
+    # Do the classification and print the misclassified sentences.
     def grade (self):
         stdA = self.sents.getAnswer()
-        myA = self.classify()
-        if len(stdA) == len(myA):
-            for i in range(len(stdA)):
-                if stdA[i] != myA[i]:
-                    print (self.sents.getSent(i))
-        else:
-            print ("Unequal number of sentences!")
+        for i in range(len(stdA)):
+            if stdA[i] != self.answers[i]:
+                print (self.sents.getSent(i))
+
+    # Write answers to file.
+    def writeAnswer (self, file):
+        sents = self.sents.sents
+        for i in range(len(sents)):
+            if self.answers[i] == 0:
+                sents[i]["from"] = "e1"
+                sents[i]["to"] = "e2"
+            else:
+                sents[i]["from"] = "e2"
+                sents[i]["to"] = "e1"
+        outFile = open(file, "w")
+        outFile.write(yaml.dump(sents).replace("- e1Index", "- !!causal.ParsedCausalRelation\n  e1Index "))
 
 
+    # Return a list of causality decision for all sentences.
     def classify (self):
-        myA = []
         for i in range(len(self.sents.sents)):
-            myA.append(self.classSent(i))
-        return myA
+            self.answers.append(self.classSent(i))
 
 
 
@@ -270,7 +281,9 @@ class Classifier:
 
 if __name__ == "__main__":
     evils = Evils ("evils.yaml")
-    sents = Sentences ("train.yaml", evils)
+    sents = Sentences ("test.yaml", evils)
     temps = Templates ("temp.yaml")
     classifier = Classifier (sents, temps)
-    classifier.grade()
+    classifier.classify()
+    classifier.writeAnswer("answer.yaml")
+    #classifier.grade()
