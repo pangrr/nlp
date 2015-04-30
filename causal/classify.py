@@ -1,7 +1,9 @@
+from __future__ import print_function
 import yaml
 from pprint import pprint
 import math
 import sys
+import copy
 
 
 
@@ -57,16 +59,20 @@ class Sentences:
         return self.evils.clean (pos)
 
 
-    def getX (self, i):
+    def getE1 (self, i):
         return self.sents[i]["words"][self.sents[i]["e1Index"]]["index"]
 
 
-    def getY (self, i):
+    def getE2 (self, i):
         return self.sents[i]["words"][self.sents[i]["e2Index"]]["index"]
 
 
-
-
+    # If two words adjoin.
+    def isAdjoin (self, i):
+        if self.getE1(i) + 1 == self.getE2(i):
+            return 1
+        else:
+            return 0
 
 
 
@@ -115,21 +121,38 @@ class Templates:
 
 
 class Classifier:
+
+
+
     def __init__ (self, sents, temps):
         self.sents = sents
         self.temps = temps
         self.answers = []
 
-    # Do the classification and print the misclassified sentences.
-    def grade (self):
+
+
+
+
+    # Print the misclassified sentences. Should be used after classification.
+    def checkAnswer (self):
         stdA = self.sents.getAnswer()
+        allCorrect = True
+
         for i in range(len(stdA)):
             if stdA[i] != self.answers[i]:
+                if allCorrect == True:
+                    print ("Misclassified sentences:")
                 print (self.sents.getSent(i))
+                allCorrect = False
+        if allCorrect == True:
+            print ("Answers all correct.")
 
-    # Write answers to file.
+
+
+    # Write answers to file. Should be used after classification.
     def writeAnswer (self, file):
-        sents = self.sents.sents
+        sents = copy.deepcopy(self.sents.sents)  # Use a copy of the sentences.
+
         for i in range(len(sents)):
             if self.answers[i] == 0:
                 sents[i]["from"] = "e1"
@@ -137,21 +160,29 @@ class Classifier:
             else:
                 sents[i]["from"] = "e2"
                 sents[i]["to"] = "e1"
+
         outFile = open(file, "w")
         outFile.write(yaml.dump(sents).replace("- e1Index", "- !!causal.ParsedCausalRelation\n  e1Index "))
 
 
-    # Return a list of causality decision for all sentences.
-    def classify (self):
+
+
+
+    # Classify causal relationships for all sentences.
+    def classAll (self):
         for i in range(len(self.sents.sents)):
             self.answers.append(self.classSent(i))
 
 
 
-    # Return the causality decision for a sentence.
+    # Return the causal relationship for a sentence.
     def classSent (self, i):
+        if self.sents.isAdjoin (i):
+            return self.dealAdjoin()
+
         preMatch, intMatch, posMatch = self.matchSent (i)
         nMatch = len(preMatch) + len(intMatch) + len(posMatch)
+
         if  nMatch == 0:
             return self.dealNoMatch ()
         elif len (intMatch) > 0:
@@ -161,8 +192,15 @@ class Classifier:
 
 
 
+
+    # If two words adjoin.
+    def dealAdjoin (self):
+        return 0
+
+
     def dealNoIntMatch (self):
         return 0
+
 
     # Decide on edges or order between two words.
     def dealNoMatch (self):
@@ -171,7 +209,6 @@ class Classifier:
 
     def dealPreMatch (self, matches):
         return 0
-
 
 
     def dealPosMatch (self, matches):
@@ -202,8 +239,8 @@ class Classifier:
 
     # Return all match templates for sentence i.
     def matchSent (self, i):
-        x = self.sents.getX(i)
-        y = self.sents.getY(i)
+        x = self.sents.getE1(i)
+        y = self.sents.getE2(i)
         preMatch = self.matchWords (self.sents.getPre(i, x))
         intMatch = self.matchWords (self.sents.getInt(i, x, y))
         posMatch = self.matchWords (self.sents.getPos(i, y))
@@ -281,9 +318,10 @@ class Classifier:
 
 if __name__ == "__main__":
     evils = Evils ("evils.yaml")
-    sents = Sentences ("test.yaml", evils)
+    sents = Sentences (sys.argv[1], evils)
     temps = Templates ("temp.yaml")
     classifier = Classifier (sents, temps)
-    classifier.classify()
+    classifier.classAll()
     classifier.writeAnswer("answer.yaml")
-    #classifier.grade()
+    classifier.checkAnswer()
+    print ("Answers has been saved in answer.yaml.")

@@ -1,0 +1,57 @@
+
+***********************     FILES   ************************  
+
+
+    classify.py
+        The python code.
+
+    evils.yaml
+        Phrases that should be removed from a sentence before matching the sentence to templates.
+
+    README
+        The file you are reading now containing instructions and descriptions of the program.
+
+    causal_challenge_test_output.yaml
+        The output for test.yaml.
+
+
+
+********************      HOW TO USE THE PROGRAM?      ***************
+
+
+    Put all the files above directly under the save directory.
+
+    Use the command below to run the program, where <input_file> is the path of your input .yaml file.
+        python classify.py <input_file>
+
+    When the program completes, the output is saved in answer.yaml.
+
+
+
+**********************         ALGORITHM         ***********************
+    
+    The intuition of the algorithm is to mimick the naive approach that human usually take to tell the causal relationship between two entities in a sentence. The key observation is that most entity pair that has causal relationship is either connected by some cue phrase such as "caused by", or one entity is the attributive of the other. Hence we can tell the causal relationship between the two entities by identify either the cue phrases near the two entities, or identity one entity as the attributive of the other as one entity is directly followed by the other. No cue phrases identified usually indicates the latter case. The cue phrases can appear between, before or after the two entities. But the first case is more often than the other two. Therefore cue phrases between two entities are given more weight than that appear elsewhere. 
+
+    As for implementation, a hiearchy of cue phrases is helpful to handle the case that the words in one cue phrase is a subsequence of the words of another cue phrase and the two cue phrases indicate diefferent causal directions. Generally in this hiearchy, cue phrases with more words (e.g. "caused by") should be in higher hiearchy than that of a lower hiearchy (e.g. "cause"), because they are less likely to change to cue phrases with different causal indication by appending words to it. Thus cue phrases of higher hiearchy is prefered to that of lower hiearchy if they both are identified in a sentence.
+
+    In some cases, a seemingly cue phrase in a sentence may actually not belong to the cue phrase. For instance, in a sentence "... A caused by far B ...", "by far" is more likely to be a fixed expression which makes "caused by" an invalid cue phrase. To handle this situation, fixed expressions that contain part of a cue phrase are removed from a sentence before the process of identifying cue phrases.
+    
+    In summary, the algorithm can be described as follows:
+
+    INPUT
+        A collection of cue phrases with the causal direction each indicate.
+        A collection of phrases that may lead to misidentification of cue phrases.
+        A sentence with two target words.
+
+    For each sentence:
+        Remove phrases that may lead to misidentification of cue phrases.
+        Identify cue
+        
+
+
+
+
+
+
+*******************   STRENGTH AND WEAKNESS   *****************
+
