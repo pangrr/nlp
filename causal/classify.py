@@ -139,11 +139,15 @@ class Classifier:
         allCorrect = True
 
         for i in range(len(stdA)):
-            if stdA[i] != self.answers[i]:
-                if allCorrect == True:
-                    print ("Misclassified sentences:")
+            if self.answers[i] == -1:
+                print ("--- TO BE DETERMINED")
                 print (self.sents.getSent(i))
                 allCorrect = False
+            elif stdA[i] != self.answers[i]:
+                print ("--- MISS CLASSIFIED")
+                print (self.sents.getSent(i))
+                allCorrect = False
+
         if allCorrect == True:
             print ("Answers all correct.")
 
@@ -157,7 +161,7 @@ class Classifier:
             if self.answers[i] == 0:
                 sents[i]["from"] = "e1"
                 sents[i]["to"] = "e2"
-            else:
+            elif self.answers[i] == 1:
                 sents[i]["from"] = "e2"
                 sents[i]["to"] = "e1"
 
@@ -179,18 +183,20 @@ class Classifier:
     def classSent (self, i):
         if self.sents.isAdjoin (i):
             return self.dealAdjoin()
-
-        preMatch, intMatch, posMatch = self.matchSent (i)
-        nMatch = len(preMatch) + len(intMatch) + len(posMatch)
-
-        if  nMatch == 0:
-            return self.dealNoMatch ()
-        elif len (intMatch) > 0:
-            return self.dealIntMatch (intMatch)
         else:
-            return self.dealNoIntMatch ()    # Consider only words in between target words for simplicity.
+            preMatch, intMatch, posMatch = self.matchSent (i)
+            # Consider inter match for simplicity.
+            if self.isNoMatch(intMatch) == 1:
+                return self.dealNoIntMatch ()
+            else:
+                return self.dealIntMatch (intMatch)
 
 
+    def isNoMatch (self, matches):
+        for level in matches:
+            if len(level) > 0:
+                return 0
+        return 1
 
 
     # If two words adjoin.
@@ -199,7 +205,7 @@ class Classifier:
 
 
     def dealNoIntMatch (self):
-        return 0
+        return -1   # to be determined
 
 
     # Decide on edges or order between two words.
@@ -218,7 +224,7 @@ class Classifier:
 
     def dealIntMatch (self, matches):
         for level in matches:
-            maxWeight = -100000
+            maxWeight = -100000 # An arbitrary big negative number.
             dir = 0
             for temp in level:
                 if temp[1] > maxWeight: # Consider only the reverse weight
@@ -323,5 +329,5 @@ if __name__ == "__main__":
     classifier = Classifier (sents, temps)
     classifier.classAll()
     classifier.writeAnswer("answer.yaml")
-    classifier.checkAnswer()
+    #classifier.checkAnswer()
     print ("Answers has been saved in answer.yaml.")

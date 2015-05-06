@@ -101,3 +101,57 @@
   - {index: 23, value: of}
   - {index: 24, value: deaths}
   - {index: 25, value: .}
+- !!causal.ParsedCausalRelation
+  e1Index: 5
+  e1Nominal: pain
+  e2Index: 7
+  e2Nominal: stroke
+  from: TBD
+  incomingEdges:
+  - {label: det, node: '0', target: '2'}
+  - {label: amod, node: '1', target: '2'}
+  - {label: nsubj, node: '2', target: '3'}
+  - {label: det, node: '4', target: '5'}
+  - {label: dobj, node: '5', target: '3'}
+  - {label: prep_from, node: '7', target: '3'}
+  - {label: poss, node: '9', target: '10'}
+  - {label: prep_in, node: '10', target: '7'}
+  lemma:
+  - {index: 0, value: a}
+  - {index: 1, value: magnetic}
+  - {index: 2, value: bracelet}
+  - {index: 3, value: help}
+  - {index: 4, value: the}
+  - {index: 5, value: pain}
+  - {index: 6, value: from}
+  - {index: 7, value: stroke}
+  - {index: 8, value: in}
+  - {index: 9, value: you}
+  - {index: 10, value: arm}
+  - {index: 11, value: .}
+  outgoingEdges:
+  - {label: det, node: '2', target: '0'}
+  - {label: amod, node: '2', target: '1'}
+  - {label: nsubj, node: '3', target: '2'}
+  - {label: dobj, node: '3', target: '5'}
+  - {label: prep_from, node: '3', target: '7'}
+  - {label: det, node: '5', target: '4'}
+  - {label: prep_in, node: '7', target: '10'}
+  - {label: poss, node: '10', target: '9'}
+  roots: ['3']
+  sentence: A magnetic bracelet kk the pain abs stroke in your arm.
+  to: TBD
+  words:
+  - {index: 0, value: A}
+  - {index: 1, value: magnetic}
+  - {index: 2, value: bracelet}
+  - {index: 3, value: helps}
+  - {index: 4, value: the}
+  - {index: 5, value: pain}
+  - {index: 6, value: abs}
+  - {index: 7, value: stroke}
+  - {index: 8, value: in}
+  - {index: 9, value: your}
+  - {index: 10, value: arm}
+  - {index: 11, value: .}
+

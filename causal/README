@@ -1,9 +1,17 @@
+Readme for Causality Challenge
+
+    by Ran Pang
+
+
 
 ***********************     FILES   ************************  
 
 
     classify.py
         The python code.
+
+    temp.yaml
+        Cue phrases used to identify causal relationships.
 
     evils.yaml
         Phrases that should be removed from a sentence before matching the sentence to templates.
@@ -35,6 +43,8 @@
     As for implementation, a hiearchy of cue phrases is helpful to handle the case that the words in one cue phrase is a subsequence of the words of another cue phrase and the two cue phrases indicate diefferent causal directions. Generally in this hiearchy, cue phrases with more words (e.g. "caused by") should be in higher hiearchy than that of a lower hiearchy (e.g. "cause"), because they are less likely to change to cue phrases with different causal indication by appending words to it. Thus cue phrases of higher hiearchy is prefered to that of lower hiearchy if they both are identified in a sentence.
 
     In some cases, a seemingly cue phrase in a sentence may actually not belong to the cue phrase. For instance, in a sentence "... A caused by far B ...", "by far" is more likely to be a fixed expression which makes "caused by" an invalid cue phrase. To handle this situation, fixed expressions that contain part of a cue phrase are removed from a sentence before the process of identifying cue phrases.
+
+    Sometimes there are more than one cue phrase of a hiearchy identified in a sentence. In this case, cue phrase between the two entities are prefered to cue phrases elsewhere; for cue phrases in between, cue phrase closer to the latter entity is prefered to the others; for cue phrases elsewhere, cue phrases closer to the closest entity is prefered to other cue phrases. 
     
     In summary, the algorithm can be described as follows:
 
@@ -44,8 +54,15 @@
         A sentence with two target words.
 
     For each sentence:
-        Remove phrases that may lead to misidentification of cue phrases.
-        Identify cue
+        1.  Remove phrases that may lead to misidentification of cue phrases;
+        2.  Identify cue phrases in the sentence;
+        3.  If two entities adjoin:
+                Determine the former entity as the cause of the latter entity;
+            If no cue phrase is identified:
+                Leave the causal relationship undertermined;
+            else:
+                keep only cue phrases of the highest hiearchy of all cue phrases found;
+                Use the cue phrase closest to the entities to determine the causal relationship;
         
 
 
@@ -54,4 +71,10 @@
 
 
 *******************   STRENGTH AND WEAKNESS   *****************
+
+Strength:
+    Easy to understand; easy to implement; easy to scale by adding more cue phrases.
+
+Weakness:
+    Cannot deal with sentences without cue phrases.
 
